@@ -1,0 +1,7 @@
+﻿################################################################################
+# Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
+################################################################################
+
+/Dignita/MantenedorTareas.resx
+/Dignita/MantenedorTareas.Designer.cs
+/Dignita/MantenedorTareas.cs
