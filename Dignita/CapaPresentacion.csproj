@@ -52,6 +52,12 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="MantenedorClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenedorClientes.Designer.cs">
+      <DependentUpon>MantenedorClientes.cs</DependentUpon>
+    </Compile>
     <Compile Include="MantenedorTareas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -62,6 +68,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenedorClientes.resx">
+      <DependentUpon>MantenedorClientes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MantenedorTareas.resx">
       <DependentUpon>MantenedorTareas.cs</DependentUpon>
