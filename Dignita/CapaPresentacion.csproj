@@ -58,11 +58,11 @@
     <Compile Include="MantenedorClientes.Designer.cs">
       <DependentUpon>MantenedorClientes.cs</DependentUpon>
     </Compile>
-    <Compile Include="MantenedorTareas.cs">
+    <Compile Include="MantenedorDesarrollador.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MantenedorTareas.Designer.cs">
-      <DependentUpon>MantenedorTareas.cs</DependentUpon>
+    <Compile Include="MantenedorDesarrollador.Designer.cs">
+      <DependentUpon>MantenedorDesarrollador.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -72,8 +72,8 @@
     <EmbeddedResource Include="MantenedorClientes.resx">
       <DependentUpon>MantenedorClientes.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MantenedorTareas.resx">
-      <DependentUpon>MantenedorTareas.cs</DependentUpon>
+    <EmbeddedResource Include="MantenedorDesarrollador.resx">
+      <DependentUpon>MantenedorDesarrollador.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -31,3 +31,21 @@ C:\Users\Aaron\Source\Repos\Jcdev04\dignita-tareas\Dignita\obj\Debug\CapaPresent
 C:\Users\Aaron\Source\Repos\Jcdev04\dignita-tareas\Dignita\obj\Debug\Dignita.exe
 C:\Users\Aaron\Source\Repos\Jcdev04\dignita-tareas\Dignita\obj\Debug\Dignita.pdb
 C:\Users\Aaron\Source\Repos\Jcdev04\dignita-tareas\Dignita\obj\Debug\Dignita.MantenedorTareas.resources
+D:\Universidad\Ciclos\5º ciclo\Moanso\forms\Dignita\obj\Debug\CapaPresentacion.csproj.AssemblyReference.cache
+D:\Universidad\Ciclos\5º ciclo\Moanso\forms\Dignita\obj\Debug\CapaPresentacion.csproj.SuggestedBindingRedirects.cache
+D:\Universidad\Ciclos\5º ciclo\Moanso\forms\Dignita\obj\Debug\Dignita.exe
+D:\Universidad\Ciclos\5º ciclo\Moanso\forms\Dignita\obj\Debug\Dignita.pdb
+D:\Universidad\Ciclos\5º ciclo\Moanso\forms\Dignita\bin\Debug\Dignita.exe.config
+D:\Universidad\Ciclos\5º ciclo\Moanso\forms\Dignita\bin\Debug\Dignita.exe
+D:\Universidad\Ciclos\5º ciclo\Moanso\forms\Dignita\bin\Debug\Dignita.pdb
+D:\Universidad\Ciclos\5º ciclo\Moanso\forms\Dignita\bin\Debug\CapaEntidad.dll
+D:\Universidad\Ciclos\5º ciclo\Moanso\forms\Dignita\bin\Debug\CapaLogica.dll
+D:\Universidad\Ciclos\5º ciclo\Moanso\forms\Dignita\bin\Debug\CapaEntidad.pdb
+D:\Universidad\Ciclos\5º ciclo\Moanso\forms\Dignita\bin\Debug\CapaLogica.pdb
+D:\Universidad\Ciclos\5º ciclo\Moanso\forms\Dignita\obj\Debug\Dignita.frm_login.resources
+D:\Universidad\Ciclos\5º ciclo\Moanso\forms\Dignita\obj\Debug\Dignita.MantenedorClientes.resources
+D:\Universidad\Ciclos\5º ciclo\Moanso\forms\Dignita\obj\Debug\Dignita.MantenedorDesarrollador.resources
+D:\Universidad\Ciclos\5º ciclo\Moanso\forms\Dignita\obj\Debug\Dignita.Properties.Resources.resources
+D:\Universidad\Ciclos\5º ciclo\Moanso\forms\Dignita\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+D:\Universidad\Ciclos\5º ciclo\Moanso\forms\Dignita\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+D:\Universidad\Ciclos\5º ciclo\Moanso\forms\Dignita\obj\Debug\CapaPresentacion.csproj.CopyComplete

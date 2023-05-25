@@ -58,6 +58,10 @@ namespace Dignita
             }
         }
 
-
+        private void btn_iniciarSesion_Click(object sender, EventArgs e)
+        {
+            MantenedorDesarrollador nuevo = new MantenedorDesarrollador();
+            nuevo.Show();
+        }
     }
 }
