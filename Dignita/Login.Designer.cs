@@ -81,7 +81,6 @@
             this.btn_iniciarSesion.TabIndex = 3;
             this.btn_iniciarSesion.Text = "Iniciar sesión";
             this.btn_iniciarSesion.UseVisualStyleBackColor = false;
-            this.btn_iniciarSesion.Click += new System.EventHandler(this.btn_iniciarSesion_Click);
             // 
             // label2
             // 

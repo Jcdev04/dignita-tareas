@@ -59,13 +59,5 @@ namespace Dignita
         }
 
 
-
-
-
-
-        private void btn_iniciarSesion_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

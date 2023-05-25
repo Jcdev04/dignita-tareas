@@ -4,3 +4,9 @@ C:\Yo\MOANSO\Software\dignita-tareas\CapaEntidad\obj\Debug\CapaEntidad.csproj.As
 C:\Yo\MOANSO\Software\dignita-tareas\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
 C:\Yo\MOANSO\Software\dignita-tareas\CapaEntidad\obj\Debug\CapaEntidad.dll
 C:\Yo\MOANSO\Software\dignita-tareas\CapaEntidad\obj\Debug\CapaEntidad.pdb
+C:\Users\Aaron\Source\Repos\Jcdev04\dignita-tareas\CapaEntidad\bin\Debug\CapaEntidad.dll
+C:\Users\Aaron\Source\Repos\Jcdev04\dignita-tareas\CapaEntidad\bin\Debug\CapaEntidad.pdb
+C:\Users\Aaron\Source\Repos\Jcdev04\dignita-tareas\CapaEntidad\obj\Debug\CapaEntidad.csproj.AssemblyReference.cache
+C:\Users\Aaron\Source\Repos\Jcdev04\dignita-tareas\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\Aaron\Source\Repos\Jcdev04\dignita-tareas\CapaEntidad\obj\Debug\CapaEntidad.dll
+C:\Users\Aaron\Source\Repos\Jcdev04\dignita-tareas\CapaEntidad\obj\Debug\CapaEntidad.pdb
