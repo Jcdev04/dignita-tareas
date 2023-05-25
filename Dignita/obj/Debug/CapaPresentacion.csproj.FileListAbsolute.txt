@@ -1,0 +1,16 @@
+C:\Yo\MOANSO\Software\dignita-tareas\Dignita\bin\Debug\Dignita.exe.config
+C:\Yo\MOANSO\Software\dignita-tareas\Dignita\bin\Debug\Dignita.exe
+C:\Yo\MOANSO\Software\dignita-tareas\Dignita\bin\Debug\Dignita.pdb
+C:\Yo\MOANSO\Software\dignita-tareas\Dignita\bin\Debug\CapaEntidad.dll
+C:\Yo\MOANSO\Software\dignita-tareas\Dignita\bin\Debug\CapaLogica.dll
+C:\Yo\MOANSO\Software\dignita-tareas\Dignita\bin\Debug\CapaEntidad.pdb
+C:\Yo\MOANSO\Software\dignita-tareas\Dignita\bin\Debug\CapaLogica.pdb
+C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\CapaPresentacion.csproj.AssemblyReference.cache
+C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\CapaPresentacion.csproj.SuggestedBindingRedirects.cache
+C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\Dignita.frm_login.resources
+C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\Dignita.Properties.Resources.resources
+C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\CapaPresentacion.csproj.CopyComplete
+C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\Dignita.exe
+C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\Dignita.pdb

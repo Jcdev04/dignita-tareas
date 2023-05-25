@@ -1,0 +1,11 @@
+C:\Yo\MOANSO\Software\dignita-tareas\CapaLogica\bin\Debug\CapaLogica.dll
+C:\Yo\MOANSO\Software\dignita-tareas\CapaLogica\bin\Debug\CapaLogica.pdb
+C:\Yo\MOANSO\Software\dignita-tareas\CapaLogica\bin\Debug\CapaDatos.dll
+C:\Yo\MOANSO\Software\dignita-tareas\CapaLogica\bin\Debug\CapaEntidad.dll
+C:\Yo\MOANSO\Software\dignita-tareas\CapaLogica\bin\Debug\CapaDatos.pdb
+C:\Yo\MOANSO\Software\dignita-tareas\CapaLogica\bin\Debug\CapaEntidad.pdb
+C:\Yo\MOANSO\Software\dignita-tareas\CapaLogica\obj\Debug\CapaLogica.csproj.AssemblyReference.cache
+C:\Yo\MOANSO\Software\dignita-tareas\CapaLogica\obj\Debug\CapaLogica.csproj.CoreCompileInputs.cache
+C:\Yo\MOANSO\Software\dignita-tareas\CapaLogica\obj\Debug\CapaLogica.csproj.CopyComplete
+C:\Yo\MOANSO\Software\dignita-tareas\CapaLogica\obj\Debug\CapaLogica.dll
+C:\Yo\MOANSO\Software\dignita-tareas\CapaLogica\obj\Debug\CapaLogica.pdb
