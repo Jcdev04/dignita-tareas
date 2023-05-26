@@ -241,7 +241,7 @@
             // btnDeshabilitar
             // 
             this.btnDeshabilitar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDeshabilitar.Location = new System.Drawing.Point(442, 238);
+            this.btnDeshabilitar.Location = new System.Drawing.Point(451, 237);
             this.btnDeshabilitar.Name = "btnDeshabilitar";
             this.btnDeshabilitar.Size = new System.Drawing.Size(115, 34);
             this.btnDeshabilitar.TabIndex = 87;

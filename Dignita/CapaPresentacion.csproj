@@ -82,6 +82,12 @@
     <Compile Include="formsDesarrollador\Desarrollador.Designer.cs">
       <DependentUpon>Desarrollador.cs</DependentUpon>
     </Compile>
+    <Compile Include="MantenedorTrabajador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenedorTrabajador.Designer.cs">
+      <DependentUpon>MantenedorTrabajador.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="formsDesarrollador\Proyecto.cs">
@@ -107,6 +113,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="formsDesarrollador\Desarrollador.resx">
       <DependentUpon>Desarrollador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenedorTrabajador.resx">
+      <DependentUpon>MantenedorTrabajador.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
