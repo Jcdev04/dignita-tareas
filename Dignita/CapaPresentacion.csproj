@@ -64,6 +64,36 @@
     <Compile Include="formsDesarrollador\Mejoras.Designer.cs">
       <DependentUpon>Mejoras.cs</DependentUpon>
     </Compile>
+    <Compile Include="formsVentas\ConsultaEmpresa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formsVentas\ConsultaEmpresa.Designer.cs">
+      <DependentUpon>ConsultaEmpresa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formsVentas\ConsultaScrumMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formsVentas\ConsultaScrumMaster.Designer.cs">
+      <DependentUpon>ConsultaScrumMaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formsVentas\formVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formsVentas\formVentas.Designer.cs">
+      <DependentUpon>formVentas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formsVentas\MantenedorEmpresa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formsVentas\MantenedorEmpresa.Designer.cs">
+      <DependentUpon>MantenedorEmpresa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formsVentas\MantenedorProyecto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formsVentas\MantenedorProyecto.Designer.cs">
+      <DependentUpon>MantenedorProyecto.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -104,6 +134,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="formsDesarrollador\Mejoras.resx">
       <DependentUpon>Mejoras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formsVentas\ConsultaEmpresa.resx">
+      <DependentUpon>ConsultaEmpresa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formsVentas\ConsultaScrumMaster.resx">
+      <DependentUpon>ConsultaScrumMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formsVentas\formVentas.resx">
+      <DependentUpon>formVentas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formsVentas\MantenedorEmpresa.resx">
+      <DependentUpon>MantenedorEmpresa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formsVentas\MantenedorProyecto.resx">
+      <DependentUpon>MantenedorProyecto.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
