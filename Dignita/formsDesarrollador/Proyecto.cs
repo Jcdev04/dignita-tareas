@@ -10,19 +10,19 @@ using System.Windows.Forms;
 
 namespace Dignita
 {
-    public partial class MantenedorDesarrollador : Form
+    public partial class Proyecto : Form
     {
-        public MantenedorDesarrollador()
+        public Proyecto()
         {
             InitializeComponent();
         }
 
-        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
+        private void label5_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
         {
 
         }

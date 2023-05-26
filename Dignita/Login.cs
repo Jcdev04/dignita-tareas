@@ -29,8 +29,8 @@ namespace Dignita
         private void frm_login_Load(object sender, EventArgs e)
         {
             // Importar las tipografias
-            PoppinsRegular.AddFontFile("C:/Poppins-Regular.ttf");
-            PoppinsBlack.AddFontFile("C:/Poppins-Black.ttf");
+            //PoppinsRegular.AddFontFile("C:/Poppins-Regular.ttf");
+            //PoppinsBlack.AddFontFile("C:/Poppins-Black.ttf");
 
             // Asignar las tipografias
             AplicarTipografiaAControles(this);
@@ -60,7 +60,7 @@ namespace Dignita
 
         private void btn_iniciarSesion_Click(object sender, EventArgs e)
         {
-            MantenedorDesarrollador nuevo = new MantenedorDesarrollador();
+            Desarrollador nuevo = new Desarrollador();
             nuevo.Show();
         }
     }

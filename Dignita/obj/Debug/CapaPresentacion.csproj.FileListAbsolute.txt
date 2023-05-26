@@ -44,8 +44,10 @@ D:\Universidad\Ciclos\5º ciclo\Moanso\forms\Dignita\bin\Debug\CapaEntidad.pdb
 D:\Universidad\Ciclos\5º ciclo\Moanso\forms\Dignita\bin\Debug\CapaLogica.pdb
 D:\Universidad\Ciclos\5º ciclo\Moanso\forms\Dignita\obj\Debug\Dignita.frm_login.resources
 D:\Universidad\Ciclos\5º ciclo\Moanso\forms\Dignita\obj\Debug\Dignita.MantenedorClientes.resources
-D:\Universidad\Ciclos\5º ciclo\Moanso\forms\Dignita\obj\Debug\Dignita.MantenedorDesarrollador.resources
 D:\Universidad\Ciclos\5º ciclo\Moanso\forms\Dignita\obj\Debug\Dignita.Properties.Resources.resources
 D:\Universidad\Ciclos\5º ciclo\Moanso\forms\Dignita\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
 D:\Universidad\Ciclos\5º ciclo\Moanso\forms\Dignita\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
 D:\Universidad\Ciclos\5º ciclo\Moanso\forms\Dignita\obj\Debug\CapaPresentacion.csproj.CopyComplete
+D:\Universidad\Ciclos\5º ciclo\Moanso\forms\Dignita\obj\Debug\Dignita.Desarrollador.resources
+D:\Universidad\Ciclos\5º ciclo\Moanso\forms\Dignita\obj\Debug\Dignita.AgregarTareas.resources
+D:\Universidad\Ciclos\5º ciclo\Moanso\forms\Dignita\obj\Debug\Dignita.Proyecto.resources

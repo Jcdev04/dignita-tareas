@@ -46,6 +46,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="formsDesarrollador\AgregarTareas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formsDesarrollador\AgregarTareas.Designer.cs">
+      <DependentUpon>AgregarTareas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formsDesarrollador\Historial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formsDesarrollador\Historial.Designer.cs">
+      <DependentUpon>Historial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formsDesarrollador\Mejoras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formsDesarrollador\Mejoras.Designer.cs">
+      <DependentUpon>Mejoras.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,22 +76,37 @@
     <Compile Include="MantenedorClientes.Designer.cs">
       <DependentUpon>MantenedorClientes.cs</DependentUpon>
     </Compile>
-    <Compile Include="MantenedorDesarrollador.cs">
+    <Compile Include="formsDesarrollador\Desarrollador.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MantenedorDesarrollador.Designer.cs">
-      <DependentUpon>MantenedorDesarrollador.cs</DependentUpon>
+    <Compile Include="formsDesarrollador\Desarrollador.Designer.cs">
+      <DependentUpon>Desarrollador.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="formsDesarrollador\Proyecto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formsDesarrollador\Proyecto.Designer.cs">
+      <DependentUpon>Proyecto.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="formsDesarrollador\AgregarTareas.resx">
+      <DependentUpon>AgregarTareas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formsDesarrollador\Historial.resx">
+      <DependentUpon>Historial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formsDesarrollador\Mejoras.resx">
+      <DependentUpon>Mejoras.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MantenedorClientes.resx">
       <DependentUpon>MantenedorClientes.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MantenedorDesarrollador.resx">
-      <DependentUpon>MantenedorDesarrollador.cs</DependentUpon>
+    <EmbeddedResource Include="formsDesarrollador\Desarrollador.resx">
+      <DependentUpon>Desarrollador.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -84,6 +117,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="formsDesarrollador\Proyecto.resx">
+      <DependentUpon>Proyecto.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
