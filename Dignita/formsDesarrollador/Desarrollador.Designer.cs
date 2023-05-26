@@ -55,10 +55,9 @@
             this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Location = new System.Drawing.Point(-4, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Location = new System.Drawing.Point(-3, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1053, 86);
+            this.panel1.Size = new System.Drawing.Size(790, 70);
             this.panel1.TabIndex = 0;
             // 
             // label1
@@ -66,10 +65,9 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(781, 15);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(586, 12);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(196, 40);
+            this.label1.Size = new System.Drawing.Size(140, 32);
             this.label1.TabIndex = 5;
             this.label1.Text = "Pereda Saldaña, \r\n                       Aaron";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -78,10 +76,9 @@
             // 
             this.button5.BackColor = System.Drawing.Color.Transparent;
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(553, 27);
-            this.button5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button5.Location = new System.Drawing.Point(415, 22);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(115, 31);
+            this.button5.Size = new System.Drawing.Size(86, 25);
             this.button5.TabIndex = 4;
             this.button5.Text = "Historial";
             this.button5.UseVisualStyleBackColor = false;
@@ -91,10 +88,9 @@
             // 
             this.button4.BackColor = System.Drawing.Color.Transparent;
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(431, 27);
-            this.button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button4.Location = new System.Drawing.Point(323, 22);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(115, 31);
+            this.button4.Size = new System.Drawing.Size(86, 25);
             this.button4.TabIndex = 3;
             this.button4.Text = "Mejoras";
             this.button4.UseVisualStyleBackColor = false;
@@ -104,10 +100,9 @@
             // 
             this.button2.BackColor = System.Drawing.Color.Transparent;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(308, 27);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Location = new System.Drawing.Point(231, 22);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(115, 31);
+            this.button2.Size = new System.Drawing.Size(86, 25);
             this.button2.TabIndex = 2;
             this.button2.Text = "Proyecto";
             this.button2.UseVisualStyleBackColor = false;
@@ -117,10 +112,9 @@
             // 
             this.button1.BackColor = System.Drawing.Color.Transparent;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(185, 27);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Location = new System.Drawing.Point(139, 22);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(115, 31);
+            this.button1.Size = new System.Drawing.Size(86, 25);
             this.button1.TabIndex = 1;
             this.button1.Text = "Tareas";
             this.button1.UseVisualStyleBackColor = false;
@@ -128,21 +122,19 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(44, 15);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Location = new System.Drawing.Point(33, 12);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 62);
+            this.pictureBox1.Size = new System.Drawing.Size(75, 50);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(355, 202);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridView1.Location = new System.Drawing.Point(266, 164);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.Size = new System.Drawing.Size(656, 417);
+            this.dataGridView1.Size = new System.Drawing.Size(492, 339);
             this.dataGridView1.TabIndex = 1;
             // 
             // button3
@@ -151,10 +143,9 @@
             this.button3.Cursor = System.Windows.Forms.Cursors.Default;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button3.Location = new System.Drawing.Point(795, 127);
-            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button3.Location = new System.Drawing.Point(596, 103);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(193, 49);
+            this.button3.Size = new System.Drawing.Size(145, 40);
             this.button3.TabIndex = 3;
             this.button3.Text = "Agregar Tarea";
             this.button3.UseVisualStyleBackColor = false;
@@ -165,11 +156,9 @@
             this.Filtros.Controls.Add(this.comboBox2);
             this.Filtros.Controls.Add(this.comboBox1);
             this.Filtros.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Filtros.Location = new System.Drawing.Point(59, 202);
-            this.Filtros.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Filtros.Location = new System.Drawing.Point(44, 164);
             this.Filtros.Name = "Filtros";
-            this.Filtros.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.Filtros.Size = new System.Drawing.Size(237, 208);
+            this.Filtros.Size = new System.Drawing.Size(178, 169);
             this.Filtros.TabIndex = 4;
             this.Filtros.TabStop = false;
             this.Filtros.Text = "Filtros";
@@ -178,10 +167,9 @@
             // 
             this.comboBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(15, 113);
-            this.comboBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comboBox2.Location = new System.Drawing.Point(11, 92);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(211, 32);
+            this.comboBox2.Size = new System.Drawing.Size(159, 26);
             this.comboBox2.TabIndex = 1;
             this.comboBox2.Text = "Etapa";
             this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
@@ -190,23 +178,21 @@
             // 
             this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(13, 53);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comboBox1.Location = new System.Drawing.Point(10, 43);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(211, 32);
+            this.comboBox1.Size = new System.Drawing.Size(159, 26);
             this.comboBox1.TabIndex = 0;
             this.comboBox1.Text = "Estado";
             // 
             // Desarrollador
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1045, 690);
+            this.ClientSize = new System.Drawing.Size(784, 561);
             this.Controls.Add(this.Filtros);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Desarrollador";
             this.Text = "Desarrollador";
             this.panel1.ResumeLayout(false);
