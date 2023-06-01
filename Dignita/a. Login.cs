@@ -9,6 +9,7 @@ using System.Windows.Forms;
 using System.Drawing.Text;
 using System.Drawing;
 using System.IO;
+using Dignita.Gestion_de_proyectos.vistDesarrollador;
 
 namespace Dignita
 {
@@ -68,12 +69,8 @@ namespace Dignita
 
         private void btn_iniciarSesion_Click(object sender, EventArgs e)
         {
-            foreach (Form form in Application.OpenForms)
-            {
-                form.Close();
-            }
-            Desarrollador nuevo = new Desarrollador();
-            nuevo.Show();
+            Realizar_Tareas obj = new Realizar_Tareas();
+            obj.Show();
         }
     }
 }

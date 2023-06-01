@@ -31,3 +31,14 @@ D:\Universidad\Ciclos\5º ciclo\Moanso\forms\CapaLogica\obj\Debug\CapaLogica.csp
 D:\Universidad\Ciclos\5º ciclo\Moanso\forms\CapaLogica\obj\Debug\CapaLogica.csproj.CopyComplete
 D:\Universidad\Ciclos\5º ciclo\Moanso\forms\CapaLogica\obj\Debug\CapaLogica.dll
 D:\Universidad\Ciclos\5º ciclo\Moanso\forms\CapaLogica\obj\Debug\CapaLogica.pdb
+D:\Universidad\Ciclos\5º ciclo\Moanso\ProyectoFinal\CapaLogica\bin\Debug\CapaLogica.dll
+D:\Universidad\Ciclos\5º ciclo\Moanso\ProyectoFinal\CapaLogica\bin\Debug\CapaLogica.pdb
+D:\Universidad\Ciclos\5º ciclo\Moanso\ProyectoFinal\CapaLogica\bin\Debug\CapaDatos.dll
+D:\Universidad\Ciclos\5º ciclo\Moanso\ProyectoFinal\CapaLogica\bin\Debug\CapaEntidad.dll
+D:\Universidad\Ciclos\5º ciclo\Moanso\ProyectoFinal\CapaLogica\bin\Debug\CapaDatos.pdb
+D:\Universidad\Ciclos\5º ciclo\Moanso\ProyectoFinal\CapaLogica\bin\Debug\CapaEntidad.pdb
+D:\Universidad\Ciclos\5º ciclo\Moanso\ProyectoFinal\CapaLogica\obj\Debug\CapaLogica.csproj.AssemblyReference.cache
+D:\Universidad\Ciclos\5º ciclo\Moanso\ProyectoFinal\CapaLogica\obj\Debug\CapaLogica.csproj.CoreCompileInputs.cache
+D:\Universidad\Ciclos\5º ciclo\Moanso\ProyectoFinal\CapaLogica\obj\Debug\CapaLogica.csproj.CopyComplete
+D:\Universidad\Ciclos\5º ciclo\Moanso\ProyectoFinal\CapaLogica\obj\Debug\CapaLogica.dll
+D:\Universidad\Ciclos\5º ciclo\Moanso\ProyectoFinal\CapaLogica\obj\Debug\CapaLogica.pdb
