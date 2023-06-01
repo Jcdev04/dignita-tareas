@@ -80,3 +80,5 @@ D:\Universidad\Ciclos\5º ciclo\Moanso\ProyectoFinal\Dignita\bin\Debug\CapaLogic
 D:\Universidad\Ciclos\5º ciclo\Moanso\ProyectoFinal\Dignita\bin\Debug\CapaEntidad.pdb
 D:\Universidad\Ciclos\5º ciclo\Moanso\ProyectoFinal\Dignita\bin\Debug\CapaLogica.pdb
 D:\Universidad\Ciclos\5º ciclo\Moanso\ProyectoFinal\Dignita\obj\Debug\CapaPresentacion.csproj.CopyComplete
+D:\Universidad\Ciclos\5º ciclo\Moanso\ProyectoFinal\Dignita\obj\Debug\Dignita.Gestion_de_proyectos.vistDesarrollador.Tareas.resources
+D:\Universidad\Ciclos\5º ciclo\Moanso\ProyectoFinal\Dignita\obj\Debug\Dignita.Gestion_de_proyectos.vistDesarrollador.Requerimientos.resources

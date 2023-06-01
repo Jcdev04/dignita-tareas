@@ -53,6 +53,7 @@
             this.btnTareas.TabIndex = 4;
             this.btnTareas.Text = "Tareas";
             this.btnTareas.UseVisualStyleBackColor = true;
+            this.btnTareas.Click += new System.EventHandler(this.btnTareas_Click);
             // 
             // panel1
             // 
@@ -79,6 +80,7 @@
             this.btnRequerimientos.TabIndex = 4;
             this.btnRequerimientos.Text = "Requerimientos";
             this.btnRequerimientos.UseVisualStyleBackColor = true;
+            this.btnRequerimientos.Click += new System.EventHandler(this.btnRequerimientos_Click);
             // 
             // btnProyecto
             // 

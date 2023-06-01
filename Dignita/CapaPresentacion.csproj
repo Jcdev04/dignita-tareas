@@ -73,6 +73,18 @@
     <Compile Include="Gestion de proyectos\vistDesarrollador\Realizar Tareas.Designer.cs">
       <DependentUpon>Realizar Tareas.cs</DependentUpon>
     </Compile>
+    <Compile Include="Gestion de proyectos\vistDesarrollador\Requerimientos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gestion de proyectos\vistDesarrollador\Requerimientos.Designer.cs">
+      <DependentUpon>Requerimientos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gestion de proyectos\vistDesarrollador\Tareas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gestion de proyectos\vistDesarrollador\Tareas.Designer.cs">
+      <DependentUpon>Tareas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Gestion de proyectos\vistScrum\Requerimientos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -92,6 +104,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Gestion de proyectos\vistDesarrollador\Realizar Tareas.resx">
       <DependentUpon>Realizar Tareas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gestion de proyectos\vistDesarrollador\Requerimientos.resx">
+      <DependentUpon>Requerimientos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gestion de proyectos\vistDesarrollador\Tareas.resx">
+      <DependentUpon>Tareas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MantenedorTrabajador.resx">
       <DependentUpon>MantenedorTrabajador.cs</DependentUpon>

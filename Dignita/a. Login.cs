@@ -71,6 +71,8 @@ namespace Dignita
         {
             Realizar_Tareas obj = new Realizar_Tareas();
             obj.Show();
+            frm_login sa = new frm_login();
+            sa.Close();
         }
     }
 }
