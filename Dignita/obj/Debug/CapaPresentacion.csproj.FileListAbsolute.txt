@@ -82,3 +82,6 @@ D:\Universidad\Ciclos\5º ciclo\Moanso\ProyectoFinal\Dignita\bin\Debug\CapaLogic
 D:\Universidad\Ciclos\5º ciclo\Moanso\ProyectoFinal\Dignita\obj\Debug\CapaPresentacion.csproj.CopyComplete
 D:\Universidad\Ciclos\5º ciclo\Moanso\ProyectoFinal\Dignita\obj\Debug\Dignita.Gestion_de_proyectos.vistDesarrollador.Tareas.resources
 D:\Universidad\Ciclos\5º ciclo\Moanso\ProyectoFinal\Dignita\obj\Debug\Dignita.Gestion_de_proyectos.vistDesarrollador.Requerimientos.resources
+D:\Universidad\Ciclos\5º ciclo\Moanso\ProyectoFinal\Dignita\obj\Debug\Dignita.Gestion_de_proyectos.vistDesarrollador.Proyectos.resources
+D:\Universidad\Ciclos\5º ciclo\Moanso\ProyectoFinal\Dignita\obj\Debug\Dignita.Gestion_de_proyectos.vistDesarrollador.Mejoras.resources
+D:\Universidad\Ciclos\5º ciclo\Moanso\ProyectoFinal\Dignita\obj\Debug\Dignita.Gestion_de_proyectos.vistDesarrollador.Historial.resources
