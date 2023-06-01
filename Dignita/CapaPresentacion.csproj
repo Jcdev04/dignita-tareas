@@ -49,65 +49,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="formsDesarrollador\AgregarTareas.cs">
+    <Compile Include="a. Login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="formsDesarrollador\AgregarTareas.Designer.cs">
-      <DependentUpon>AgregarTareas.cs</DependentUpon>
-    </Compile>
-    <Compile Include="formsDesarrollador\Historial.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="formsDesarrollador\Historial.Designer.cs">
-      <DependentUpon>Historial.cs</DependentUpon>
-    </Compile>
-    <Compile Include="formsDesarrollador\Mejoras.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="formsDesarrollador\Mejoras.Designer.cs">
-      <DependentUpon>Mejoras.cs</DependentUpon>
-    </Compile>
-    <Compile Include="formsVentas\ConsultaEmpresa.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="formsVentas\ConsultaEmpresa.Designer.cs">
-      <DependentUpon>ConsultaEmpresa.cs</DependentUpon>
-    </Compile>
-    <Compile Include="formsVentas\ConsultaScrumMaster.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="formsVentas\ConsultaScrumMaster.Designer.cs">
-      <DependentUpon>ConsultaScrumMaster.cs</DependentUpon>
-    </Compile>
-    <Compile Include="formsVentas\formVentas.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="formsVentas\formVentas.Designer.cs">
-      <DependentUpon>formVentas.cs</DependentUpon>
-    </Compile>
-    <Compile Include="formsVentas\MantenedorEmpresa.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="formsVentas\MantenedorEmpresa.Designer.cs">
-      <DependentUpon>MantenedorEmpresa.cs</DependentUpon>
-    </Compile>
-    <Compile Include="formsVentas\MantenedorProyecto.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="formsVentas\MantenedorProyecto.Designer.cs">
-      <DependentUpon>MantenedorProyecto.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Login.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Login.Designer.cs">
-      <DependentUpon>Login.cs</DependentUpon>
-    </Compile>
-    <Compile Include="formsDesarrollador\Desarrollador.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="formsDesarrollador\Desarrollador.Designer.cs">
-      <DependentUpon>Desarrollador.cs</DependentUpon>
+    <Compile Include="a. Login.Designer.cs">
+      <DependentUpon>a. Login.cs</DependentUpon>
     </Compile>
     <Compile Include="MantenedorTrabajador.cs">
       <SubType>Form</SubType>
@@ -117,41 +63,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="formsDesarrollador\Proyecto.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="formsDesarrollador\Proyecto.Designer.cs">
-      <DependentUpon>Proyecto.cs</DependentUpon>
-    </Compile>
-    <EmbeddedResource Include="formsDesarrollador\AgregarTareas.resx">
-      <DependentUpon>AgregarTareas.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="formsDesarrollador\Historial.resx">
-      <DependentUpon>Historial.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="formsDesarrollador\Mejoras.resx">
-      <DependentUpon>Mejoras.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="formsVentas\ConsultaEmpresa.resx">
-      <DependentUpon>ConsultaEmpresa.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="formsVentas\ConsultaScrumMaster.resx">
-      <DependentUpon>ConsultaScrumMaster.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="formsVentas\formVentas.resx">
-      <DependentUpon>formVentas.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="formsVentas\MantenedorEmpresa.resx">
-      <DependentUpon>MantenedorEmpresa.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="formsVentas\MantenedorProyecto.resx">
-      <DependentUpon>MantenedorProyecto.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Login.resx">
-      <DependentUpon>Login.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="formsDesarrollador\Desarrollador.resx">
-      <DependentUpon>Desarrollador.cs</DependentUpon>
+    <EmbeddedResource Include="a. Login.resx">
+      <DependentUpon>a. Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MantenedorTrabajador.resx">
       <DependentUpon>MantenedorTrabajador.cs</DependentUpon>
@@ -165,9 +78,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="formsDesarrollador\Proyecto.resx">
-      <DependentUpon>Proyecto.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -190,6 +100,11 @@
       <Project>{2f98173c-0c8c-49a2-b3b7-bf35096093e4}</Project>
       <Name>CapaLogica</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Gestion de proyectos\vistAsesor\" />
+    <Folder Include="Gestion de proyectos\vistDesarrollador\" />
+    <Folder Include="Gestion de proyectos\vistScrum\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
