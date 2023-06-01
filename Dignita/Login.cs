@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Drawing.Text;
 using System.Drawing;
+using System.IO;
 
 namespace Dignita
 {
@@ -29,18 +30,25 @@ namespace Dignita
         private void frm_login_Load(object sender, EventArgs e)
         {
             // Importar las tipografias
-            //PoppinsRegular.AddFontFile("C:/Poppins-Regular.ttf");
-            //PoppinsBlack.AddFontFile("C:/Poppins-Black.ttf");
+            string tipografia = "Poppins-Regular.ttf";
+            string rutaProyecto = System.AppDomain.CurrentDomain.BaseDirectory;
+            string rutaCompleta = Path.Combine(rutaProyecto, tipografia);
+            PoppinsRegular.AddFontFile(rutaCompleta);
+
+            string tipografia2 = "Poppins-Black.ttf";
+            string rutaProyecto2 = System.AppDomain.CurrentDomain.BaseDirectory;
+            string rutaCompleta2 = Path.Combine(rutaProyecto2, tipografia2);
+            PoppinsBlack.AddFontFile(rutaCompleta2);
 
             // Asignar las tipografias
             AplicarTipografiaAControles(this);
             label1.Font = new Font(PoppinsBlack.Families[0], label1.Font.Size);
-
+            
             // Asignar el color
             label1.ForeColor = naranja;
             btn_iniciarSesion.BackColor = naranja;
 
-            
+
         }
 
         private void AplicarTipografiaAControles(Control control)
@@ -60,6 +68,10 @@ namespace Dignita
 
         private void btn_iniciarSesion_Click(object sender, EventArgs e)
         {
+            foreach (Form form in Application.OpenForms)
+            {
+                form.Close();
+            }
             Desarrollador nuevo = new Desarrollador();
             nuevo.Show();
         }

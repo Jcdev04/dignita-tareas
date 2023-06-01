@@ -51,3 +51,14 @@ D:\Universidad\Ciclos\5º ciclo\Moanso\forms\Dignita\obj\Debug\CapaPresentacion.
 D:\Universidad\Ciclos\5º ciclo\Moanso\forms\Dignita\obj\Debug\Dignita.Desarrollador.resources
 D:\Universidad\Ciclos\5º ciclo\Moanso\forms\Dignita\obj\Debug\Dignita.AgregarTareas.resources
 D:\Universidad\Ciclos\5º ciclo\Moanso\forms\Dignita\obj\Debug\Dignita.Proyecto.resources
+C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\Dignita.AgregarTareas.resources
+C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\Dignita.formsDesarrollador.Historial.resources
+C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\Dignita.formsDesarrollador.Mejoras.resources
+C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\Dignita.formsVentas.ConsultaEmpresa.resources
+C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\Dignita.formsVentas.ConsultaScrumMaster.resources
+C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\Dignita.formsVentas.formVentas.resources
+C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\Dignita.formsVentas.MantenedorEmpresa.resources
+C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\Dignita.formsVentas.MantenedorProyecto.resources
+C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\Dignita.Desarrollador.resources
+C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\Dignita.MantenedorTrabajador.resources
+C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\Dignita.Proyecto.resources
