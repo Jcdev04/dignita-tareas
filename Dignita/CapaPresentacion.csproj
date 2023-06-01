@@ -55,11 +55,29 @@
     <Compile Include="a. Login.Designer.cs">
       <DependentUpon>a. Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="Gestion de proyectos\vistAdminPer\Mantenedor Personal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gestion de proyectos\vistAdminPer\Mantenedor Personal.Designer.cs">
+      <DependentUpon>Mantenedor Personal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gestion de proyectos\vistAsesor\Mantenedor Cliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gestion de proyectos\vistAsesor\Mantenedor Cliente.Designer.cs">
+      <DependentUpon>Mantenedor Cliente.cs</DependentUpon>
+    </Compile>
     <Compile Include="Gestion de proyectos\vistDesarrollador\Realizar Tareas.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Gestion de proyectos\vistDesarrollador\Realizar Tareas.Designer.cs">
       <DependentUpon>Realizar Tareas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gestion de proyectos\vistScrum\Requerimientos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gestion de proyectos\vistScrum\Requerimientos.Designer.cs">
+      <DependentUpon>Requerimientos.cs</DependentUpon>
     </Compile>
     <Compile Include="MantenedorTrabajador.cs">
       <SubType>Form</SubType>
@@ -110,9 +128,6 @@
       <Name>CapaLogica</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Gestion de proyectos\vistAsesor\" />
-    <Folder Include="Gestion de proyectos\vistScrum\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
