@@ -30,7 +30,6 @@ C:\Users\Aaron\Source\Repos\Jcdev04\dignita-tareas\Dignita\obj\Debug\CapaPresent
 C:\Users\Aaron\Source\Repos\Jcdev04\dignita-tareas\Dignita\obj\Debug\CapaPresentacion.csproj.CopyComplete
 C:\Users\Aaron\Source\Repos\Jcdev04\dignita-tareas\Dignita\obj\Debug\Dignita.exe
 C:\Users\Aaron\Source\Repos\Jcdev04\dignita-tareas\Dignita\obj\Debug\Dignita.pdb
-C:\Users\Aaron\Source\Repos\Jcdev04\dignita-tareas\Dignita\obj\Debug\Dignita.MantenedorTareas.resources
 D:\Universidad\Ciclos\5º ciclo\Moanso\forms\Dignita\obj\Debug\CapaPresentacion.csproj.AssemblyReference.cache
 D:\Universidad\Ciclos\5º ciclo\Moanso\forms\Dignita\obj\Debug\CapaPresentacion.csproj.SuggestedBindingRedirects.cache
 D:\Universidad\Ciclos\5º ciclo\Moanso\forms\Dignita\obj\Debug\Dignita.exe
@@ -80,3 +79,8 @@ D:\Universidad\Ciclos\5º ciclo\Moanso\ProyectoFinal\Dignita\bin\Debug\CapaLogic
 D:\Universidad\Ciclos\5º ciclo\Moanso\ProyectoFinal\Dignita\bin\Debug\CapaEntidad.pdb
 D:\Universidad\Ciclos\5º ciclo\Moanso\ProyectoFinal\Dignita\bin\Debug\CapaLogica.pdb
 D:\Universidad\Ciclos\5º ciclo\Moanso\ProyectoFinal\Dignita\obj\Debug\CapaPresentacion.csproj.CopyComplete
+C:\Users\Aaron\Source\Repos\Jcdev04\dignita-tareas\Dignita\obj\Debug\Dignita.Gestion_de_proyectos.vistAdminPer.Mantenedor_Personal.resources
+C:\Users\Aaron\Source\Repos\Jcdev04\dignita-tareas\Dignita\obj\Debug\Dignita.Gestion_de_proyectos.vistAdminPer.Personal.resources
+C:\Users\Aaron\Source\Repos\Jcdev04\dignita-tareas\Dignita\obj\Debug\Dignita.Gestion_de_proyectos.vistDesarrollador.Realizar_Tareas.resources
+C:\Users\Aaron\Source\Repos\Jcdev04\dignita-tareas\Dignita\obj\Debug\Dignita.MantenedorTrabajador.resources
+C:\Users\Aaron\Source\Repos\Jcdev04\dignita-tareas\Dignita\obj\Debug\Dignita.Gestion_de_proyectos.vistAdminPer.CargoEmpresa.resources

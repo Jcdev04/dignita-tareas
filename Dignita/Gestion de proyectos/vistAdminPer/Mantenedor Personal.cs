@@ -16,5 +16,17 @@ namespace Dignita.Gestion_de_proyectos.vistAdminPer
         {
             InitializeComponent();
         }
+
+        private void btnPersonal_Click(object sender, EventArgs e)
+        {
+            Form MantenedorPer = new Personal();
+            MantenedorPer.Show();
+        }
+
+        private void btnRequerimientos_Click(object sender, EventArgs e)
+        {
+            Form MantenedorPer = new CargoEmpresa();
+            MantenedorPer.Show();
+        }
     }
 }

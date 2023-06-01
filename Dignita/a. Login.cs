@@ -10,6 +10,7 @@ using System.Drawing.Text;
 using System.Drawing;
 using System.IO;
 using Dignita.Gestion_de_proyectos.vistDesarrollador;
+using Dignita.Gestion_de_proyectos.vistAdminPer;
 
 namespace Dignita
 {
@@ -69,7 +70,7 @@ namespace Dignita
 
         private void btn_iniciarSesion_Click(object sender, EventArgs e)
         {
-            Realizar_Tareas obj = new Realizar_Tareas();
+            Mantenedor_Personal obj = new Mantenedor_Personal();
             obj.Show();
         }
     }
