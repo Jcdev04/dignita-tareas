@@ -55,6 +55,12 @@
     <Compile Include="a. Login.Designer.cs">
       <DependentUpon>a. Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="Gestion de proyectos\vistDesarrollador\Realizar Tareas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gestion de proyectos\vistDesarrollador\Realizar Tareas.Designer.cs">
+      <DependentUpon>Realizar Tareas.cs</DependentUpon>
+    </Compile>
     <Compile Include="MantenedorTrabajador.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -65,6 +71,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="a. Login.resx">
       <DependentUpon>a. Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gestion de proyectos\vistDesarrollador\Realizar Tareas.resx">
+      <DependentUpon>Realizar Tareas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MantenedorTrabajador.resx">
       <DependentUpon>MantenedorTrabajador.cs</DependentUpon>
@@ -103,7 +112,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Gestion de proyectos\vistAsesor\" />
-    <Folder Include="Gestion de proyectos\vistDesarrollador\" />
     <Folder Include="Gestion de proyectos\vistScrum\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

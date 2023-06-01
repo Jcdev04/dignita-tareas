@@ -62,3 +62,21 @@ C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\Dignita.formsVentas.Mante
 C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\Dignita.Desarrollador.resources
 C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\Dignita.MantenedorTrabajador.resources
 C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\Dignita.Proyecto.resources
+D:\Universidad\Ciclos\5º ciclo\Moanso\ProyectoFinal\Dignita\obj\Debug\CapaPresentacion.csproj.AssemblyReference.cache
+D:\Universidad\Ciclos\5º ciclo\Moanso\ProyectoFinal\Dignita\obj\Debug\CapaPresentacion.csproj.SuggestedBindingRedirects.cache
+D:\Universidad\Ciclos\5º ciclo\Moanso\ProyectoFinal\Dignita\obj\Debug\Dignita.frm_login.resources
+D:\Universidad\Ciclos\5º ciclo\Moanso\ProyectoFinal\Dignita\obj\Debug\Dignita.Gestion_de_proyectos.vistDesarrollador.Realizar_Tareas.resources
+D:\Universidad\Ciclos\5º ciclo\Moanso\ProyectoFinal\Dignita\obj\Debug\Dignita.MantenedorTrabajador.resources
+D:\Universidad\Ciclos\5º ciclo\Moanso\ProyectoFinal\Dignita\obj\Debug\Dignita.Properties.Resources.resources
+D:\Universidad\Ciclos\5º ciclo\Moanso\ProyectoFinal\Dignita\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+D:\Universidad\Ciclos\5º ciclo\Moanso\ProyectoFinal\Dignita\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+D:\Universidad\Ciclos\5º ciclo\Moanso\ProyectoFinal\Dignita\obj\Debug\Dignita.exe
+D:\Universidad\Ciclos\5º ciclo\Moanso\ProyectoFinal\Dignita\obj\Debug\Dignita.pdb
+D:\Universidad\Ciclos\5º ciclo\Moanso\ProyectoFinal\Dignita\bin\Debug\Dignita.exe.config
+D:\Universidad\Ciclos\5º ciclo\Moanso\ProyectoFinal\Dignita\bin\Debug\Dignita.exe
+D:\Universidad\Ciclos\5º ciclo\Moanso\ProyectoFinal\Dignita\bin\Debug\Dignita.pdb
+D:\Universidad\Ciclos\5º ciclo\Moanso\ProyectoFinal\Dignita\bin\Debug\CapaEntidad.dll
+D:\Universidad\Ciclos\5º ciclo\Moanso\ProyectoFinal\Dignita\bin\Debug\CapaLogica.dll
+D:\Universidad\Ciclos\5º ciclo\Moanso\ProyectoFinal\Dignita\bin\Debug\CapaEntidad.pdb
+D:\Universidad\Ciclos\5º ciclo\Moanso\ProyectoFinal\Dignita\bin\Debug\CapaLogica.pdb
+D:\Universidad\Ciclos\5º ciclo\Moanso\ProyectoFinal\Dignita\obj\Debug\CapaPresentacion.csproj.CopyComplete
