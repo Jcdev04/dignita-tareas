@@ -16,5 +16,17 @@ namespace Dignita.Gestion_de_proyectos.vistDesarrollador
         {
             InitializeComponent();
         }
+
+        private void btnTareas_Click(object sender, EventArgs e)
+        {
+            Tareas obj = new Tareas();
+            obj.ShowDialog();
+        }
+
+        private void btnRequerimientos_Click(object sender, EventArgs e)
+        {
+            Requerimientos obj = new Requerimientos();
+            obj.ShowDialog();
+        }
     }
 }
