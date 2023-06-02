@@ -2,33 +2,39 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Drawing;
+using System.Drawing.Text;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Drawing.Text;
-using System.Drawing;
-using System.IO;
-using Dignita.Gestion_de_proyectos.vistDesarrollador;
 
-namespace Dignita
+namespace Dignita.Gestion_de_proyectos.vistAsesor
 {
-    public partial class frm_login : Form
+    public partial class MantenedorRubro : Form
     {
         // Tipografias
         private PrivateFontCollection PoppinsBlack = new PrivateFontCollection();
         private PrivateFontCollection PoppinsRegular = new PrivateFontCollection();
-        
 
         // Color
         private Color naranja = Color.FromArgb(255, 95, 44);
 
-        public frm_login()
+        public MantenedorRubro()
         {
             InitializeComponent();
         }
 
-        private void frm_login_Load(object sender, EventArgs e)
+        private void btn_nuevo_Click(object sender, EventArgs e)
+        {
+            // Se añade
+
+            // Luego se limpia
+            txt_rubro.Text = string.Empty;
+        }
+
+        private void MantenedorRubro_Load(object sender, EventArgs e)
         {
             // Importar las tipografias
             string tipografia = "Poppins-Regular.ttf";
@@ -43,20 +49,16 @@ namespace Dignita
 
             // Asignar las tipografias
             AplicarTipografiaAControles(this);
-            label1.Font = new Font(PoppinsBlack.Families[0], label1.Font.Size);
-            
+
             // Asignar el color
-            label1.ForeColor = naranja;
-            btn_iniciarSesion.BackColor = naranja;
-
-
+            btn_nuevo.BackColor = naranja;
         }
 
         private void AplicarTipografiaAControles(Control control)
         {
             foreach (Control c in control.Controls)
             {
-                if (c is Label || c is Button || c is TextBox || c is ComboBox || c is ListBox || c is RadioButton || c is CheckBox)
+                if (c is Label || c is Button || c is TextBox || c is ComboBox || c is ListBox || c is RadioButton || c is CheckBox || c is NumericUpDown)
                 {
                     c.Font = new Font(PoppinsRegular.Families[0], c.Font.Size);
                 }
@@ -65,15 +67,6 @@ namespace Dignita
                     AplicarTipografiaAControles(c);
                 }
             }
-        }
-
-        private void btn_iniciarSesion_Click(object sender, EventArgs e)
-        {
-            Realizar_Tareas obj = new Realizar_Tareas();
-            obj.Show();
-            frm_login sa = new frm_login();
-            sa.Close();
-            
         }
     }
 }
