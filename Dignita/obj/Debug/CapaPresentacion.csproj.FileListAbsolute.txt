@@ -85,3 +85,18 @@ D:\Universidad\Ciclos\5º ciclo\Moanso\ProyectoFinal\Dignita\obj\Debug\Dignita.G
 D:\Universidad\Ciclos\5º ciclo\Moanso\ProyectoFinal\Dignita\obj\Debug\Dignita.Gestion_de_proyectos.vistDesarrollador.Proyectos.resources
 D:\Universidad\Ciclos\5º ciclo\Moanso\ProyectoFinal\Dignita\obj\Debug\Dignita.Gestion_de_proyectos.vistDesarrollador.Mejoras.resources
 D:\Universidad\Ciclos\5º ciclo\Moanso\ProyectoFinal\Dignita\obj\Debug\Dignita.Gestion_de_proyectos.vistDesarrollador.Historial.resources
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\Dignita\obj\Debug\CapaPresentacion.csproj.AssemblyReference.cache
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\Dignita\obj\Debug\CapaPresentacion.csproj.SuggestedBindingRedirects.cache
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\Dignita\obj\Debug\Dignita.frm_login.resources
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\Dignita\obj\Debug\Dignita.Gestion_de_proyectos.vistDesarrollador.Historial.resources
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\Dignita\obj\Debug\Dignita.Gestion_de_proyectos.vistDesarrollador.Mejoras.resources
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\Dignita\obj\Debug\Dignita.Gestion_de_proyectos.vistDesarrollador.Proyectos.resources
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\Dignita\obj\Debug\Dignita.Gestion_de_proyectos.vistDesarrollador.Realizar_Tareas.resources
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\Dignita\obj\Debug\Dignita.Gestion_de_proyectos.vistDesarrollador.Requerimientos.resources
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\Dignita\obj\Debug\Dignita.Gestion_de_proyectos.vistDesarrollador.Tareas.resources
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\Dignita\obj\Debug\Dignita.MantenedorTrabajador.resources
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\Dignita\obj\Debug\Dignita.Properties.Resources.resources
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\Dignita\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\Dignita\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\Dignita\obj\Debug\Dignita.exe
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\Dignita\obj\Debug\Dignita.pdb
