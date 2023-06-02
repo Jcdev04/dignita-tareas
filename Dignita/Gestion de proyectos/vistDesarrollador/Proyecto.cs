@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Dignita.Gestion_de_proyectos.vistDesarrollador
 {
-    public partial class Proyectos : Form
+    public partial class Proyecto : Form
     {
-        public Proyectos()
+        public Proyecto()
         {
             InitializeComponent();
         }

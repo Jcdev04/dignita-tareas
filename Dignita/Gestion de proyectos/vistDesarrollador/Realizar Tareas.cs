@@ -31,7 +31,7 @@ namespace Dignita.Gestion_de_proyectos.vistDesarrollador
 
         private void btnProyecto_Click(object sender, EventArgs e)
         {
-            Proyectos obj = new Proyectos();    
+            Proyecto obj = new Proyecto();    
             obj.Show();
         }
 
