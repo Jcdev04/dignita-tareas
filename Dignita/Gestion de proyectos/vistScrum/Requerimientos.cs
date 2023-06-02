@@ -15,6 +15,8 @@ namespace Dignita.Gestion_de_proyectos.vistScrum
         public Requerimientos()
         {
             InitializeComponent();
+            Placeholder.AddPlaceholderToComboBoxes(this);
+            Placeholder.AddPlaceholderToTextBoxes(this);
         }
     }
 }

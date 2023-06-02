@@ -42,3 +42,14 @@ D:\Universidad\Ciclos\5º ciclo\Moanso\ProyectoFinal\CapaLogica\obj\Debug\CapaLo
 D:\Universidad\Ciclos\5º ciclo\Moanso\ProyectoFinal\CapaLogica\obj\Debug\CapaLogica.csproj.CopyComplete
 D:\Universidad\Ciclos\5º ciclo\Moanso\ProyectoFinal\CapaLogica\obj\Debug\CapaLogica.dll
 D:\Universidad\Ciclos\5º ciclo\Moanso\ProyectoFinal\CapaLogica\obj\Debug\CapaLogica.pdb
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\CapaLogica\bin\Debug\CapaLogica.dll
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\CapaLogica\bin\Debug\CapaLogica.pdb
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\CapaLogica\bin\Debug\CapaDatos.dll
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\CapaLogica\bin\Debug\CapaEntidad.dll
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\CapaLogica\bin\Debug\CapaDatos.pdb
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\CapaLogica\bin\Debug\CapaEntidad.pdb
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\CapaLogica\obj\Debug\CapaLogica.csproj.AssemblyReference.cache
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\CapaLogica\obj\Debug\CapaLogica.csproj.CoreCompileInputs.cache
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\CapaLogica\obj\Debug\CapaLogica.csproj.CopyComplete
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\CapaLogica\obj\Debug\CapaLogica.dll
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\CapaLogica\obj\Debug\CapaLogica.pdb
