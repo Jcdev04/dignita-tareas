@@ -80,3 +80,22 @@ D:\Universidad\Ciclos\5º ciclo\Moanso\ProyectoFinal\Dignita\bin\Debug\CapaLogic
 D:\Universidad\Ciclos\5º ciclo\Moanso\ProyectoFinal\Dignita\bin\Debug\CapaEntidad.pdb
 D:\Universidad\Ciclos\5º ciclo\Moanso\ProyectoFinal\Dignita\bin\Debug\CapaLogica.pdb
 D:\Universidad\Ciclos\5º ciclo\Moanso\ProyectoFinal\Dignita\obj\Debug\CapaPresentacion.csproj.CopyComplete
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\Dignita\bin\Debug\Dignita.exe.config
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\Dignita\bin\Debug\Dignita.exe
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\Dignita\bin\Debug\Dignita.pdb
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\Dignita\bin\Debug\CapaEntidad.dll
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\Dignita\bin\Debug\CapaLogica.dll
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\Dignita\bin\Debug\CapaEntidad.pdb
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\Dignita\bin\Debug\CapaLogica.pdb
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\Dignita\obj\Debug\CapaPresentacion.csproj.AssemblyReference.cache
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\Dignita\obj\Debug\CapaPresentacion.csproj.SuggestedBindingRedirects.cache
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\Dignita\obj\Debug\Dignita.frm_login.resources
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\Dignita\obj\Debug\Dignita.Gestion_de_proyectos.vistDesarrollador.Realizar_Tareas.resources
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\Dignita\obj\Debug\Dignita.Gestion_de_proyectos.vistScrum.Requerimientos.resources
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\Dignita\obj\Debug\Dignita.MantenedorTrabajador.resources
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\Dignita\obj\Debug\Dignita.Properties.Resources.resources
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\Dignita\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\Dignita\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\Dignita\obj\Debug\CapaPresentacion.csproj.CopyComplete
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\Dignita\obj\Debug\Dignita.exe
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\Dignita\obj\Debug\Dignita.pdb

@@ -34,3 +34,12 @@ D:\Universidad\Ciclos\5º ciclo\Moanso\ProyectoFinal\CapaDatos\obj\Debug\CapaDat
 D:\Universidad\Ciclos\5º ciclo\Moanso\ProyectoFinal\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
 D:\Universidad\Ciclos\5º ciclo\Moanso\ProyectoFinal\CapaDatos\obj\Debug\CapaDatos.dll
 D:\Universidad\Ciclos\5º ciclo\Moanso\ProyectoFinal\CapaDatos\obj\Debug\CapaDatos.pdb
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\CapaDatos\bin\Debug\CapaDatos.dll
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\CapaDatos\bin\Debug\CapaDatos.pdb
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\CapaDatos\bin\Debug\CapaEntidad.dll
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\CapaDatos\bin\Debug\CapaEntidad.pdb
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\CapaDatos\obj\Debug\CapaDatos.csproj.AssemblyReference.cache
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\CapaDatos\obj\Debug\CapaDatos.dll
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\CapaDatos\obj\Debug\CapaDatos.pdb

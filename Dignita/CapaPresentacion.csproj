@@ -85,6 +85,7 @@
     <Compile Include="MantenedorTrabajador.Designer.cs">
       <DependentUpon>MantenedorTrabajador.cs</DependentUpon>
     </Compile>
+    <Compile Include="Placeholder.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="a. Login.resx">
@@ -92,6 +93,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Gestion de proyectos\vistDesarrollador\Realizar Tareas.resx">
       <DependentUpon>Realizar Tareas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gestion de proyectos\vistScrum\Requerimientos.resx">
+      <DependentUpon>Requerimientos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MantenedorTrabajador.resx">
       <DependentUpon>MantenedorTrabajador.cs</DependentUpon>

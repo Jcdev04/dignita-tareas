@@ -16,3 +16,9 @@ D:\Universidad\Ciclos\5º ciclo\Moanso\forms\CapaEntidad\obj\Debug\CapaEntidad.c
 D:\Universidad\Ciclos\5º ciclo\Moanso\forms\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
 D:\Universidad\Ciclos\5º ciclo\Moanso\forms\CapaEntidad\obj\Debug\CapaEntidad.dll
 D:\Universidad\Ciclos\5º ciclo\Moanso\forms\CapaEntidad\obj\Debug\CapaEntidad.pdb
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\CapaEntidad\bin\Debug\CapaEntidad.dll
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\CapaEntidad\bin\Debug\CapaEntidad.pdb
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\CapaEntidad\obj\Debug\CapaEntidad.csproj.AssemblyReference.cache
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\CapaEntidad\obj\Debug\CapaEntidad.dll
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\CapaEntidad\obj\Debug\CapaEntidad.pdb
