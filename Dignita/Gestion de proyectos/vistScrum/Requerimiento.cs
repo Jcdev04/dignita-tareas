@@ -10,11 +10,13 @@ using System.Windows.Forms;
 
 namespace Dignita.Gestion_de_proyectos.vistScrum
 {
-    public partial class Requerimientos : Form
+    public partial class Requerimiento : Form
     {
-        public Requerimientos()
+        public Requerimiento()
         {
             InitializeComponent();
+            Placeholder.AddPlaceholderToComboBoxes(this);
+            Placeholder.AddPlaceholderToTextBoxes(this);
         }
     }
 }
