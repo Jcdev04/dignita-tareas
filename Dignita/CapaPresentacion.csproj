@@ -115,6 +115,7 @@
     <Compile Include="MantenedorTrabajador.Designer.cs">
       <DependentUpon>MantenedorTrabajador.cs</DependentUpon>
     </Compile>
+    <Compile Include="Placeholder.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="a. Login.resx">
