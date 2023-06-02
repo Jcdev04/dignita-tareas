@@ -10,7 +10,6 @@ using System.Drawing.Text;
 using System.Drawing;
 using System.IO;
 using Dignita.Gestion_de_proyectos.vistDesarrollador;
-using Dignita.Gestion_de_proyectos.vistScrum;
 
 namespace Dignita
 {
@@ -70,8 +69,10 @@ namespace Dignita
 
         private void btn_iniciarSesion_Click(object sender, EventArgs e)
         {
-            Requerimientos requerimientos = new Requerimientos();
-            requerimientos.Show();
+            Realizar_Tareas obj = new Realizar_Tareas();
+            obj.Show();
+            frm_login sa = new frm_login();
+            sa.Close();
         }
     }
 }

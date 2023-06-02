@@ -67,11 +67,41 @@
     <Compile Include="Gestion de proyectos\vistAsesor\Mantenedor Cliente.Designer.cs">
       <DependentUpon>Mantenedor Cliente.cs</DependentUpon>
     </Compile>
+    <Compile Include="Gestion de proyectos\vistDesarrollador\Historial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gestion de proyectos\vistDesarrollador\Historial.Designer.cs">
+      <DependentUpon>Historial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gestion de proyectos\vistDesarrollador\Mejoras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gestion de proyectos\vistDesarrollador\Mejoras.Designer.cs">
+      <DependentUpon>Mejoras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gestion de proyectos\vistDesarrollador\Proyectos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gestion de proyectos\vistDesarrollador\Proyectos.Designer.cs">
+      <DependentUpon>Proyectos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Gestion de proyectos\vistDesarrollador\Realizar Tareas.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Gestion de proyectos\vistDesarrollador\Realizar Tareas.Designer.cs">
       <DependentUpon>Realizar Tareas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gestion de proyectos\vistDesarrollador\Requerimientos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gestion de proyectos\vistDesarrollador\Requerimientos.Designer.cs">
+      <DependentUpon>Requerimientos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gestion de proyectos\vistDesarrollador\Tareas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gestion de proyectos\vistDesarrollador\Tareas.Designer.cs">
+      <DependentUpon>Tareas.cs</DependentUpon>
     </Compile>
     <Compile Include="Gestion de proyectos\vistScrum\Requerimientos.cs">
       <SubType>Form</SubType>
@@ -85,17 +115,28 @@
     <Compile Include="MantenedorTrabajador.Designer.cs">
       <DependentUpon>MantenedorTrabajador.cs</DependentUpon>
     </Compile>
-    <Compile Include="Placeholder.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="a. Login.resx">
       <DependentUpon>a. Login.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Gestion de proyectos\vistDesarrollador\Historial.resx">
+      <DependentUpon>Historial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gestion de proyectos\vistDesarrollador\Mejoras.resx">
+      <DependentUpon>Mejoras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gestion de proyectos\vistDesarrollador\Proyectos.resx">
+      <DependentUpon>Proyectos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Gestion de proyectos\vistDesarrollador\Realizar Tareas.resx">
       <DependentUpon>Realizar Tareas.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Gestion de proyectos\vistScrum\Requerimientos.resx">
+    <EmbeddedResource Include="Gestion de proyectos\vistDesarrollador\Requerimientos.resx">
       <DependentUpon>Requerimientos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gestion de proyectos\vistDesarrollador\Tareas.resx">
+      <DependentUpon>Tareas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MantenedorTrabajador.resx">
       <DependentUpon>MantenedorTrabajador.cs</DependentUpon>
