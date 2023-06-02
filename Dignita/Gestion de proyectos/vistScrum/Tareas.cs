@@ -16,5 +16,10 @@ namespace Dignita.Gestion_de_proyectos.vistScrum
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

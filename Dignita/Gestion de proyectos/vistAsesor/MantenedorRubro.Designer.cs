@@ -54,7 +54,7 @@
             // 
             this.btn_inhabilitar.BackColor = System.Drawing.Color.Red;
             this.btn_inhabilitar.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_inhabilitar.Location = new System.Drawing.Point(690, 624);
+            this.btn_inhabilitar.Location = new System.Drawing.Point(690, 553);
             this.btn_inhabilitar.Name = "btn_inhabilitar";
             this.btn_inhabilitar.Size = new System.Drawing.Size(151, 47);
             this.btn_inhabilitar.TabIndex = 63;
@@ -171,7 +171,7 @@
             // 
             this.txt_rubro.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_rubro.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_rubro.Location = new System.Drawing.Point(346, 509);
+            this.txt_rubro.Location = new System.Drawing.Point(346, 476);
             this.txt_rubro.Multiline = true;
             this.txt_rubro.Name = "txt_rubro";
             this.txt_rubro.Size = new System.Drawing.Size(285, 36);
@@ -181,7 +181,7 @@
             // 
             this.lbl_1.AutoSize = true;
             this.lbl_1.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_1.Location = new System.Drawing.Point(416, 467);
+            this.lbl_1.Location = new System.Drawing.Point(416, 434);
             this.lbl_1.Name = "lbl_1";
             this.lbl_1.Size = new System.Drawing.Size(150, 18);
             this.lbl_1.TabIndex = 53;
@@ -192,7 +192,7 @@
             // 
             this.btn_modificar.BackColor = System.Drawing.Color.Yellow;
             this.btn_modificar.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_modificar.Location = new System.Drawing.Point(413, 624);
+            this.btn_modificar.Location = new System.Drawing.Point(413, 553);
             this.btn_modificar.Name = "btn_modificar";
             this.btn_modificar.Size = new System.Drawing.Size(151, 47);
             this.btn_modificar.TabIndex = 52;
@@ -202,7 +202,7 @@
             // btn_nuevo
             // 
             this.btn_nuevo.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_nuevo.Location = new System.Drawing.Point(149, 624);
+            this.btn_nuevo.Location = new System.Drawing.Point(149, 553);
             this.btn_nuevo.Name = "btn_nuevo";
             this.btn_nuevo.Size = new System.Drawing.Size(151, 47);
             this.btn_nuevo.TabIndex = 51;
@@ -222,7 +222,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1014, 741);
+            this.ClientSize = new System.Drawing.Size(1014, 642);
             this.Controls.Add(this.btn_inhabilitar);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.txt_rubro);

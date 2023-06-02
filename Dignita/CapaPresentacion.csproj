@@ -193,6 +193,12 @@
     <Compile Include="Gestion de proyectos\vistScrum\TareasRequerimiento.Designer.cs">
       <DependentUpon>TareasRequerimiento.cs</DependentUpon>
     </Compile>
+    <Compile Include="Gestion de proyectos\vistScrum\VistaScrum.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gestion de proyectos\vistScrum\VistaScrum.Designer.cs">
+      <DependentUpon>VistaScrum.cs</DependentUpon>
+    </Compile>
     <Compile Include="MantenedorTrabajador.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -270,6 +276,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Gestion de proyectos\vistScrum\TareasRequerimiento.resx">
       <DependentUpon>TareasRequerimiento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gestion de proyectos\vistScrum\VistaScrum.resx">
+      <DependentUpon>VistaScrum.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MantenedorTrabajador.resx">
       <DependentUpon>MantenedorTrabajador.cs</DependentUpon>
