@@ -115,6 +115,18 @@
     <Compile Include="Gestion de proyectos\vistDesarrollador\TareasRequerimiento.Designer.cs">
       <DependentUpon>TareasRequerimiento.cs</DependentUpon>
     </Compile>
+    <Compile Include="Gestion de proyectos\vistScrum\AgregarVersion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gestion de proyectos\vistScrum\AgregarVersion.Designer.cs">
+      <DependentUpon>AgregarVersion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gestion de proyectos\vistScrum\Equipo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gestion de proyectos\vistScrum\Equipo.Designer.cs">
+      <DependentUpon>Equipo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Gestion de proyectos\vistScrum\Historial.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -126,6 +138,12 @@
     </Compile>
     <Compile Include="Gestion de proyectos\vistScrum\Mejoras.Designer.cs">
       <DependentUpon>Mejoras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gestion de proyectos\vistScrum\ModificarVersion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gestion de proyectos\vistScrum\ModificarVersion.Designer.cs">
+      <DependentUpon>ModificarVersion.cs</DependentUpon>
     </Compile>
     <Compile Include="Gestion de proyectos\vistScrum\Proyecto.cs">
       <SubType>Form</SubType>
@@ -199,11 +217,20 @@
     <EmbeddedResource Include="Gestion de proyectos\vistDesarrollador\TareasRequerimiento.resx">
       <DependentUpon>TareasRequerimiento.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Gestion de proyectos\vistScrum\AgregarVersion.resx">
+      <DependentUpon>AgregarVersion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gestion de proyectos\vistScrum\Equipo.resx">
+      <DependentUpon>Equipo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Gestion de proyectos\vistScrum\Historial.resx">
       <DependentUpon>Historial.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Gestion de proyectos\vistScrum\Mejoras.resx">
       <DependentUpon>Mejoras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gestion de proyectos\vistScrum\ModificarVersion.resx">
+      <DependentUpon>ModificarVersion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Gestion de proyectos\vistScrum\Proyecto.resx">
       <DependentUpon>Proyecto.cs</DependentUpon>
