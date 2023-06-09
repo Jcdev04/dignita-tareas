@@ -1,6 +1,6 @@
 ﻿namespace Dignita.Gestion_de_proyectos.vistAsesor
 {
-    partial class MantenedorEmpresa
+    partial class MantenedorTipoProyecto
     {
         /// <summary>
         /// Required designer variable.
@@ -28,24 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MantenedorEmpresa));
-            this.btn_aceptar = new System.Windows.Forms.Button();
-            this.lbl_6 = new System.Windows.Forms.Label();
-            this.lbl_4 = new System.Windows.Forms.Label();
-            this.cmb_rubro = new System.Windows.Forms.ComboBox();
-            this.lbl_3 = new System.Windows.Forms.Label();
-            this.lbl_2 = new System.Windows.Forms.Label();
-            this.lbl_5 = new System.Windows.Forms.Label();
-            this.txt_RUC = new System.Windows.Forms.TextBox();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MantenedorTipoProyecto));
+            this.btn_inhabilitar = new System.Windows.Forms.Button();
+            this.txt_rubro = new System.Windows.Forms.TextBox();
             this.lbl_1 = new System.Windows.Forms.Label();
             this.btn_modificar = new System.Windows.Forms.Button();
             this.btn_nuevo = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.btn_inhabilitar = new System.Windows.Forms.Button();
-            this.txt_razonSocial = new System.Windows.Forms.TextBox();
-            this.txt_correo = new System.Windows.Forms.TextBox();
-            this.txt_telefono = new System.Windows.Forms.TextBox();
-            this.txt_direccion = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
             this.btn_salir = new System.Windows.Forms.Button();
@@ -62,179 +51,66 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // btn_aceptar
+            // btn_inhabilitar
             // 
-            this.btn_aceptar.BackColor = System.Drawing.Color.Black;
-            this.btn_aceptar.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_aceptar.ForeColor = System.Drawing.Color.White;
-            this.btn_aceptar.Location = new System.Drawing.Point(474, 573);
-            this.btn_aceptar.Name = "btn_aceptar";
-            this.btn_aceptar.Size = new System.Drawing.Size(285, 47);
-            this.btn_aceptar.TabIndex = 43;
-            this.btn_aceptar.Text = "Aceptar";
-            this.btn_aceptar.UseVisualStyleBackColor = false;
-            this.btn_aceptar.Click += new System.EventHandler(this.btn_aceptar_Click);
+            this.btn_inhabilitar.BackColor = System.Drawing.Color.Red;
+            this.btn_inhabilitar.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_inhabilitar.Location = new System.Drawing.Point(690, 574);
+            this.btn_inhabilitar.Name = "btn_inhabilitar";
+            this.btn_inhabilitar.Size = new System.Drawing.Size(151, 47);
+            this.btn_inhabilitar.TabIndex = 70;
+            this.btn_inhabilitar.Text = "Inhabilitar";
+            this.btn_inhabilitar.UseVisualStyleBackColor = false;
             // 
-            // lbl_6
+            // txt_rubro
             // 
-            this.lbl_6.AutoSize = true;
-            this.lbl_6.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_6.Location = new System.Drawing.Point(471, 472);
-            this.lbl_6.Name = "lbl_6";
-            this.lbl_6.Size = new System.Drawing.Size(61, 18);
-            this.lbl_6.TabIndex = 39;
-            this.lbl_6.Text = "Correo";
-            // 
-            // lbl_4
-            // 
-            this.lbl_4.AutoSize = true;
-            this.lbl_4.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_4.Location = new System.Drawing.Point(66, 650);
-            this.lbl_4.Name = "lbl_4";
-            this.lbl_4.Size = new System.Drawing.Size(82, 18);
-            this.lbl_4.TabIndex = 37;
-            this.lbl_4.Text = "Dirección";
-            // 
-            // cmb_rubro
-            // 
-            this.cmb_rubro.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmb_rubro.FormattingEnabled = true;
-            this.cmb_rubro.Location = new System.Drawing.Point(69, 594);
-            this.cmb_rubro.Name = "cmb_rubro";
-            this.cmb_rubro.Size = new System.Drawing.Size(285, 26);
-            this.cmb_rubro.TabIndex = 36;
-            // 
-            // lbl_3
-            // 
-            this.lbl_3.AutoSize = true;
-            this.lbl_3.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_3.Location = new System.Drawing.Point(66, 561);
-            this.lbl_3.Name = "lbl_3";
-            this.lbl_3.Size = new System.Drawing.Size(55, 18);
-            this.lbl_3.TabIndex = 35;
-            this.lbl_3.Text = "Rubro";
-            // 
-            // lbl_2
-            // 
-            this.lbl_2.AutoSize = true;
-            this.lbl_2.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_2.Location = new System.Drawing.Point(66, 472);
-            this.lbl_2.Name = "lbl_2";
-            this.lbl_2.Size = new System.Drawing.Size(112, 18);
-            this.lbl_2.TabIndex = 33;
-            this.lbl_2.Text = "Razón Social";
-            // 
-            // lbl_5
-            // 
-            this.lbl_5.AutoSize = true;
-            this.lbl_5.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_5.Location = new System.Drawing.Point(471, 380);
-            this.lbl_5.Name = "lbl_5";
-            this.lbl_5.Size = new System.Drawing.Size(77, 18);
-            this.lbl_5.TabIndex = 29;
-            this.lbl_5.Text = "Teléfono";
-            // 
-            // txt_RUC
-            // 
-            this.txt_RUC.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txt_RUC.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_RUC.Location = new System.Drawing.Point(69, 413);
-            this.txt_RUC.Multiline = true;
-            this.txt_RUC.Name = "txt_RUC";
-            this.txt_RUC.Size = new System.Drawing.Size(285, 36);
-            this.txt_RUC.TabIndex = 28;
+            this.txt_rubro.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_rubro.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_rubro.Location = new System.Drawing.Point(346, 497);
+            this.txt_rubro.Multiline = true;
+            this.txt_rubro.Name = "txt_rubro";
+            this.txt_rubro.Size = new System.Drawing.Size(285, 36);
+            this.txt_rubro.TabIndex = 68;
             // 
             // lbl_1
             // 
             this.lbl_1.AutoSize = true;
             this.lbl_1.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_1.Location = new System.Drawing.Point(66, 380);
+            this.lbl_1.Location = new System.Drawing.Point(363, 456);
             this.lbl_1.Name = "lbl_1";
-            this.lbl_1.Size = new System.Drawing.Size(42, 18);
-            this.lbl_1.TabIndex = 27;
-            this.lbl_1.Text = "RUC";
+            this.lbl_1.Size = new System.Drawing.Size(247, 18);
+            this.lbl_1.TabIndex = 67;
+            this.lbl_1.Text = "Nombre del tipo del proyecto";
             this.lbl_1.Visible = false;
             // 
             // btn_modificar
             // 
             this.btn_modificar.BackColor = System.Drawing.Color.Yellow;
             this.btn_modificar.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_modificar.Location = new System.Drawing.Point(837, 171);
+            this.btn_modificar.Location = new System.Drawing.Point(413, 574);
             this.btn_modificar.Name = "btn_modificar";
             this.btn_modificar.Size = new System.Drawing.Size(151, 47);
-            this.btn_modificar.TabIndex = 26;
+            this.btn_modificar.TabIndex = 66;
             this.btn_modificar.Text = "Modificar";
             this.btn_modificar.UseVisualStyleBackColor = false;
             // 
             // btn_nuevo
             // 
             this.btn_nuevo.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_nuevo.Location = new System.Drawing.Point(837, 103);
+            this.btn_nuevo.Location = new System.Drawing.Point(149, 574);
             this.btn_nuevo.Name = "btn_nuevo";
             this.btn_nuevo.Size = new System.Drawing.Size(151, 47);
-            this.btn_nuevo.TabIndex = 25;
-            this.btn_nuevo.Text = "Nuevo";
+            this.btn_nuevo.TabIndex = 65;
+            this.btn_nuevo.Text = "Añadir";
             this.btn_nuevo.UseVisualStyleBackColor = true;
-            this.btn_nuevo.Click += new System.EventHandler(this.btn_nuevo_Click);
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(21, 95);
+            this.dataGridView1.Location = new System.Drawing.Point(24, 124);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(784, 257);
-            this.dataGridView1.TabIndex = 24;
-            // 
-            // btn_inhabilitar
-            // 
-            this.btn_inhabilitar.BackColor = System.Drawing.Color.Red;
-            this.btn_inhabilitar.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_inhabilitar.Location = new System.Drawing.Point(837, 240);
-            this.btn_inhabilitar.Name = "btn_inhabilitar";
-            this.btn_inhabilitar.Size = new System.Drawing.Size(151, 47);
-            this.btn_inhabilitar.TabIndex = 45;
-            this.btn_inhabilitar.Text = "Inhabilitar";
-            this.btn_inhabilitar.UseVisualStyleBackColor = false;
-            // 
-            // txt_razonSocial
-            // 
-            this.txt_razonSocial.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txt_razonSocial.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_razonSocial.Location = new System.Drawing.Point(69, 506);
-            this.txt_razonSocial.Multiline = true;
-            this.txt_razonSocial.Name = "txt_razonSocial";
-            this.txt_razonSocial.Size = new System.Drawing.Size(285, 36);
-            this.txt_razonSocial.TabIndex = 46;
-            // 
-            // txt_correo
-            // 
-            this.txt_correo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txt_correo.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_correo.Location = new System.Drawing.Point(474, 507);
-            this.txt_correo.Multiline = true;
-            this.txt_correo.Name = "txt_correo";
-            this.txt_correo.Size = new System.Drawing.Size(285, 36);
-            this.txt_correo.TabIndex = 47;
-            // 
-            // txt_telefono
-            // 
-            this.txt_telefono.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txt_telefono.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_telefono.Location = new System.Drawing.Point(474, 413);
-            this.txt_telefono.Multiline = true;
-            this.txt_telefono.Name = "txt_telefono";
-            this.txt_telefono.Size = new System.Drawing.Size(285, 36);
-            this.txt_telefono.TabIndex = 48;
-            // 
-            // txt_direccion
-            // 
-            this.txt_direccion.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txt_direccion.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_direccion.Location = new System.Drawing.Point(69, 684);
-            this.txt_direccion.Multiline = true;
-            this.txt_direccion.Name = "txt_direccion";
-            this.txt_direccion.Size = new System.Drawing.Size(285, 36);
-            this.txt_direccion.TabIndex = 49;
+            this.dataGridView1.Size = new System.Drawing.Size(935, 304);
+            this.dataGridView1.TabIndex = 64;
             // 
             // panel1
             // 
@@ -253,7 +129,7 @@
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1014, 66);
-            this.panel1.TabIndex = 50;
+            this.panel1.TabIndex = 71;
             // 
             // button1
             // 
@@ -269,7 +145,7 @@
             // btn_salir
             // 
             this.btn_salir.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.btn_salir.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_salir.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_salir.Location = new System.Drawing.Point(505, 5);
             this.btn_salir.Name = "btn_salir";
             this.btn_salir.Size = new System.Drawing.Size(100, 58);
@@ -335,7 +211,7 @@
             // btn_empresa
             // 
             this.btn_empresa.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.btn_empresa.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_empresa.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_empresa.Location = new System.Drawing.Point(290, 5);
             this.btn_empresa.Name = "btn_empresa";
             this.btn_empresa.Size = new System.Drawing.Size(100, 58);
@@ -354,32 +230,21 @@
             this.btn_proyecto.Text = "Proyecto";
             this.btn_proyecto.UseVisualStyleBackColor = true;
             // 
-            // MantenedorEmpresa
+            // MantenedorTipoProyecto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1014, 741);
+            this.ClientSize = new System.Drawing.Size(1014, 642);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.txt_direccion);
-            this.Controls.Add(this.txt_telefono);
-            this.Controls.Add(this.txt_correo);
-            this.Controls.Add(this.txt_razonSocial);
             this.Controls.Add(this.btn_inhabilitar);
-            this.Controls.Add(this.btn_aceptar);
-            this.Controls.Add(this.lbl_6);
-            this.Controls.Add(this.lbl_4);
-            this.Controls.Add(this.cmb_rubro);
-            this.Controls.Add(this.lbl_3);
-            this.Controls.Add(this.lbl_2);
-            this.Controls.Add(this.lbl_5);
-            this.Controls.Add(this.txt_RUC);
+            this.Controls.Add(this.txt_rubro);
             this.Controls.Add(this.lbl_1);
             this.Controls.Add(this.btn_modificar);
             this.Controls.Add(this.btn_nuevo);
             this.Controls.Add(this.dataGridView1);
-            this.Name = "MantenedorEmpresa";
-            this.Text = "MantenedorEmpresa";
-            this.Load += new System.EventHandler(this.MantenedorEmpresa_Load);
+            this.Name = "MantenedorTipoProyecto";
+            this.Text = "MantenedorTipoProyecto";
+            this.Load += new System.EventHandler(this.MantenedorTipoProyecto_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -391,23 +256,13 @@
         }
 
         #endregion
-        private System.Windows.Forms.Button btn_aceptar;
-        private System.Windows.Forms.Label lbl_6;
-        private System.Windows.Forms.Label lbl_4;
-        private System.Windows.Forms.ComboBox cmb_rubro;
-        private System.Windows.Forms.Label lbl_3;
-        private System.Windows.Forms.Label lbl_2;
-        private System.Windows.Forms.Label lbl_5;
-        private System.Windows.Forms.TextBox txt_RUC;
+
+        private System.Windows.Forms.Button btn_inhabilitar;
+        private System.Windows.Forms.TextBox txt_rubro;
         private System.Windows.Forms.Label lbl_1;
         private System.Windows.Forms.Button btn_modificar;
         private System.Windows.Forms.Button btn_nuevo;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Button btn_inhabilitar;
-        private System.Windows.Forms.TextBox txt_razonSocial;
-        private System.Windows.Forms.TextBox txt_correo;
-        private System.Windows.Forms.TextBox txt_telefono;
-        private System.Windows.Forms.TextBox txt_direccion;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button btn_salir;

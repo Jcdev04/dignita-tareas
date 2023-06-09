@@ -50,6 +50,7 @@
             this.cmb_scrumMaster = new System.Windows.Forms.ComboBox();
             this.btn_aceptar = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btn_salir = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label8 = new System.Windows.Forms.Label();
             this.lkbPerfil = new System.Windows.Forms.LinkLabel();
@@ -57,7 +58,7 @@
             this.btn_rubro = new System.Windows.Forms.Button();
             this.btn_empresa = new System.Windows.Forms.Button();
             this.btn_proyecto = new System.Windows.Forms.Button();
-            this.btn_salir = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nud_duracion)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nud_precio)).BeginInit();
@@ -189,9 +190,9 @@
             this.lbl_3.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_3.Location = new System.Drawing.Point(18, 531);
             this.lbl_3.Name = "lbl_3";
-            this.lbl_3.Size = new System.Drawing.Size(55, 18);
+            this.lbl_3.Size = new System.Drawing.Size(145, 18);
             this.lbl_3.TabIndex = 13;
-            this.lbl_3.Text = "Rubro";
+            this.lbl_3.Text = "Tipo de proyecto";
             // 
             // cmb_estado
             // 
@@ -218,9 +219,9 @@
             this.lbl_6.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_6.Location = new System.Drawing.Point(354, 442);
             this.lbl_6.Name = "lbl_6";
-            this.lbl_6.Size = new System.Drawing.Size(102, 18);
+            this.lbl_6.Size = new System.Drawing.Size(76, 18);
             this.lbl_6.TabIndex = 17;
-            this.lbl_6.Text = "Comentario";
+            this.lbl_6.Text = "Detalles";
             // 
             // txt_comentario
             // 
@@ -268,6 +269,7 @@
             // 
             this.panel1.AutoSize = true;
             this.panel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.btn_salir);
             this.panel1.Controls.Add(this.pictureBox2);
             this.panel1.Controls.Add(this.label8);
@@ -281,6 +283,17 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1014, 66);
             this.panel1.TabIndex = 23;
+            // 
+            // btn_salir
+            // 
+            this.btn_salir.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.btn_salir.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_salir.Location = new System.Drawing.Point(505, 5);
+            this.btn_salir.Name = "btn_salir";
+            this.btn_salir.Size = new System.Drawing.Size(100, 58);
+            this.btn_salir.TabIndex = 9;
+            this.btn_salir.Text = "Tipo proyecto";
+            this.btn_salir.UseVisualStyleBackColor = true;
             // 
             // pictureBox2
             // 
@@ -330,7 +343,7 @@
             // 
             this.btn_rubro.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btn_rubro.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_rubro.Location = new System.Drawing.Point(430, 5);
+            this.btn_rubro.Location = new System.Drawing.Point(399, 5);
             this.btn_rubro.Name = "btn_rubro";
             this.btn_rubro.Size = new System.Drawing.Size(100, 58);
             this.btn_rubro.TabIndex = 4;
@@ -341,7 +354,7 @@
             // 
             this.btn_empresa.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btn_empresa.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_empresa.Location = new System.Drawing.Point(321, 5);
+            this.btn_empresa.Location = new System.Drawing.Point(290, 5);
             this.btn_empresa.Name = "btn_empresa";
             this.btn_empresa.Size = new System.Drawing.Size(100, 58);
             this.btn_empresa.TabIndex = 4;
@@ -352,23 +365,23 @@
             // 
             this.btn_proyecto.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btn_proyecto.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_proyecto.Location = new System.Drawing.Point(213, 5);
+            this.btn_proyecto.Location = new System.Drawing.Point(182, 5);
             this.btn_proyecto.Name = "btn_proyecto";
             this.btn_proyecto.Size = new System.Drawing.Size(100, 58);
             this.btn_proyecto.TabIndex = 4;
             this.btn_proyecto.Text = "Proyecto";
             this.btn_proyecto.UseVisualStyleBackColor = true;
             // 
-            // btn_salir
+            // button1
             // 
-            this.btn_salir.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.btn_salir.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_salir.Location = new System.Drawing.Point(540, 5);
-            this.btn_salir.Name = "btn_salir";
-            this.btn_salir.Size = new System.Drawing.Size(100, 58);
-            this.btn_salir.TabIndex = 9;
-            this.btn_salir.Text = "Salir";
-            this.btn_salir.UseVisualStyleBackColor = true;
+            this.button1.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.button1.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(625, 5);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(100, 58);
+            this.button1.TabIndex = 10;
+            this.button1.Text = "Salir";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // Ventas
             // 
@@ -442,5 +455,6 @@
         private System.Windows.Forms.Button btn_rubro;
         private System.Windows.Forms.Button btn_empresa;
         private System.Windows.Forms.Button btn_proyecto;
+        private System.Windows.Forms.Button button1;
     }
 }

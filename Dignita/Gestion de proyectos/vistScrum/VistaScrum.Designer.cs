@@ -60,14 +60,14 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(800, 66);
+            this.panel1.Size = new System.Drawing.Size(957, 66);
             this.panel1.TabIndex = 6;
             // 
             // pictureBox2
             // 
             this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(717, 9);
+            this.pictureBox2.Location = new System.Drawing.Point(874, 9);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(50, 50);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -78,10 +78,10 @@
             // 
             this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Poppins Medium", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(591, 7);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(748, 7);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(113, 38);
+            this.label1.Size = new System.Drawing.Size(104, 26);
             this.label1.TabIndex = 7;
             this.label1.Text = "Pereda Saldaña,\r\n                Aaron";
             // 
@@ -89,10 +89,10 @@
             // 
             this.lkbPerfil.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lkbPerfil.AutoSize = true;
-            this.lkbPerfil.Font = new System.Drawing.Font("Poppins Medium", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lkbPerfil.Location = new System.Drawing.Point(642, 40);
+            this.lkbPerfil.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lkbPerfil.Location = new System.Drawing.Point(799, 40);
             this.lkbPerfil.Name = "lkbPerfil";
-            this.lkbPerfil.Size = new System.Drawing.Size(69, 19);
+            this.lkbPerfil.Size = new System.Drawing.Size(59, 13);
             this.lkbPerfil.TabIndex = 6;
             this.lkbPerfil.TabStop = true;
             this.lkbPerfil.Text = "Ver Perfil";
@@ -110,8 +110,8 @@
             // btnHistorial
             // 
             this.btnHistorial.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.btnHistorial.Font = new System.Drawing.Font("Poppins Medium", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHistorial.Location = new System.Drawing.Point(478, 5);
+            this.btnHistorial.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHistorial.Location = new System.Drawing.Point(556, 5);
             this.btnHistorial.Name = "btnHistorial";
             this.btnHistorial.Size = new System.Drawing.Size(75, 58);
             this.btnHistorial.TabIndex = 4;
@@ -121,8 +121,8 @@
             // btnMejoras
             // 
             this.btnMejoras.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.btnMejoras.Font = new System.Drawing.Font("Poppins Medium", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMejoras.Location = new System.Drawing.Point(397, 5);
+            this.btnMejoras.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMejoras.Location = new System.Drawing.Point(475, 5);
             this.btnMejoras.Name = "btnMejoras";
             this.btnMejoras.Size = new System.Drawing.Size(75, 58);
             this.btnMejoras.TabIndex = 4;
@@ -132,8 +132,8 @@
             // btnProyecto
             // 
             this.btnProyecto.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.btnProyecto.Font = new System.Drawing.Font("Poppins Medium", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnProyecto.Location = new System.Drawing.Point(316, 5);
+            this.btnProyecto.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnProyecto.Location = new System.Drawing.Point(394, 5);
             this.btnProyecto.Name = "btnProyecto";
             this.btnProyecto.Size = new System.Drawing.Size(75, 58);
             this.btnProyecto.TabIndex = 4;
@@ -143,8 +143,8 @@
             // btnRequerimientos
             // 
             this.btnRequerimientos.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.btnRequerimientos.Font = new System.Drawing.Font("Poppins Medium", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRequerimientos.Location = new System.Drawing.Point(186, 5);
+            this.btnRequerimientos.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRequerimientos.Location = new System.Drawing.Point(264, 5);
             this.btnRequerimientos.Name = "btnRequerimientos";
             this.btnRequerimientos.Size = new System.Drawing.Size(124, 58);
             this.btnRequerimientos.TabIndex = 4;
@@ -154,8 +154,8 @@
             // btnTareas
             // 
             this.btnTareas.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.btnTareas.Font = new System.Drawing.Font("Poppins Medium", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTareas.Location = new System.Drawing.Point(105, 5);
+            this.btnTareas.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTareas.Location = new System.Drawing.Point(183, 5);
             this.btnTareas.Name = "btnTareas";
             this.btnTareas.Size = new System.Drawing.Size(75, 58);
             this.btnTareas.TabIndex = 4;
@@ -166,7 +166,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(957, 569);
             this.Controls.Add(this.panel1);
             this.IsMdiContainer = true;
             this.Name = "VistaScrum";

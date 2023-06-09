@@ -1,6 +1,6 @@
 ﻿namespace Dignita.Gestion_de_proyectos.vistScrum
 {
-    partial class AgregarVersion
+    partial class MantenedorVersion
     {
         /// <summary>
         /// Required designer variable.

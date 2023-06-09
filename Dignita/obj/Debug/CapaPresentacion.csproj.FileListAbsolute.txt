@@ -100,3 +100,20 @@ C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\Dignita.Gestion_de_proyec
 C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\Dignita.Gestion_de_proyectos.vistDesarrollador.Requerimientos.resources
 C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\Dignita.Gestion_de_proyectos.vistDesarrollador.Tareas.resources
 >>>>>>> mau
+C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\Dignita.Gestion_de_proyectos.vistAsesor.MantenedorEmpresa.resources
+C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\Dignita.Gestion_de_proyectos.vistAsesor.MantenedorRubro.resources
+C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\Dignita.Gestion_de_proyectos.vistDesarrollador.Proyecto.resources
+C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\Dignita.Gestion_de_proyectos.vistDesarrollador.Tarea.resources
+C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\Dignita.Gestion_de_proyectos.vistDesarrollador.TareasRequerimiento.resources
+C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\Dignita.Gestion_de_proyectos.vistScrum.AgregarVersion.resources
+C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\Dignita.Gestion_de_proyectos.vistScrum.Equipo.resources
+C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\Dignita.Gestion_de_proyectos.vistScrum.Historial.resources
+C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\Dignita.Gestion_de_proyectos.vistScrum.Mejoras.resources
+C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\Dignita.Gestion_de_proyectos.vistScrum.Modificar_Versión.resources
+C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\Dignita.Gestion_de_proyectos.vistScrum.Proyecto.resources
+C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\Dignita.Gestion_de_proyectos.vistScrum.Requerimiento.resources
+C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\Dignita.Gestion_de_proyectos.vistScrum.Requerimientos.resources
+C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\Dignita.Gestion_de_proyectos.vistScrum.Tarea.resources
+C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\Dignita.Gestion_de_proyectos.vistScrum.Tareas.resources
+C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\Dignita.Gestion_de_proyectos.vistScrum.TareasRequerimiento.resources
+C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\Dignita.Gestion_de_proyectos.vistScrum.VistaScrum.resources

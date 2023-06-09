@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Dignita.Gestion_de_proyectos.vistScrum
 {
-    public partial class AgregarVersion : Form
+    public partial class MantenedorVersion : Form
     {
-        public AgregarVersion()
+        public MantenedorVersion()
         {
             InitializeComponent();
         }

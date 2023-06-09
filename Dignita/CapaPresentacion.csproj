@@ -73,6 +73,12 @@
     <Compile Include="Gestion de proyectos\vistAsesor\MantenedorRubro.Designer.cs">
       <DependentUpon>MantenedorRubro.cs</DependentUpon>
     </Compile>
+    <Compile Include="Gestion de proyectos\vistAsesor\MantenedorTipoProyecto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gestion de proyectos\vistAsesor\MantenedorTipoProyecto.Designer.cs">
+      <DependentUpon>MantenedorTipoProyecto.cs</DependentUpon>
+    </Compile>
     <Compile Include="Gestion de proyectos\vistAsesor\Ventas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -127,11 +133,11 @@
     <Compile Include="Gestion de proyectos\vistDesarrollador\TareasRequerimiento.Designer.cs">
       <DependentUpon>TareasRequerimiento.cs</DependentUpon>
     </Compile>
-    <Compile Include="Gestion de proyectos\vistScrum\AgregarVersion.cs">
+    <Compile Include="Gestion de proyectos\vistScrum\MantenedorVersion.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Gestion de proyectos\vistScrum\AgregarVersion.Designer.cs">
-      <DependentUpon>AgregarVersion.cs</DependentUpon>
+    <Compile Include="Gestion de proyectos\vistScrum\MantenedorVersion.Designer.cs">
+      <DependentUpon>MantenedorVersion.cs</DependentUpon>
     </Compile>
     <Compile Include="Gestion de proyectos\vistScrum\Equipo.cs">
       <SubType>Form</SubType>
@@ -217,6 +223,9 @@
     <EmbeddedResource Include="Gestion de proyectos\vistAsesor\MantenedorRubro.resx">
       <DependentUpon>MantenedorRubro.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Gestion de proyectos\vistAsesor\MantenedorTipoProyecto.resx">
+      <DependentUpon>MantenedorTipoProyecto.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Gestion de proyectos\vistAsesor\Ventas.resx">
       <DependentUpon>Ventas.cs</DependentUpon>
     </EmbeddedResource>
@@ -244,8 +253,8 @@
     <EmbeddedResource Include="Gestion de proyectos\vistDesarrollador\TareasRequerimiento.resx">
       <DependentUpon>TareasRequerimiento.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Gestion de proyectos\vistScrum\AgregarVersion.resx">
-      <DependentUpon>AgregarVersion.cs</DependentUpon>
+    <EmbeddedResource Include="Gestion de proyectos\vistScrum\MantenedorVersion.resx">
+      <DependentUpon>MantenedorVersion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Gestion de proyectos\vistScrum\Equipo.resx">
       <DependentUpon>Equipo.cs</DependentUpon>
