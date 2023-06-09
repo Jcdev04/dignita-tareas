@@ -139,47 +139,41 @@
     <Compile Include="Gestion de proyectos\vistScrum\MantenedorVersion.Designer.cs">
       <DependentUpon>MantenedorVersion.cs</DependentUpon>
     </Compile>
-    <Compile Include="Gestion de proyectos\vistScrum\Equipo.cs">
+    <Compile Include="Gestion de proyectos\vistScrum\MantenedorEquipo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Gestion de proyectos\vistScrum\Equipo.Designer.cs">
-      <DependentUpon>Equipo.cs</DependentUpon>
+    <Compile Include="Gestion de proyectos\vistScrum\MantenedorEquipo.Designer.cs">
+      <DependentUpon>MantenedorEquipo.cs</DependentUpon>
     </Compile>
-    <Compile Include="Gestion de proyectos\vistScrum\Historial.cs">
+    <Compile Include="Gestion de proyectos\vistScrum\ConsultaTareas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Gestion de proyectos\vistScrum\Historial.Designer.cs">
-      <DependentUpon>Historial.cs</DependentUpon>
+    <Compile Include="Gestion de proyectos\vistScrum\ConsultaTareas.Designer.cs">
+      <DependentUpon>ConsultaTareas.cs</DependentUpon>
     </Compile>
-    <Compile Include="Gestion de proyectos\vistScrum\Mejoras.cs">
+    <Compile Include="Gestion de proyectos\vistScrum\MantenedorMejora.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Gestion de proyectos\vistScrum\Mejoras.Designer.cs">
-      <DependentUpon>Mejoras.cs</DependentUpon>
+    <Compile Include="Gestion de proyectos\vistScrum\MantenedorMejora.Designer.cs">
+      <DependentUpon>MantenedorMejora.cs</DependentUpon>
     </Compile>
-    <Compile Include="Gestion de proyectos\vistScrum\ModificarVersion.cs">
+    <Compile Include="Gestion de proyectos\vistScrum\ConsultaProyecto.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Gestion de proyectos\vistScrum\ModificarVersion.Designer.cs">
-      <DependentUpon>ModificarVersion.cs</DependentUpon>
+    <Compile Include="Gestion de proyectos\vistScrum\ConsultaProyecto.Designer.cs">
+      <DependentUpon>ConsultaProyecto.cs</DependentUpon>
     </Compile>
-    <Compile Include="Gestion de proyectos\vistScrum\Proyecto.cs">
+    <Compile Include="Gestion de proyectos\vistScrum\MantenedorRequerimiento.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Gestion de proyectos\vistScrum\Proyecto.Designer.cs">
-      <DependentUpon>Proyecto.cs</DependentUpon>
+    <Compile Include="Gestion de proyectos\vistScrum\MantenedorRequerimiento.Designer.cs">
+      <DependentUpon>MantenedorRequerimiento.cs</DependentUpon>
     </Compile>
-    <Compile Include="Gestion de proyectos\vistScrum\Requerimiento.cs">
+    <Compile Include="Gestion de proyectos\vistScrum\ConsultaRequerimientos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Gestion de proyectos\vistScrum\Requerimiento.Designer.cs">
-      <DependentUpon>Requerimiento.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Gestion de proyectos\vistScrum\Requerimientos.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Gestion de proyectos\vistScrum\Requerimientos.Designer.cs">
-      <DependentUpon>Requerimientos.cs</DependentUpon>
+    <Compile Include="Gestion de proyectos\vistScrum\ConsultaRequerimientos.Designer.cs">
+      <DependentUpon>ConsultaRequerimientos.cs</DependentUpon>
     </Compile>
     <Compile Include="Gestion de proyectos\vistScrum\Tarea.cs">
       <SubType>Form</SubType>
@@ -256,26 +250,23 @@
     <EmbeddedResource Include="Gestion de proyectos\vistScrum\MantenedorVersion.resx">
       <DependentUpon>MantenedorVersion.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Gestion de proyectos\vistScrum\Equipo.resx">
-      <DependentUpon>Equipo.cs</DependentUpon>
+    <EmbeddedResource Include="Gestion de proyectos\vistScrum\MantenedorEquipo.resx">
+      <DependentUpon>MantenedorEquipo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Gestion de proyectos\vistScrum\Historial.resx">
-      <DependentUpon>Historial.cs</DependentUpon>
+    <EmbeddedResource Include="Gestion de proyectos\vistScrum\ConsultaTareas.resx">
+      <DependentUpon>ConsultaTareas.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Gestion de proyectos\vistScrum\Mejoras.resx">
-      <DependentUpon>Mejoras.cs</DependentUpon>
+    <EmbeddedResource Include="Gestion de proyectos\vistScrum\MantenedorMejora.resx">
+      <DependentUpon>MantenedorMejora.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Gestion de proyectos\vistScrum\ModificarVersion.resx">
-      <DependentUpon>ModificarVersion.cs</DependentUpon>
+    <EmbeddedResource Include="Gestion de proyectos\vistScrum\ConsultaProyecto.resx">
+      <DependentUpon>ConsultaProyecto.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Gestion de proyectos\vistScrum\Proyecto.resx">
-      <DependentUpon>Proyecto.cs</DependentUpon>
+    <EmbeddedResource Include="Gestion de proyectos\vistScrum\MantenedorRequerimiento.resx">
+      <DependentUpon>MantenedorRequerimiento.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Gestion de proyectos\vistScrum\Requerimiento.resx">
-      <DependentUpon>Requerimiento.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Gestion de proyectos\vistScrum\Requerimientos.resx">
-      <DependentUpon>Requerimientos.cs</DependentUpon>
+    <EmbeddedResource Include="Gestion de proyectos\vistScrum\ConsultaRequerimientos.resx">
+      <DependentUpon>ConsultaRequerimientos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Gestion de proyectos\vistScrum\Tarea.resx">
       <DependentUpon>Tarea.cs</DependentUpon>

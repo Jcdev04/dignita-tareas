@@ -1,6 +1,6 @@
 ﻿namespace Dignita.Gestion_de_proyectos.vistScrum
 {
-    partial class Requerimientos
+    partial class ConsultaRequerimientos
     {
         /// <summary>
         /// Required designer variable.

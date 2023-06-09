@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Dignita.Gestion_de_proyectos.vistScrum
 {
-    public partial class Equipo : Form
+    public partial class MantenedorEquipo : Form
     {
-        public Equipo()
+        public MantenedorEquipo()
         {
             InitializeComponent();
         }

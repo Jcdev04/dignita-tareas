@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace Dignita.Gestion_de_proyectos.vistScrum
 {
-    public partial class Requerimiento : Form
+    public partial class MantenedorMejora : Form
     {
-        public Requerimiento()
+        public MantenedorMejora()
         {
             InitializeComponent();
-            Placeholder.AddPlaceholderToComboBoxes(this);
-            Placeholder.AddPlaceholderToTextBoxes(this);
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

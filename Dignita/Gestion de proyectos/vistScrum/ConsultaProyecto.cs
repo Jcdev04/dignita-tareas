@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Dignita.Gestion_de_proyectos.vistScrum
 {
-    public partial class Proyecto : Form
+    public partial class ConsultaProyecto : Form
     {
-        public Proyecto()
+        public ConsultaProyecto()
         {
             InitializeComponent();
         }
