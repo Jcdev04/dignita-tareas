@@ -73,6 +73,7 @@ namespace Dignita
             obj.Show();
             frm_login sa = new frm_login();
             sa.Close();
+            
         }
     }
 }

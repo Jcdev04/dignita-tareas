@@ -51,17 +51,7 @@ D:\Universidad\Ciclos\5º ciclo\Moanso\forms\Dignita\obj\Debug\CapaPresentacion.
 D:\Universidad\Ciclos\5º ciclo\Moanso\forms\Dignita\obj\Debug\Dignita.Desarrollador.resources
 D:\Universidad\Ciclos\5º ciclo\Moanso\forms\Dignita\obj\Debug\Dignita.AgregarTareas.resources
 D:\Universidad\Ciclos\5º ciclo\Moanso\forms\Dignita\obj\Debug\Dignita.Proyecto.resources
-C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\Dignita.AgregarTareas.resources
-C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\Dignita.formsDesarrollador.Historial.resources
-C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\Dignita.formsDesarrollador.Mejoras.resources
-C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\Dignita.formsVentas.ConsultaEmpresa.resources
-C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\Dignita.formsVentas.ConsultaScrumMaster.resources
-C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\Dignita.formsVentas.formVentas.resources
-C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\Dignita.formsVentas.MantenedorEmpresa.resources
-C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\Dignita.formsVentas.MantenedorProyecto.resources
-C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\Dignita.Desarrollador.resources
 C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\Dignita.MantenedorTrabajador.resources
-C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\Dignita.Proyecto.resources
 D:\Universidad\Ciclos\5º ciclo\Moanso\ProyectoFinal\Dignita\obj\Debug\CapaPresentacion.csproj.AssemblyReference.cache
 D:\Universidad\Ciclos\5º ciclo\Moanso\ProyectoFinal\Dignita\obj\Debug\CapaPresentacion.csproj.SuggestedBindingRedirects.cache
 D:\Universidad\Ciclos\5º ciclo\Moanso\ProyectoFinal\Dignita\obj\Debug\Dignita.frm_login.resources
@@ -85,3 +75,45 @@ D:\Universidad\Ciclos\5º ciclo\Moanso\ProyectoFinal\Dignita\obj\Debug\Dignita.G
 D:\Universidad\Ciclos\5º ciclo\Moanso\ProyectoFinal\Dignita\obj\Debug\Dignita.Gestion_de_proyectos.vistDesarrollador.Proyectos.resources
 D:\Universidad\Ciclos\5º ciclo\Moanso\ProyectoFinal\Dignita\obj\Debug\Dignita.Gestion_de_proyectos.vistDesarrollador.Mejoras.resources
 D:\Universidad\Ciclos\5º ciclo\Moanso\ProyectoFinal\Dignita\obj\Debug\Dignita.Gestion_de_proyectos.vistDesarrollador.Historial.resources
+<<<<<<< HEAD
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\Dignita\obj\Debug\CapaPresentacion.csproj.AssemblyReference.cache
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\Dignita\obj\Debug\CapaPresentacion.csproj.SuggestedBindingRedirects.cache
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\Dignita\obj\Debug\Dignita.frm_login.resources
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\Dignita\obj\Debug\Dignita.Gestion_de_proyectos.vistDesarrollador.Historial.resources
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\Dignita\obj\Debug\Dignita.Gestion_de_proyectos.vistDesarrollador.Mejoras.resources
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\Dignita\obj\Debug\Dignita.Gestion_de_proyectos.vistDesarrollador.Proyectos.resources
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\Dignita\obj\Debug\Dignita.Gestion_de_proyectos.vistDesarrollador.Realizar_Tareas.resources
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\Dignita\obj\Debug\Dignita.Gestion_de_proyectos.vistDesarrollador.Requerimientos.resources
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\Dignita\obj\Debug\Dignita.Gestion_de_proyectos.vistDesarrollador.Tareas.resources
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\Dignita\obj\Debug\Dignita.MantenedorTrabajador.resources
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\Dignita\obj\Debug\Dignita.Properties.Resources.resources
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\Dignita\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\Dignita\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\Dignita\obj\Debug\Dignita.exe
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\Dignita\obj\Debug\Dignita.pdb
+=======
+C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\Dignita.Gestion_de_proyectos.vistAsesor.Ventas.resources
+C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\Dignita.Gestion_de_proyectos.vistDesarrollador.Historial.resources
+C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\Dignita.Gestion_de_proyectos.vistDesarrollador.Mejoras.resources
+C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\Dignita.Gestion_de_proyectos.vistDesarrollador.Proyectos.resources
+C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\Dignita.Gestion_de_proyectos.vistDesarrollador.Realizar_Tareas.resources
+C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\Dignita.Gestion_de_proyectos.vistDesarrollador.Requerimientos.resources
+C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\Dignita.Gestion_de_proyectos.vistDesarrollador.Tareas.resources
+>>>>>>> mau
+C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\Dignita.Gestion_de_proyectos.vistAsesor.MantenedorEmpresa.resources
+C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\Dignita.Gestion_de_proyectos.vistAsesor.MantenedorRubro.resources
+C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\Dignita.Gestion_de_proyectos.vistDesarrollador.Proyecto.resources
+C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\Dignita.Gestion_de_proyectos.vistDesarrollador.Tarea.resources
+C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\Dignita.Gestion_de_proyectos.vistDesarrollador.TareasRequerimiento.resources
+C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\Dignita.Gestion_de_proyectos.vistScrum.AgregarVersion.resources
+C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\Dignita.Gestion_de_proyectos.vistScrum.Equipo.resources
+C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\Dignita.Gestion_de_proyectos.vistScrum.Historial.resources
+C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\Dignita.Gestion_de_proyectos.vistScrum.Mejoras.resources
+C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\Dignita.Gestion_de_proyectos.vistScrum.Modificar_Versión.resources
+C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\Dignita.Gestion_de_proyectos.vistScrum.Proyecto.resources
+C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\Dignita.Gestion_de_proyectos.vistScrum.Requerimiento.resources
+C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\Dignita.Gestion_de_proyectos.vistScrum.Requerimientos.resources
+C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\Dignita.Gestion_de_proyectos.vistScrum.Tarea.resources
+C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\Dignita.Gestion_de_proyectos.vistScrum.Tareas.resources
+C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\Dignita.Gestion_de_proyectos.vistScrum.TareasRequerimiento.resources
+C:\Yo\MOANSO\Software\dignita-tareas\Dignita\obj\Debug\Dignita.Gestion_de_proyectos.vistScrum.VistaScrum.resources

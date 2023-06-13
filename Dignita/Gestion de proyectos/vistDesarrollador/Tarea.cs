@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Dignita.Gestion_de_proyectos.vistAsesor
+namespace Dignita.Gestion_de_proyectos.vistDesarrollador
 {
-    public partial class Mantenedor_Cliente : Form
+    public partial class Tarea : Form
     {
-        public Mantenedor_Cliente()
+        public Tarea()
         {
             InitializeComponent();
         }

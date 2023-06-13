@@ -8,15 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Dignita.Gestion_de_proyectos.vistScrum
+namespace Dignita.Gestion_de_proyectos.vistDesarrollador
 {
-    public partial class Requerimientos : Form
+    public partial class Proyecto : Form
     {
-        public Requerimientos()
+        public Proyecto()
         {
             InitializeComponent();
-            Placeholder.AddPlaceholderToComboBoxes(this);
-            Placeholder.AddPlaceholderToTextBoxes(this);
         }
     }
 }
