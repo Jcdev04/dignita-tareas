@@ -55,11 +55,23 @@
     <Compile Include="a. Login.Designer.cs">
       <DependentUpon>a. Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="Gestion de proyectos\vistAdminPer\CargosEmpresa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gestion de proyectos\vistAdminPer\CargosEmpresa.Designer.cs">
+      <DependentUpon>CargosEmpresa.cs</DependentUpon>
+    </Compile>
     <Compile Include="Gestion de proyectos\vistAdminPer\Mantenedor Personal.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Gestion de proyectos\vistAdminPer\Mantenedor Personal.Designer.cs">
       <DependentUpon>Mantenedor Personal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gestion de proyectos\vistAdminPer\Personal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gestion de proyectos\vistAdminPer\Personal.Designer.cs">
+      <DependentUpon>Personal.cs</DependentUpon>
     </Compile>
     <Compile Include="Gestion de proyectos\vistAsesor\MantenedorEmpresa.cs">
       <SubType>Form</SubType>
@@ -210,6 +222,15 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="a. Login.resx">
       <DependentUpon>a. Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gestion de proyectos\vistAdminPer\CargosEmpresa.resx">
+      <DependentUpon>CargosEmpresa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gestion de proyectos\vistAdminPer\Mantenedor Personal.resx">
+      <DependentUpon>Mantenedor Personal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gestion de proyectos\vistAdminPer\Personal.resx">
+      <DependentUpon>Personal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Gestion de proyectos\vistAsesor\MantenedorEmpresa.resx">
       <DependentUpon>MantenedorEmpresa.cs</DependentUpon>

@@ -16,5 +16,17 @@ namespace Dignita.Gestion_de_proyectos.vistAdminPer
         {
             InitializeComponent();
         }
+
+        private void btnPersonal_Click(object sender, EventArgs e)
+        {
+            Personal obj = new Personal();
+            obj.Show();
+        }
+
+        private void btnCargoEmpresa_Click(object sender, EventArgs e)
+        {
+            CargosEmpresa obj = new CargosEmpresa();
+            obj.Show();
+        }
     }
 }
