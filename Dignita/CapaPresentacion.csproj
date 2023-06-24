@@ -187,23 +187,29 @@
     <Compile Include="Gestion de proyectos\vistScrum\ConsultaRequerimientos.Designer.cs">
       <DependentUpon>ConsultaRequerimientos.cs</DependentUpon>
     </Compile>
-    <Compile Include="Gestion de proyectos\vistScrum\Tarea.cs">
+    <Compile Include="Gestion de proyectos\vistScrum\CORETarea.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Gestion de proyectos\vistScrum\Tarea.Designer.cs">
-      <DependentUpon>Tarea.cs</DependentUpon>
+    <Compile Include="Gestion de proyectos\vistScrum\CORETarea.Designer.cs">
+      <DependentUpon>CORETarea.cs</DependentUpon>
     </Compile>
-    <Compile Include="Gestion de proyectos\vistScrum\Tareas.cs">
+    <Compile Include="Gestion de proyectos\vistScrum\VistaPrincipalTareas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Gestion de proyectos\vistScrum\Tareas.Designer.cs">
-      <DependentUpon>Tareas.cs</DependentUpon>
+    <Compile Include="Gestion de proyectos\vistScrum\VistaPrincipalTareas.Designer.cs">
+      <DependentUpon>VistaPrincipalTareas.cs</DependentUpon>
     </Compile>
-    <Compile Include="Gestion de proyectos\vistScrum\TareasRequerimiento.cs">
+    <Compile Include="Gestion de proyectos\vistScrum\ConsultaTareasRequerimiento.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Gestion de proyectos\vistScrum\TareasRequerimiento.Designer.cs">
-      <DependentUpon>TareasRequerimiento.cs</DependentUpon>
+    <Compile Include="Gestion de proyectos\vistScrum\ConsultaTareasRequerimiento.Designer.cs">
+      <DependentUpon>ConsultaTareasRequerimiento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gestion de proyectos\vistScrum\VistaProyecto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gestion de proyectos\vistScrum\VistaProyecto.Designer.cs">
+      <DependentUpon>VistaProyecto.cs</DependentUpon>
     </Compile>
     <Compile Include="Gestion de proyectos\vistScrum\VistaScrum.cs">
       <SubType>Form</SubType>
@@ -289,14 +295,17 @@
     <EmbeddedResource Include="Gestion de proyectos\vistScrum\ConsultaRequerimientos.resx">
       <DependentUpon>ConsultaRequerimientos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Gestion de proyectos\vistScrum\Tarea.resx">
-      <DependentUpon>Tarea.cs</DependentUpon>
+    <EmbeddedResource Include="Gestion de proyectos\vistScrum\CORETarea.resx">
+      <DependentUpon>CORETarea.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Gestion de proyectos\vistScrum\Tareas.resx">
-      <DependentUpon>Tareas.cs</DependentUpon>
+    <EmbeddedResource Include="Gestion de proyectos\vistScrum\VistaPrincipalTareas.resx">
+      <DependentUpon>VistaPrincipalTareas.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Gestion de proyectos\vistScrum\TareasRequerimiento.resx">
-      <DependentUpon>TareasRequerimiento.cs</DependentUpon>
+    <EmbeddedResource Include="Gestion de proyectos\vistScrum\ConsultaTareasRequerimiento.resx">
+      <DependentUpon>ConsultaTareasRequerimiento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gestion de proyectos\vistScrum\VistaProyecto.resx">
+      <DependentUpon>VistaProyecto.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Gestion de proyectos\vistScrum\VistaScrum.resx">
       <DependentUpon>VistaScrum.cs</DependentUpon>
