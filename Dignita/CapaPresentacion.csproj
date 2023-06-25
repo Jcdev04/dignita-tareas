@@ -49,6 +49,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Gestion de Proyectos\vistDesarrollador\MantenedorTareacs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gestion de Proyectos\vistDesarrollador\MantenedorTareacs.Designer.cs">
+      <DependentUpon>MantenedorTareacs.cs</DependentUpon>
+    </Compile>
     <Compile Include="Gestion de Proyectos\vistScrum\ConsultarTareasVersion.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -136,6 +142,9 @@
     <Compile Include="Ventas\vistVentas\RealizaContrato.Designer.cs">
       <DependentUpon>RealizaContrato.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Gestion de Proyectos\vistDesarrollador\MantenedorTareacs.resx">
+      <DependentUpon>MantenedorTareacs.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Gestion de Proyectos\vistScrum\ConsultarTareasVersion.resx">
       <DependentUpon>ConsultarTareasVersion.cs</DependentUpon>
     </EmbeddedResource>
@@ -210,8 +219,6 @@
       <Name>CapaLogica</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Gestion de Proyectos\vistDesarrollador\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
