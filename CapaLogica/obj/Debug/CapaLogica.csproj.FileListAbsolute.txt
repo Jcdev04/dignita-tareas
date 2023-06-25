@@ -53,3 +53,14 @@ D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\CapaLogica\obj\Debug\CapaLogi
 D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\CapaLogica\obj\Debug\CapaLogica.csproj.CopyComplete
 D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\CapaLogica\obj\Debug\CapaLogica.dll
 D:\Programas\Ciclo 5\MOANSO\Proyecto Final\Dignita\CapaLogica\obj\Debug\CapaLogica.pdb
+C:\Users\Aaron\source\repos\Jcdev04\dignita-tareass\CapaLogica\bin\Debug\CapaLogica.dll
+C:\Users\Aaron\source\repos\Jcdev04\dignita-tareass\CapaLogica\bin\Debug\CapaLogica.pdb
+C:\Users\Aaron\source\repos\Jcdev04\dignita-tareass\CapaLogica\bin\Debug\CapaDatos.dll
+C:\Users\Aaron\source\repos\Jcdev04\dignita-tareass\CapaLogica\bin\Debug\CapaEntidad.dll
+C:\Users\Aaron\source\repos\Jcdev04\dignita-tareass\CapaLogica\bin\Debug\CapaDatos.pdb
+C:\Users\Aaron\source\repos\Jcdev04\dignita-tareass\CapaLogica\bin\Debug\CapaEntidad.pdb
+C:\Users\Aaron\source\repos\Jcdev04\dignita-tareass\CapaLogica\obj\Debug\CapaLogica.csproj.AssemblyReference.cache
+C:\Users\Aaron\source\repos\Jcdev04\dignita-tareass\CapaLogica\obj\Debug\CapaLogica.csproj.CoreCompileInputs.cache
+C:\Users\Aaron\source\repos\Jcdev04\dignita-tareass\CapaLogica\obj\Debug\CapaLogica.csproj.CopyComplete
+C:\Users\Aaron\source\repos\Jcdev04\dignita-tareass\CapaLogica\obj\Debug\CapaLogica.dll
+C:\Users\Aaron\source\repos\Jcdev04\dignita-tareass\CapaLogica\obj\Debug\CapaLogica.pdb

@@ -52,3 +52,12 @@ D:\Universidad\Ciclos\5º ciclo\Moanso\FormsDignit\CapaDatos\obj\Debug\CapaDatos
 D:\Universidad\Ciclos\5º ciclo\Moanso\FormsDignit\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
 D:\Universidad\Ciclos\5º ciclo\Moanso\FormsDignit\CapaDatos\obj\Debug\CapaDatos.dll
 D:\Universidad\Ciclos\5º ciclo\Moanso\FormsDignit\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\Aaron\source\repos\Jcdev04\dignita-tareass\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\Aaron\source\repos\Jcdev04\dignita-tareass\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\Aaron\source\repos\Jcdev04\dignita-tareass\CapaDatos\bin\Debug\CapaEntidad.dll
+C:\Users\Aaron\source\repos\Jcdev04\dignita-tareass\CapaDatos\bin\Debug\CapaEntidad.pdb
+C:\Users\Aaron\source\repos\Jcdev04\dignita-tareass\CapaDatos\obj\Debug\CapaDatos.csproj.AssemblyReference.cache
+C:\Users\Aaron\source\repos\Jcdev04\dignita-tareass\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\Aaron\source\repos\Jcdev04\dignita-tareass\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
+C:\Users\Aaron\source\repos\Jcdev04\dignita-tareass\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\Aaron\source\repos\Jcdev04\dignita-tareass\CapaDatos\obj\Debug\CapaDatos.pdb

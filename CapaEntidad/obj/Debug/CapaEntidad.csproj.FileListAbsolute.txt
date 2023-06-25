@@ -28,3 +28,9 @@ D:\Universidad\Ciclos\5º ciclo\Moanso\FormsDignit\CapaEntidad\obj\Debug\CapaEnt
 D:\Universidad\Ciclos\5º ciclo\Moanso\FormsDignit\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
 D:\Universidad\Ciclos\5º ciclo\Moanso\FormsDignit\CapaEntidad\obj\Debug\CapaEntidad.dll
 D:\Universidad\Ciclos\5º ciclo\Moanso\FormsDignit\CapaEntidad\obj\Debug\CapaEntidad.pdb
+C:\Users\Aaron\source\repos\Jcdev04\dignita-tareass\CapaEntidad\bin\Debug\CapaEntidad.dll
+C:\Users\Aaron\source\repos\Jcdev04\dignita-tareass\CapaEntidad\bin\Debug\CapaEntidad.pdb
+C:\Users\Aaron\source\repos\Jcdev04\dignita-tareass\CapaEntidad\obj\Debug\CapaEntidad.csproj.AssemblyReference.cache
+C:\Users\Aaron\source\repos\Jcdev04\dignita-tareass\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\Aaron\source\repos\Jcdev04\dignita-tareass\CapaEntidad\obj\Debug\CapaEntidad.dll
+C:\Users\Aaron\source\repos\Jcdev04\dignita-tareass\CapaEntidad\obj\Debug\CapaEntidad.pdb
