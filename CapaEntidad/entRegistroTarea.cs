@@ -11,6 +11,6 @@ namespace CapaEntidad
         public int id_registro_tarea { get; set; }
         public int id_tarea { get; set; }
         public DateTime fecha_inicio { get; set; }
-        public DateTime fecha_fin { get; set; }-
+        public DateTime fecha_fin { get; set; }
     }
 }

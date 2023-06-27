@@ -49,6 +49,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
     <Compile Include="Gestion de Proyectos\vistDesarrollador\MantenedorTareacs.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -97,12 +103,6 @@
     <Compile Include="Gestion de Proyectos\vistScrum\RealizaTarea.Designer.cs">
       <DependentUpon>RealizaTarea.cs</DependentUpon>
     </Compile>
-    <Compile Include="Login.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Login.Designer.cs">
-      <DependentUpon>Login.cs</DependentUpon>
-    </Compile>
     <Compile Include="Placeholder.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -111,6 +111,12 @@
     </Compile>
     <Compile Include="Ventas\vistVentas\ConsultaIntegrantes.Designer.cs">
       <DependentUpon>ConsultaIntegrantes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventas\vistVentas\MantenedorEmpresa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventas\vistVentas\MantenedorEmpresa.Designer.cs">
+      <DependentUpon>MantenedorEmpresa.cs</DependentUpon>
     </Compile>
     <Compile Include="Ventas\vistVentas\MantenedorProyecto.cs">
       <SubType>Form</SubType>
@@ -142,6 +148,9 @@
     <Compile Include="Ventas\vistVentas\RealizaContrato.Designer.cs">
       <DependentUpon>RealizaContrato.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Gestion de Proyectos\vistDesarrollador\MantenedorTareacs.resx">
       <DependentUpon>MantenedorTareacs.cs</DependentUpon>
     </EmbeddedResource>
@@ -166,9 +175,6 @@
     <EmbeddedResource Include="Gestion de Proyectos\vistScrum\RealizaTarea.resx">
       <DependentUpon>RealizaTarea.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Login.resx">
-      <DependentUpon>Login.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -180,6 +186,9 @@
     </Compile>
     <EmbeddedResource Include="Ventas\vistVentas\ConsultaIntegrantes.resx">
       <DependentUpon>ConsultaIntegrantes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventas\vistVentas\MantenedorEmpresa.resx">
+      <DependentUpon>MantenedorEmpresa.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Ventas\vistVentas\MantenedorProyecto.resx">
       <DependentUpon>MantenedorProyecto.cs</DependentUpon>
