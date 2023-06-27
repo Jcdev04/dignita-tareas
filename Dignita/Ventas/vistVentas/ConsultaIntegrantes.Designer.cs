@@ -30,6 +30,7 @@
         {
             this.label2 = new System.Windows.Forms.Label();
             this.dtgvIntegrantes = new System.Windows.Forms.DataGridView();
+            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvIntegrantes)).BeginInit();
             this.SuspendLayout();
             // 
@@ -40,25 +41,37 @@
             this.label2.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(24, 19);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(212, 27);
+            this.label2.Size = new System.Drawing.Size(0, 34);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Lista de Integrantes";
             // 
             // dtgvIntegrantes
             // 
             this.dtgvIntegrantes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtgvIntegrantes.Location = new System.Drawing.Point(49, 58);
+            this.dtgvIntegrantes.Location = new System.Drawing.Point(29, 70);
             this.dtgvIntegrantes.Name = "dtgvIntegrantes";
             this.dtgvIntegrantes.RowHeadersWidth = 51;
             this.dtgvIntegrantes.RowTemplate.Height = 24;
-            this.dtgvIntegrantes.Size = new System.Drawing.Size(416, 435);
+            this.dtgvIntegrantes.Size = new System.Drawing.Size(416, 398);
             this.dtgvIntegrantes.TabIndex = 3;
+            // 
+            // label3
+            // 
+            this.label3.AutoEllipsis = true;
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.label3.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.label3.Location = new System.Drawing.Point(24, 28);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(202, 25);
+            this.label3.TabIndex = 38;
+            this.label3.Text = "Lista de Integrantes";
             // 
             // ConsultaIntegrantes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(507, 505);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.dtgvIntegrantes);
             this.Controls.Add(this.label2);
             this.Name = "ConsultaIntegrantes";
@@ -73,5 +86,6 @@
 
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.DataGridView dtgvIntegrantes;
+        private System.Windows.Forms.Label label3;
     }
 }

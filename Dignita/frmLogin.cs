@@ -2,23 +2,32 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Drawing;
+using System.Drawing.Text;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Drawing.Text;
-using System.Drawing;
-using System.IO;
-
 
 namespace Dignita
 {
-    public partial class frm_login : Form
+    public partial class frmLogin : Form
     {
-        // Tipografias
+        public frmLogin()
+        {
+            InitializeComponent();
+        }
+
+        private void btn_iniciarSesion_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        /*// Tipografias
         private PrivateFontCollection PoppinsBlack = new PrivateFontCollection();
         private PrivateFontCollection PoppinsRegular = new PrivateFontCollection();
-        
+
 
         // Color
         private Color naranja = Color.FromArgb(255, 95, 44);
@@ -44,7 +53,7 @@ namespace Dignita
             // Asignar las tipografias
             AplicarTipografiaAControles(this);
             label1.Font = new Font(PoppinsBlack.Families[0], label1.Font.Size);
-            
+
             // Asignar el color
             label1.ForeColor = naranja;
             btn_iniciarSesion.BackColor = naranja;
@@ -73,7 +82,7 @@ namespace Dignita
             obj.Show();
             frm_login sa = new frm_login();
             sa.Close();
-            
-        }
+
+        }*/
     }
 }

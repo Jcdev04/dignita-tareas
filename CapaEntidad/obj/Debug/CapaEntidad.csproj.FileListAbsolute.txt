@@ -34,3 +34,9 @@ C:\Users\Aaron\source\repos\Jcdev04\dignita-tareass\CapaEntidad\obj\Debug\CapaEn
 C:\Users\Aaron\source\repos\Jcdev04\dignita-tareass\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
 C:\Users\Aaron\source\repos\Jcdev04\dignita-tareass\CapaEntidad\obj\Debug\CapaEntidad.dll
 C:\Users\Aaron\source\repos\Jcdev04\dignita-tareass\CapaEntidad\obj\Debug\CapaEntidad.pdb
+D:\1.- UNIVERSIDAD\Ciclo 5\Modelamiento y análisis de software\Proyecto Final\dignita-tareas\CapaEntidad\obj\Debug\CapaEntidad.csproj.AssemblyReference.cache
+D:\1.- UNIVERSIDAD\Ciclo 5\Modelamiento y análisis de software\Proyecto Final\dignita-tareas\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
+D:\1.- UNIVERSIDAD\Ciclo 5\Modelamiento y análisis de software\Proyecto Final\dignita-tareas\CapaEntidad\obj\Debug\CapaEntidad.dll
+D:\1.- UNIVERSIDAD\Ciclo 5\Modelamiento y análisis de software\Proyecto Final\dignita-tareas\CapaEntidad\obj\Debug\CapaEntidad.pdb
+D:\1.- UNIVERSIDAD\Ciclo 5\Modelamiento y análisis de software\Proyecto Final\dignita-tareas\CapaEntidad\bin\Debug\CapaEntidad.dll
+D:\1.- UNIVERSIDAD\Ciclo 5\Modelamiento y análisis de software\Proyecto Final\dignita-tareas\CapaEntidad\bin\Debug\CapaEntidad.pdb

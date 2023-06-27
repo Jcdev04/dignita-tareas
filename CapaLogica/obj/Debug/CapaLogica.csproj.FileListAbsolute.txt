@@ -64,3 +64,14 @@ C:\Users\Aaron\source\repos\Jcdev04\dignita-tareass\CapaLogica\obj\Debug\CapaLog
 C:\Users\Aaron\source\repos\Jcdev04\dignita-tareass\CapaLogica\obj\Debug\CapaLogica.csproj.CopyComplete
 C:\Users\Aaron\source\repos\Jcdev04\dignita-tareass\CapaLogica\obj\Debug\CapaLogica.dll
 C:\Users\Aaron\source\repos\Jcdev04\dignita-tareass\CapaLogica\obj\Debug\CapaLogica.pdb
+D:\1.- UNIVERSIDAD\Ciclo 5\Modelamiento y análisis de software\Proyecto Final\dignita-tareas\CapaLogica\bin\Debug\CapaLogica.dll
+D:\1.- UNIVERSIDAD\Ciclo 5\Modelamiento y análisis de software\Proyecto Final\dignita-tareas\CapaLogica\bin\Debug\CapaLogica.pdb
+D:\1.- UNIVERSIDAD\Ciclo 5\Modelamiento y análisis de software\Proyecto Final\dignita-tareas\CapaLogica\bin\Debug\CapaDatos.dll
+D:\1.- UNIVERSIDAD\Ciclo 5\Modelamiento y análisis de software\Proyecto Final\dignita-tareas\CapaLogica\bin\Debug\CapaEntidad.dll
+D:\1.- UNIVERSIDAD\Ciclo 5\Modelamiento y análisis de software\Proyecto Final\dignita-tareas\CapaLogica\bin\Debug\CapaDatos.pdb
+D:\1.- UNIVERSIDAD\Ciclo 5\Modelamiento y análisis de software\Proyecto Final\dignita-tareas\CapaLogica\bin\Debug\CapaEntidad.pdb
+D:\1.- UNIVERSIDAD\Ciclo 5\Modelamiento y análisis de software\Proyecto Final\dignita-tareas\CapaLogica\obj\Debug\CapaLogica.csproj.AssemblyReference.cache
+D:\1.- UNIVERSIDAD\Ciclo 5\Modelamiento y análisis de software\Proyecto Final\dignita-tareas\CapaLogica\obj\Debug\CapaLogica.csproj.CoreCompileInputs.cache
+D:\1.- UNIVERSIDAD\Ciclo 5\Modelamiento y análisis de software\Proyecto Final\dignita-tareas\CapaLogica\obj\Debug\CapaLogica.csproj.CopyComplete
+D:\1.- UNIVERSIDAD\Ciclo 5\Modelamiento y análisis de software\Proyecto Final\dignita-tareas\CapaLogica\obj\Debug\CapaLogica.dll
+D:\1.- UNIVERSIDAD\Ciclo 5\Modelamiento y análisis de software\Proyecto Final\dignita-tareas\CapaLogica\obj\Debug\CapaLogica.pdb
