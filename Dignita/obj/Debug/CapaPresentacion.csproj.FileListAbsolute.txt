@@ -198,3 +198,5 @@ D:\1.- UNIVERSIDAD\Ciclo 5\Modelamiento y análisis de software\Proyecto Final\d
 D:\1.- UNIVERSIDAD\Ciclo 5\Modelamiento y análisis de software\Proyecto Final\dignita-tareas\Dignita\obj\Debug\Dignita.pdb
 D:\1.- UNIVERSIDAD\Ciclo 5\Modelamiento y análisis de software\Proyecto Final\dignita-tareas\Dignita\obj\Debug\Dignita.frmLogin.resources
 D:\1.- UNIVERSIDAD\Ciclo 5\Modelamiento y análisis de software\Proyecto Final\dignita-tareas\Dignita\obj\Debug\Dignita.Ventas.vistVentas.MantenedorEmpresa.resources
+D:\1.- UNIVERSIDAD\Ciclo 5\Modelamiento y análisis de software\Proyecto Final\dignita-tareas\Dignita\bin\Debug\CapaDatos.dll
+D:\1.- UNIVERSIDAD\Ciclo 5\Modelamiento y análisis de software\Proyecto Final\dignita-tareas\Dignita\bin\Debug\CapaDatos.pdb

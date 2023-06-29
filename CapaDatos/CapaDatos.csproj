@@ -42,11 +42,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Conexion.cs" />
+    <Compile Include="datEmpresa.cs" />
     <Compile Include="datEquipo.cs" />
     <Compile Include="datProyecto.cs" />
     <Compile Include="datRegistroTarea.cs" />
     <Compile Include="datTarea.cs" />
     <Compile Include="datRequerimiento.cs" />
+    <Compile Include="datTipoProyecto.cs" />
     <Compile Include="datTrabajador.cs" />
     <Compile Include="datVersion.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

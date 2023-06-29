@@ -10,10 +10,11 @@ namespace CapaEntidad
     {
         public string RUC { get; set; }
         public string razon_social { get; set; }
-        public string id_rubro { get; set; }
+        public string rubro { get; set; }
         public string direccion { get; set; }
         public string telefono { get; set; }
         public string correo { get; set; }
-        public bool asignado { get; set; }
+        public bool inhabilitado { get; set; }
+        
     }
 }
