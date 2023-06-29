@@ -31,6 +31,13 @@ namespace CapaLogica
             proyectos = datProyecto.Instancia.listarProyectosContratados();
             return proyectos;
         }
+        // Listar proyectos por scrum master
+        public List<entProyecto> listarProyectoScrum(string dni)
+        {
+            List<entProyecto> proyectos = new List<entProyecto>();
+            proyectos = datProyecto.Instancia.listarProyectosScrum(dni);
+            return proyectos;
+        }
         //Agregar
         public void agregarProyecto(entProyecto p)
         {

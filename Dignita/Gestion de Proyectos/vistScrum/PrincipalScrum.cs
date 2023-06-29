@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CapaLogica;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,9 +13,16 @@ namespace Dignita.Gestion_de_Proyectos.vistScrum
 {
     public partial class PrincipalScrum : Form
     {
+        string dni = "12345678";
         public PrincipalScrum()
         {
             InitializeComponent();
+            listarProyecto();
+        }
+
+        public void listarProyecto()
+        {
+            dgvProyectos.DataSource = logProyecto.Instancia.listarProyectoScrum(dni);
         }
     }
 }

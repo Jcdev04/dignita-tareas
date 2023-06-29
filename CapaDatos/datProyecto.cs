@@ -50,6 +50,42 @@ namespace CapaDatos
             return proyectos;
         }
 
+        public List<entProyecto> listarProyectosScrum(string dni)
+        {
+            SqlCommand cm = null;
+            List<entProyecto> proyectos = new List<entProyecto>();
+            try
+            {
+                SqlConnection cn = Conexion.Instancia.conexion();
+                cm = new SqlCommand("spListaProyectoScrum", cn);
+                cm.CommandType = System.Data.CommandType.StoredProcedure;
+                cm.Parameters.AddWithValue("@dni_sm", dni);
+                cn.Open();
+                SqlDataReader dr = cm.ExecuteReader();
+                while (dr.Read())
+                {
+                    entProyecto p = new entProyecto();
+                    p.id_proy = Convert.ToInt32(dr["id_proy"]);
+                    p.tipo_proy = Convert.ToInt32(dr["tipo_proy"]);
+                    p.nombre_proy = dr["nombre_proy"].ToString();
+                    p.descripcion = dr["descripcion"].ToString();
+                    p.estado = Convert.ToBoolean(dr["estado"]);
+                    p.asignado = Convert.ToBoolean(dr["asignado"]);
+                    p.inhabilitado = Convert.ToBoolean(dr["inhabilitado"]);
+                    proyectos.Add(p);
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                cm.Connection.Close();
+            }
+            return proyectos;
+        }
+
         public List<entProyecto> listarProyectosContratados()
         {
             SqlCommand cm = null;
