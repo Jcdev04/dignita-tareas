@@ -28,23 +28,23 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dgvProyectos = new System.Windows.Forms.DataGridView();
             this.label2 = new System.Windows.Forms.Label();
             this.btnVerVersiones = new System.Windows.Forms.Button();
             this.btnVerRequerimientos = new System.Windows.Forms.Button();
             this.btnRegistrarTarea = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvProyectos)).BeginInit();
             this.SuspendLayout();
             // 
-            // dataGridView1
+            // dgvProyectos
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(18, 84);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(701, 320);
-            this.dataGridView1.TabIndex = 6;
+            this.dgvProyectos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvProyectos.Location = new System.Drawing.Point(18, 84);
+            this.dgvProyectos.Name = "dgvProyectos";
+            this.dgvProyectos.RowHeadersWidth = 51;
+            this.dgvProyectos.RowTemplate.Height = 24;
+            this.dgvProyectos.Size = new System.Drawing.Size(701, 320);
+            this.dgvProyectos.TabIndex = 6;
             // 
             // label2
             // 
@@ -102,17 +102,17 @@
             this.Controls.Add(this.btnVerRequerimientos);
             this.Controls.Add(this.btnVerVersiones);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dgvProyectos);
             this.Name = "PrincipalScrum";
             this.Text = "Principal";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvProyectos)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgvProyectos;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnVerVersiones;
         private System.Windows.Forms.Button btnVerRequerimientos;

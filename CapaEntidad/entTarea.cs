@@ -11,7 +11,6 @@ namespace CapaEntidad
         public int id_tarea { get; set; }
         public int id_req { get; set; }
         public int id_etapa { get; set; }
-        public int id_version { get; set; }
         public string nombre_t { get; set; }
         public string descripcion { get; set; }
         public int estado_tarea { get; set; }

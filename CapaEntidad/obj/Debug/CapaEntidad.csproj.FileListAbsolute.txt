@@ -40,3 +40,9 @@ D:\1.- UNIVERSIDAD\Ciclo 5\Modelamiento y análisis de software\Proyecto Final\d
 D:\1.- UNIVERSIDAD\Ciclo 5\Modelamiento y análisis de software\Proyecto Final\dignita-tareas\CapaEntidad\obj\Debug\CapaEntidad.pdb
 D:\1.- UNIVERSIDAD\Ciclo 5\Modelamiento y análisis de software\Proyecto Final\dignita-tareas\CapaEntidad\bin\Debug\CapaEntidad.dll
 D:\1.- UNIVERSIDAD\Ciclo 5\Modelamiento y análisis de software\Proyecto Final\dignita-tareas\CapaEntidad\bin\Debug\CapaEntidad.pdb
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\FinalProyecto\CapaEntidad\bin\Debug\CapaEntidad.dll
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\FinalProyecto\CapaEntidad\bin\Debug\CapaEntidad.pdb
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\FinalProyecto\CapaEntidad\obj\Debug\CapaEntidad.csproj.AssemblyReference.cache
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\FinalProyecto\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\FinalProyecto\CapaEntidad\obj\Debug\CapaEntidad.dll
+D:\Programas\Ciclo 5\MOANSO\Proyecto Final\FinalProyecto\CapaEntidad\obj\Debug\CapaEntidad.pdb
