@@ -28,51 +28,27 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.btnEliminar = new System.Windows.Forms.Button();
-            this.btnVerIntegrantes = new System.Windows.Forms.Button();
+            this.dgvEquipo = new System.Windows.Forms.DataGridView();
             this.btnAgregar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvEquipo)).BeginInit();
             this.SuspendLayout();
             // 
-            // dataGridView1
+            // dgvEquipo
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(31, 67);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(352, 438);
-            this.dataGridView1.TabIndex = 4;
-            // 
-            // btnEliminar
-            // 
-            this.btnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEliminar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEliminar.Location = new System.Drawing.Point(412, 130);
-            this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Size = new System.Drawing.Size(188, 31);
-            this.btnEliminar.TabIndex = 61;
-            this.btnEliminar.Text = "Eliminar";
-            this.btnEliminar.UseVisualStyleBackColor = true;
-            // 
-            // btnVerIntegrantes
-            // 
-            this.btnVerIntegrantes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnVerIntegrantes.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVerIntegrantes.Location = new System.Drawing.Point(412, 186);
-            this.btnVerIntegrantes.Name = "btnVerIntegrantes";
-            this.btnVerIntegrantes.Size = new System.Drawing.Size(188, 31);
-            this.btnVerIntegrantes.TabIndex = 60;
-            this.btnVerIntegrantes.Text = "Ver integrantes";
-            this.btnVerIntegrantes.UseVisualStyleBackColor = true;
+            this.dgvEquipo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvEquipo.Location = new System.Drawing.Point(31, 67);
+            this.dgvEquipo.Name = "dgvEquipo";
+            this.dgvEquipo.RowHeadersWidth = 51;
+            this.dgvEquipo.RowTemplate.Height = 24;
+            this.dgvEquipo.Size = new System.Drawing.Size(352, 438);
+            this.dgvEquipo.TabIndex = 4;
             // 
             // btnAgregar
             // 
             this.btnAgregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAgregar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAgregar.Location = new System.Drawing.Point(412, 72);
+            this.btnAgregar.Location = new System.Drawing.Point(410, 67);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(188, 33);
             this.btnAgregar.TabIndex = 59;
@@ -97,22 +73,18 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(633, 534);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.btnEliminar);
-            this.Controls.Add(this.btnVerIntegrantes);
             this.Controls.Add(this.btnAgregar);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dgvEquipo);
             this.Name = "RealizaAsignacion";
-            this.Text = "RealizaAsignacion";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.Text = " ";
+            ((System.ComponentModel.ISupportInitialize)(this.dgvEquipo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Button btnEliminar;
-        private System.Windows.Forms.Button btnVerIntegrantes;
+        private System.Windows.Forms.DataGridView dgvEquipo;
         private System.Windows.Forms.Button btnAgregar;
         private System.Windows.Forms.Label label1;
     }

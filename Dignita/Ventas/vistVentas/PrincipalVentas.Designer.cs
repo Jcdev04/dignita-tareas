@@ -32,10 +32,11 @@
             this.btnEquipos = new System.Windows.Forms.Button();
             this.btnProyectos = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.btnAsignacion = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -85,29 +86,6 @@
             this.groupBox1.TabIndex = 59;
             this.groupBox1.TabStop = false;
             // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button1.Location = new System.Drawing.Point(59, 188);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(188, 45);
-            this.button1.TabIndex = 56;
-            this.button1.Text = "Registrato contrato";
-            this.button1.UseVisualStyleBackColor = false;
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.Controls.Add(this.label2);
-            this.groupBox2.Controls.Add(this.button1);
-            this.groupBox2.Location = new System.Drawing.Point(408, 28);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(295, 392);
-            this.groupBox2.TabIndex = 60;
-            this.groupBox2.TabStop = false;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -118,6 +96,30 @@
             this.label1.TabIndex = 59;
             this.label1.Text = "CONSULTAR";
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button1.Location = new System.Drawing.Point(55, 131);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(188, 45);
+            this.button1.TabIndex = 56;
+            this.button1.Text = "Registrato contrato";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.label2);
+            this.groupBox2.Controls.Add(this.btnAsignacion);
+            this.groupBox2.Controls.Add(this.button1);
+            this.groupBox2.Location = new System.Drawing.Point(408, 28);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(295, 392);
+            this.groupBox2.TabIndex = 60;
+            this.groupBox2.TabStop = false;
+            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -127,6 +129,20 @@
             this.label2.Size = new System.Drawing.Size(158, 29);
             this.label2.TabIndex = 59;
             this.label2.Text = "REGISTRAR";
+            // 
+            // btnAsignacion
+            // 
+            this.btnAsignacion.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnAsignacion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAsignacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAsignacion.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnAsignacion.Location = new System.Drawing.Point(55, 182);
+            this.btnAsignacion.Name = "btnAsignacion";
+            this.btnAsignacion.Size = new System.Drawing.Size(188, 45);
+            this.btnAsignacion.TabIndex = 56;
+            this.btnAsignacion.Text = "Asignación de equipo";
+            this.btnAsignacion.UseVisualStyleBackColor = false;
+            this.btnAsignacion.Click += new System.EventHandler(this.btnAsignacion_Click);
             // 
             // PrincipalVentas
             // 
@@ -155,5 +171,6 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button btnAsignacion;
     }
 }

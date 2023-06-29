@@ -28,13 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dtgvEmpresa = new System.Windows.Forms.DataGridView();
+            this.dgvEmpresa = new System.Windows.Forms.DataGridView();
             this.btnModificar = new System.Windows.Forms.Button();
             this.btnDeshabilitar = new System.Windows.Forms.Button();
             this.btnAgregar = new System.Windows.Forms.Button();
-            this.gbxProy = new System.Windows.Forms.GroupBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.gbxEmp = new System.Windows.Forms.GroupBox();
+            this.btnCancelar = new System.Windows.Forms.Button();
+            this.btnAceptar = new System.Windows.Forms.Button();
             this.label13 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -43,29 +43,31 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
+            this.txtDireccion = new System.Windows.Forms.TextBox();
             this.txtRubro = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
+            this.txtRazonSocial = new System.Windows.Forms.TextBox();
+            this.txtCorreo = new System.Windows.Forms.TextBox();
+            this.txtTelefono = new System.Windows.Forms.TextBox();
             this.txtRUC = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.txtRazonSocial = new System.Windows.Forms.TextBox();
-            this.txtDireccion = new System.Windows.Forms.TextBox();
-            this.txtTelefono = new System.Windows.Forms.TextBox();
-            this.txtCorreo = new System.Windows.Forms.TextBox();
-            ((System.ComponentModel.ISupportInitialize)(this.dtgvEmpresa)).BeginInit();
-            this.gbxProy.SuspendLayout();
+            this.label11 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvEmpresa)).BeginInit();
+            this.gbxEmp.SuspendLayout();
             this.SuspendLayout();
             // 
-            // dtgvEmpresa
+            // dgvEmpresa
             // 
-            this.dtgvEmpresa.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtgvEmpresa.Location = new System.Drawing.Point(25, 49);
-            this.dtgvEmpresa.Name = "dtgvEmpresa";
-            this.dtgvEmpresa.RowHeadersWidth = 51;
-            this.dtgvEmpresa.RowTemplate.Height = 24;
-            this.dtgvEmpresa.Size = new System.Drawing.Size(563, 258);
-            this.dtgvEmpresa.TabIndex = 7;
+            this.dgvEmpresa.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvEmpresa.Location = new System.Drawing.Point(25, 54);
+            this.dgvEmpresa.Name = "dgvEmpresa";
+            this.dgvEmpresa.RowHeadersWidth = 51;
+            this.dgvEmpresa.RowTemplate.Height = 24;
+            this.dgvEmpresa.Size = new System.Drawing.Size(563, 258);
+            this.dgvEmpresa.TabIndex = 7;
+            this.dgvEmpresa.SelectionChanged += new System.EventHandler(this.dgvEmpresa_SelectionChanged);
             // 
             // btnModificar
             // 
@@ -77,6 +79,7 @@
             this.btnModificar.TabIndex = 38;
             this.btnModificar.Text = "Modificar";
             this.btnModificar.UseVisualStyleBackColor = true;
+            this.btnModificar.Click += new System.EventHandler(this.btnModificar_Click);
             // 
             // btnDeshabilitar
             // 
@@ -88,6 +91,7 @@
             this.btnDeshabilitar.TabIndex = 37;
             this.btnDeshabilitar.Text = "Deshabilitar";
             this.btnDeshabilitar.UseVisualStyleBackColor = true;
+            this.btnDeshabilitar.Click += new System.EventHandler(this.btnDeshabilitar_Click_1);
             // 
             // btnAgregar
             // 
@@ -99,58 +103,61 @@
             this.btnAgregar.TabIndex = 36;
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.UseVisualStyleBackColor = true;
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
-            // gbxProy
+            // gbxEmp
             // 
-            this.gbxProy.Controls.Add(this.button1);
-            this.gbxProy.Controls.Add(this.button2);
-            this.gbxProy.Controls.Add(this.label13);
-            this.gbxProy.Controls.Add(this.label10);
-            this.gbxProy.Controls.Add(this.label6);
-            this.gbxProy.Controls.Add(this.label5);
-            this.gbxProy.Controls.Add(this.label3);
-            this.gbxProy.Controls.Add(this.label4);
-            this.gbxProy.Controls.Add(this.label12);
-            this.gbxProy.Controls.Add(this.label7);
-            this.gbxProy.Controls.Add(this.txtDireccion);
-            this.gbxProy.Controls.Add(this.txtRubro);
-            this.gbxProy.Controls.Add(this.label9);
-            this.gbxProy.Controls.Add(this.label8);
-            this.gbxProy.Controls.Add(this.txtRazonSocial);
-            this.gbxProy.Controls.Add(this.txtCorreo);
-            this.gbxProy.Controls.Add(this.txtTelefono);
-            this.gbxProy.Controls.Add(this.txtRUC);
-            this.gbxProy.Controls.Add(this.label1);
-            this.gbxProy.Controls.Add(this.label2);
-            this.gbxProy.Location = new System.Drawing.Point(25, 332);
-            this.gbxProy.Name = "gbxProy";
-            this.gbxProy.Size = new System.Drawing.Size(797, 266);
-            this.gbxProy.TabIndex = 39;
-            this.gbxProy.TabStop = false;
+            this.gbxEmp.Controls.Add(this.btnCancelar);
+            this.gbxEmp.Controls.Add(this.btnAceptar);
+            this.gbxEmp.Controls.Add(this.label13);
+            this.gbxEmp.Controls.Add(this.label10);
+            this.gbxEmp.Controls.Add(this.label6);
+            this.gbxEmp.Controls.Add(this.label5);
+            this.gbxEmp.Controls.Add(this.label3);
+            this.gbxEmp.Controls.Add(this.label4);
+            this.gbxEmp.Controls.Add(this.label12);
+            this.gbxEmp.Controls.Add(this.label7);
+            this.gbxEmp.Controls.Add(this.txtDireccion);
+            this.gbxEmp.Controls.Add(this.txtRubro);
+            this.gbxEmp.Controls.Add(this.label9);
+            this.gbxEmp.Controls.Add(this.label8);
+            this.gbxEmp.Controls.Add(this.txtRazonSocial);
+            this.gbxEmp.Controls.Add(this.txtCorreo);
+            this.gbxEmp.Controls.Add(this.txtTelefono);
+            this.gbxEmp.Controls.Add(this.txtRUC);
+            this.gbxEmp.Controls.Add(this.label1);
+            this.gbxEmp.Controls.Add(this.label2);
+            this.gbxEmp.Location = new System.Drawing.Point(25, 332);
+            this.gbxEmp.Name = "gbxEmp";
+            this.gbxEmp.Size = new System.Drawing.Size(797, 266);
+            this.gbxEmp.TabIndex = 39;
+            this.gbxEmp.TabStop = false;
             // 
-            // button1
+            // btnCancelar
             // 
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(609, 148);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(167, 38);
-            this.button1.TabIndex = 54;
-            this.button1.Text = "Cancelar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancelar.Location = new System.Drawing.Point(609, 148);
+            this.btnCancelar.Name = "btnCancelar";
+            this.btnCancelar.Size = new System.Drawing.Size(167, 38);
+            this.btnCancelar.TabIndex = 8;
+            this.btnCancelar.Text = "Cancelar";
+            this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
-            // button2
+            // btnAceptar
             // 
-            this.button2.BackColor = System.Drawing.SystemColors.Desktop;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(609, 95);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(167, 39);
-            this.button2.TabIndex = 53;
-            this.button2.Text = "Aceptar";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnAceptar.BackColor = System.Drawing.SystemColors.Desktop;
+            this.btnAceptar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAceptar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAceptar.ForeColor = System.Drawing.Color.White;
+            this.btnAceptar.Location = new System.Drawing.Point(609, 95);
+            this.btnAceptar.Name = "btnAceptar";
+            this.btnAceptar.Size = new System.Drawing.Size(167, 39);
+            this.btnAceptar.TabIndex = 7;
+            this.btnAceptar.Text = "Aceptar";
+            this.btnAceptar.UseVisualStyleBackColor = false;
+            this.btnAceptar.Click += new System.EventHandler(this.button2_Click);
             // 
             // label13
             // 
@@ -173,7 +180,7 @@
             this.label10.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.label10.Location = new System.Drawing.Point(344, 30);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(91, 25);
+            this.label10.Size = new System.Drawing.Size(73, 20);
             this.label10.TabIndex = 52;
             this.label10.Text = "Teléfono";
             this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -186,7 +193,7 @@
             this.label6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.label6.Location = new System.Drawing.Point(20, 202);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(101, 25);
+            this.label6.Size = new System.Drawing.Size(81, 20);
             this.label6.TabIndex = 52;
             this.label6.Text = "Dirección";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -212,7 +219,7 @@
             this.label3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.label3.Location = new System.Drawing.Point(20, 86);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(135, 25);
+            this.label3.Size = new System.Drawing.Size(108, 20);
             this.label3.TabIndex = 52;
             this.label3.Text = "Razón Social";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -225,7 +232,7 @@
             this.label4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.label4.Location = new System.Drawing.Point(20, 27);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(56, 25);
+            this.label4.Size = new System.Drawing.Size(45, 20);
             this.label4.TabIndex = 52;
             this.label4.Text = "RUC";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -248,12 +255,19 @@
             this.label7.Size = new System.Drawing.Size(0, 20);
             this.label7.TabIndex = 18;
             // 
+            // txtDireccion
+            // 
+            this.txtDireccion.Location = new System.Drawing.Point(24, 230);
+            this.txtDireccion.Name = "txtDireccion";
+            this.txtDireccion.Size = new System.Drawing.Size(231, 22);
+            this.txtDireccion.TabIndex = 4;
+            // 
             // txtRubro
             // 
             this.txtRubro.Location = new System.Drawing.Point(24, 164);
             this.txtRubro.Name = "txtRubro";
             this.txtRubro.Size = new System.Drawing.Size(231, 22);
-            this.txtRubro.TabIndex = 13;
+            this.txtRubro.TabIndex = 3;
             // 
             // label9
             // 
@@ -273,13 +287,33 @@
             this.label8.Size = new System.Drawing.Size(0, 20);
             this.label8.TabIndex = 10;
             // 
+            // txtRazonSocial
+            // 
+            this.txtRazonSocial.Location = new System.Drawing.Point(24, 112);
+            this.txtRazonSocial.Name = "txtRazonSocial";
+            this.txtRazonSocial.Size = new System.Drawing.Size(231, 22);
+            this.txtRazonSocial.TabIndex = 2;
+            // 
+            // txtCorreo
+            // 
+            this.txtCorreo.Location = new System.Drawing.Point(348, 112);
+            this.txtCorreo.Name = "txtCorreo";
+            this.txtCorreo.Size = new System.Drawing.Size(231, 22);
+            this.txtCorreo.TabIndex = 6;
+            // 
+            // txtTelefono
+            // 
+            this.txtTelefono.Location = new System.Drawing.Point(348, 52);
+            this.txtTelefono.Name = "txtTelefono";
+            this.txtTelefono.Size = new System.Drawing.Size(231, 22);
+            this.txtTelefono.TabIndex = 5;
+            // 
             // txtRUC
             // 
             this.txtRUC.Location = new System.Drawing.Point(24, 52);
             this.txtRUC.Name = "txtRUC";
             this.txtRUC.Size = new System.Drawing.Size(231, 22);
-            this.txtRUC.TabIndex = 8;
-            this.txtRUC.TextChanged += new System.EventHandler(this.txtRUC_TextChanged);
+            this.txtRUC.TabIndex = 1;
             // 
             // label1
             // 
@@ -299,65 +333,48 @@
             this.label2.Size = new System.Drawing.Size(0, 20);
             this.label2.TabIndex = 5;
             // 
-            // txtRazonSocial
+            // label11
             // 
-            this.txtRazonSocial.Location = new System.Drawing.Point(24, 112);
-            this.txtRazonSocial.Name = "txtRazonSocial";
-            this.txtRazonSocial.Size = new System.Drawing.Size(231, 22);
-            this.txtRazonSocial.TabIndex = 8;
-            this.txtRazonSocial.TextChanged += new System.EventHandler(this.txtRUC_TextChanged);
-            // 
-            // txtDireccion
-            // 
-            this.txtDireccion.Location = new System.Drawing.Point(24, 230);
-            this.txtDireccion.Name = "txtDireccion";
-            this.txtDireccion.Size = new System.Drawing.Size(231, 22);
-            this.txtDireccion.TabIndex = 13;
-            // 
-            // txtTelefono
-            // 
-            this.txtTelefono.Location = new System.Drawing.Point(348, 52);
-            this.txtTelefono.Name = "txtTelefono";
-            this.txtTelefono.Size = new System.Drawing.Size(231, 22);
-            this.txtTelefono.TabIndex = 8;
-            this.txtTelefono.TextChanged += new System.EventHandler(this.txtRUC_TextChanged);
-            // 
-            // txtCorreo
-            // 
-            this.txtCorreo.Location = new System.Drawing.Point(348, 112);
-            this.txtCorreo.Name = "txtCorreo";
-            this.txtCorreo.Size = new System.Drawing.Size(231, 22);
-            this.txtCorreo.TabIndex = 8;
-            this.txtCorreo.TextChanged += new System.EventHandler(this.txtRUC_TextChanged);
+            this.label11.AutoEllipsis = true;
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.label11.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.label11.Location = new System.Drawing.Point(20, 26);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(190, 25);
+            this.label11.TabIndex = 40;
+            this.label11.Text = "Lista de Empresas";
             // 
             // MantenedorEmpresa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(845, 616);
-            this.Controls.Add(this.gbxProy);
+            this.Controls.Add(this.label11);
+            this.Controls.Add(this.gbxEmp);
             this.Controls.Add(this.btnModificar);
             this.Controls.Add(this.btnDeshabilitar);
             this.Controls.Add(this.btnAgregar);
-            this.Controls.Add(this.dtgvEmpresa);
+            this.Controls.Add(this.dgvEmpresa);
             this.Name = "MantenedorEmpresa";
             this.Text = "MantenedorEmpresa";
-            ((System.ComponentModel.ISupportInitialize)(this.dtgvEmpresa)).EndInit();
-            this.gbxProy.ResumeLayout(false);
-            this.gbxProy.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvEmpresa)).EndInit();
+            this.gbxEmp.ResumeLayout(false);
+            this.gbxEmp.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dtgvEmpresa;
+        private System.Windows.Forms.DataGridView dgvEmpresa;
         private System.Windows.Forms.Button btnModificar;
         private System.Windows.Forms.Button btnDeshabilitar;
         private System.Windows.Forms.Button btnAgregar;
-        private System.Windows.Forms.GroupBox gbxProy;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.GroupBox gbxEmp;
+        private System.Windows.Forms.Button btnCancelar;
+        private System.Windows.Forms.Button btnAceptar;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label6;
@@ -376,5 +393,6 @@
         private System.Windows.Forms.TextBox txtDireccion;
         private System.Windows.Forms.TextBox txtCorreo;
         private System.Windows.Forms.TextBox txtTelefono;
+        private System.Windows.Forms.Label label11;
     }
 }

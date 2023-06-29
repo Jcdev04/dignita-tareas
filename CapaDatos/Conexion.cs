@@ -18,8 +18,8 @@ namespace CapaDatos
         public SqlConnection conexion()
         {
             SqlConnection cn = new SqlConnection();
-            //Jesús
-            cn.ConnectionString = "Data Source=cambiar\\SQLEXPRESS;Initial Catalog=BD_Dignita;Integrated Security=True";
+            //cambiar el nombre del servidor
+            cn.ConnectionString = "Data Source=DESKTOP-6GFT52T; Initial Catalog=DB_DIGNITA; Integrated Security = True";
             return cn;
         }
 
