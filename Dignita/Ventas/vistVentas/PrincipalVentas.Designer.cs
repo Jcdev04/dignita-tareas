@@ -33,7 +33,7 @@
             this.btnProyectos = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnRegistarContrato = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.label2 = new System.Windows.Forms.Label();
             this.btnAsignacion = new System.Windows.Forms.Button();
@@ -96,24 +96,25 @@
             this.label1.TabIndex = 59;
             this.label1.Text = "CONSULTAR";
             // 
-            // button1
+            // btnRegistarContrato
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button1.Location = new System.Drawing.Point(55, 131);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(188, 45);
-            this.button1.TabIndex = 56;
-            this.button1.Text = "Registrato contrato";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnRegistarContrato.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnRegistarContrato.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRegistarContrato.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRegistarContrato.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnRegistarContrato.Location = new System.Drawing.Point(55, 131);
+            this.btnRegistarContrato.Name = "btnRegistarContrato";
+            this.btnRegistarContrato.Size = new System.Drawing.Size(197, 45);
+            this.btnRegistarContrato.TabIndex = 56;
+            this.btnRegistarContrato.Text = "Registrato contrato";
+            this.btnRegistarContrato.UseVisualStyleBackColor = false;
+            this.btnRegistarContrato.Click += new System.EventHandler(this.button1_Click);
             // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.label2);
             this.groupBox2.Controls.Add(this.btnAsignacion);
-            this.groupBox2.Controls.Add(this.button1);
+            this.groupBox2.Controls.Add(this.btnRegistarContrato);
             this.groupBox2.Location = new System.Drawing.Point(408, 28);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(295, 392);
@@ -138,7 +139,7 @@
             this.btnAsignacion.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnAsignacion.Location = new System.Drawing.Point(55, 182);
             this.btnAsignacion.Name = "btnAsignacion";
-            this.btnAsignacion.Size = new System.Drawing.Size(188, 45);
+            this.btnAsignacion.Size = new System.Drawing.Size(197, 59);
             this.btnAsignacion.TabIndex = 56;
             this.btnAsignacion.Text = "Asignación de equipo";
             this.btnAsignacion.UseVisualStyleBackColor = false;
@@ -148,7 +149,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(871, 518);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Name = "PrincipalVentas";
@@ -168,7 +169,7 @@
         private System.Windows.Forms.Button btnProyectos;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnRegistarContrato;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnAsignacion;

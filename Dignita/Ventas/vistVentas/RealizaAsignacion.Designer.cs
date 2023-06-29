@@ -41,19 +41,20 @@
             this.dgvEquipo.Name = "dgvEquipo";
             this.dgvEquipo.RowHeadersWidth = 51;
             this.dgvEquipo.RowTemplate.Height = 24;
-            this.dgvEquipo.Size = new System.Drawing.Size(352, 438);
+            this.dgvEquipo.Size = new System.Drawing.Size(514, 230);
             this.dgvEquipo.TabIndex = 4;
             // 
             // btnAgregar
             // 
             this.btnAgregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAgregar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAgregar.Location = new System.Drawing.Point(410, 67);
+            this.btnAgregar.Location = new System.Drawing.Point(591, 67);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(188, 33);
             this.btnAgregar.TabIndex = 59;
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.UseVisualStyleBackColor = true;
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
             // label1
             // 
@@ -71,7 +72,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(633, 534);
+            this.ClientSize = new System.Drawing.Size(809, 430);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.dgvEquipo);

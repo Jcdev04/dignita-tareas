@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics.Contracts;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -112,6 +113,8 @@ namespace Dignita.Ventas.vistVentas
                 logProyecto.Instancia.contratarProyecto(ep);
                 listarProyecto();
                 MessageBox.Show("Contrato generado");
+               
+
             }
             else
             {
@@ -146,6 +149,11 @@ namespace Dignita.Ventas.vistVentas
         public void listarProyecto()
         {
             dgvProyecto.DataSource = logProyecto.Instancia.listarProyectos();
+        }
+
+        private void btnSiguiente_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

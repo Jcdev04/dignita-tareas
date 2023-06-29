@@ -15,5 +15,7 @@ namespace CapaEntidad
         public bool estado { get; set; }
         public bool asignado { get; set; }
         public bool inhabilitado { get; set; }
+
+        public bool contratado { get; set; }
     }
 }

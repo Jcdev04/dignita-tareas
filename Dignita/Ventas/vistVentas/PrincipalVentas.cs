@@ -17,15 +17,18 @@ namespace Dignita.Ventas.vistVentas
             InitializeComponent();
         }
 
-        private void btnRealizarContrato_Click(object sender, EventArgs e)
-        {
-            RealizaContrato contrato = new RealizaContrato();
-            contrato.Show();
-        }
+        
 
         private void btnAsignacion_Click(object sender, EventArgs e)
         {
+            AsignacionProyectos proyectos = new AsignacionProyectos();
+            proyectos.Show();
+        }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            RealizaContrato contrato = new RealizaContrato();
+            contrato.Show();
         }
     }
 }

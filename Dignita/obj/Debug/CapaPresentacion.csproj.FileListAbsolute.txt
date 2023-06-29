@@ -200,3 +200,18 @@ D:\1.- UNIVERSIDAD\Ciclo 5\Modelamiento y análisis de software\Proyecto Final\d
 D:\1.- UNIVERSIDAD\Ciclo 5\Modelamiento y análisis de software\Proyecto Final\dignita-tareas\Dignita\obj\Debug\Dignita.Ventas.vistVentas.MantenedorEmpresa.resources
 D:\1.- UNIVERSIDAD\Ciclo 5\Modelamiento y análisis de software\Proyecto Final\dignita-tareas\Dignita\bin\Debug\CapaDatos.dll
 D:\1.- UNIVERSIDAD\Ciclo 5\Modelamiento y análisis de software\Proyecto Final\dignita-tareas\Dignita\bin\Debug\CapaDatos.pdb
+C:\Users\Aaron\source\repos\Jcdev04\dignita-tareass\Dignita\bin\Debug\CapaDatos.dll
+C:\Users\Aaron\source\repos\Jcdev04\dignita-tareass\Dignita\bin\Debug\CapaDatos.pdb
+C:\Users\Aaron\source\repos\Jcdev04\dignita-tareass\Dignita\obj\Debug\Dignita.frmLogin.resources
+C:\Users\Aaron\source\repos\Jcdev04\dignita-tareass\Dignita\obj\Debug\Dignita.Gestion_de_Proyectos.vistDesarrollador.MantenedorTareacs.resources
+C:\Users\Aaron\source\repos\Jcdev04\dignita-tareass\Dignita\obj\Debug\Dignita.Gestion_de_Proyectos.vistScrum.ConsultarTareasVersion.resources
+C:\Users\Aaron\source\repos\Jcdev04\dignita-tareass\Dignita\obj\Debug\Dignita.Gestion_de_Proyectos.vistScrum.MantenedorRequerimiento.resources
+C:\Users\Aaron\source\repos\Jcdev04\dignita-tareass\Dignita\obj\Debug\Dignita.Gestion_de_Proyectos.vistScrum.MantenedorTarea.resources
+C:\Users\Aaron\source\repos\Jcdev04\dignita-tareass\Dignita\obj\Debug\Dignita.Gestion_de_Proyectos.vistScrum.PrincipalScrum.resources
+C:\Users\Aaron\source\repos\Jcdev04\dignita-tareass\Dignita\obj\Debug\Dignita.Gestion_de_Proyectos.vistScrum.RealizaAsignacionTarea_cs.resources
+C:\Users\Aaron\source\repos\Jcdev04\dignita-tareass\Dignita\obj\Debug\Dignita.Gestion_de_Proyectos.vistScrum.RealizaRevisionTarea.resources
+C:\Users\Aaron\source\repos\Jcdev04\dignita-tareass\Dignita\obj\Debug\Dignita.Gestion_de_Proyectos.vistScrum.RealizaTarea.resources
+C:\Users\Aaron\source\repos\Jcdev04\dignita-tareass\Dignita\obj\Debug\Dignita.Ventas.vistVentas.MantenedorEmpresa.resources
+C:\Users\Aaron\source\repos\Jcdev04\dignita-tareass\Dignita\obj\Debug\Dignita.Ventas.vistVentas.MantenedorVersiones.resources
+C:\Users\Aaron\source\repos\Jcdev04\dignita-tareass\Dignita\obj\Debug\Dignita.Ventas.vistVentas.PrincipalVentas.resources
+C:\Users\Aaron\Source\Repos\Jcdev04\dignita-tareass\Dignita\obj\Debug\Dignita.Ventas.vistVentas.AsignacionProyectos.resources

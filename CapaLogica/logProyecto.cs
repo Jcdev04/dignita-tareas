@@ -22,6 +22,15 @@ namespace CapaLogica
             proyectos = datProyecto.Instancia.listarProyectos();
             return proyectos;
         }
+
+        //ListarProyectosContratados
+
+        public List<entProyecto> listarProyectosContratados()
+        {
+            List<entProyecto> proyectos = new List<entProyecto>();
+            proyectos = datProyecto.Instancia.listarProyectosContratados();
+            return proyectos;
+        }
         //Agregar
         public void agregarProyecto(entProyecto p)
         {

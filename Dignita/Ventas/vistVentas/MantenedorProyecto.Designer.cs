@@ -366,7 +366,7 @@
             this.btnGenerarContrato.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGenerarContrato.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGenerarContrato.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnGenerarContrato.Location = new System.Drawing.Point(771, 282);
+            this.btnGenerarContrato.Location = new System.Drawing.Point(771, 190);
             this.btnGenerarContrato.Name = "btnGenerarContrato";
             this.btnGenerarContrato.Size = new System.Drawing.Size(188, 31);
             this.btnGenerarContrato.TabIndex = 54;

@@ -1,6 +1,13 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\CapaDatos",
+    "\\CapaEntidad",
+    "\\Dignita",
+    "\\Dignita\\Gestion de Proyectos",
+    "\\Dignita\\Gestion de Proyectos\\vistDesarrollador",
+    "\\Dignita\\Gestion de Proyectos\\vistScrum"
   ],
+  "SelectedNode": "\\CapaDatos\\Conexion.cs",
   "PreviewInSolutionExplorer": false
 }

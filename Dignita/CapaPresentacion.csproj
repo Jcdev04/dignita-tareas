@@ -112,11 +112,11 @@
     <Compile Include="Ventas\vistVentas\ConsultaIntegrantes.Designer.cs">
       <DependentUpon>ConsultaIntegrantes.cs</DependentUpon>
     </Compile>
-    <Compile Include="Ventas\vistVentas\frmProyectos.cs">
+    <Compile Include="Ventas\vistVentas\AsignacionProyectos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Ventas\vistVentas\frmProyectos.Designer.cs">
-      <DependentUpon>frmProyectos.cs</DependentUpon>
+    <Compile Include="Ventas\vistVentas\AsignacionProyectos.Designer.cs">
+      <DependentUpon>AsignacionProyectos.cs</DependentUpon>
     </Compile>
     <Compile Include="Ventas\vistVentas\MantenedorEmpresa.cs">
       <SubType>Form</SubType>
@@ -190,6 +190,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Ventas\vistVentas\AsignacionProyectos.resx">
+      <DependentUpon>AsignacionProyectos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Ventas\vistVentas\ConsultaIntegrantes.resx">
       <DependentUpon>ConsultaIntegrantes.cs</DependentUpon>
     </EmbeddedResource>
