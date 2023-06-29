@@ -1,34 +1,34 @@
-D:\Programas\Ciclo 5\MOANSO\Proyecto Final\FinalProyecto\Dignita\bin\Debug\Dignita.exe.config
-D:\Programas\Ciclo 5\MOANSO\Proyecto Final\FinalProyecto\Dignita\bin\Debug\Dignita.exe
-D:\Programas\Ciclo 5\MOANSO\Proyecto Final\FinalProyecto\Dignita\bin\Debug\Dignita.pdb
-D:\Programas\Ciclo 5\MOANSO\Proyecto Final\FinalProyecto\Dignita\bin\Debug\CapaEntidad.dll
-D:\Programas\Ciclo 5\MOANSO\Proyecto Final\FinalProyecto\Dignita\bin\Debug\CapaLogica.dll
-D:\Programas\Ciclo 5\MOANSO\Proyecto Final\FinalProyecto\Dignita\bin\Debug\CapaDatos.dll
-D:\Programas\Ciclo 5\MOANSO\Proyecto Final\FinalProyecto\Dignita\bin\Debug\CapaEntidad.pdb
-D:\Programas\Ciclo 5\MOANSO\Proyecto Final\FinalProyecto\Dignita\bin\Debug\CapaLogica.pdb
-D:\Programas\Ciclo 5\MOANSO\Proyecto Final\FinalProyecto\Dignita\bin\Debug\CapaDatos.pdb
-D:\Programas\Ciclo 5\MOANSO\Proyecto Final\FinalProyecto\Dignita\obj\Debug\CapaPresentacion.csproj.AssemblyReference.cache
-D:\Programas\Ciclo 5\MOANSO\Proyecto Final\FinalProyecto\Dignita\obj\Debug\CapaPresentacion.csproj.SuggestedBindingRedirects.cache
-D:\Programas\Ciclo 5\MOANSO\Proyecto Final\FinalProyecto\Dignita\obj\Debug\Dignita.frmLogin.resources
-D:\Programas\Ciclo 5\MOANSO\Proyecto Final\FinalProyecto\Dignita\obj\Debug\Dignita.Gestion_de_Proyectos.vistDesarrollador.MantenedorTareacs.resources
-D:\Programas\Ciclo 5\MOANSO\Proyecto Final\FinalProyecto\Dignita\obj\Debug\Dignita.Gestion_de_Proyectos.vistScrum.ConsultarTareasVersion.resources
-D:\Programas\Ciclo 5\MOANSO\Proyecto Final\FinalProyecto\Dignita\obj\Debug\Dignita.Gestion_de_Proyectos.vistScrum.MantenedorRequerimiento.resources
-D:\Programas\Ciclo 5\MOANSO\Proyecto Final\FinalProyecto\Dignita\obj\Debug\Dignita.Gestion_de_Proyectos.vistScrum.MantenedorTarea.resources
-D:\Programas\Ciclo 5\MOANSO\Proyecto Final\FinalProyecto\Dignita\obj\Debug\Dignita.Gestion_de_Proyectos.vistScrum.PrincipalScrum.resources
-D:\Programas\Ciclo 5\MOANSO\Proyecto Final\FinalProyecto\Dignita\obj\Debug\Dignita.Gestion_de_Proyectos.vistScrum.RealizaAsignacionTarea_cs.resources
-D:\Programas\Ciclo 5\MOANSO\Proyecto Final\FinalProyecto\Dignita\obj\Debug\Dignita.Gestion_de_Proyectos.vistScrum.RealizaRevisionTarea.resources
-D:\Programas\Ciclo 5\MOANSO\Proyecto Final\FinalProyecto\Dignita\obj\Debug\Dignita.Gestion_de_Proyectos.vistScrum.RealizaTarea.resources
-D:\Programas\Ciclo 5\MOANSO\Proyecto Final\FinalProyecto\Dignita\obj\Debug\Dignita.Properties.Resources.resources
-D:\Programas\Ciclo 5\MOANSO\Proyecto Final\FinalProyecto\Dignita\obj\Debug\Dignita.Ventas.vistVentas.AsignacionProyectos.resources
-D:\Programas\Ciclo 5\MOANSO\Proyecto Final\FinalProyecto\Dignita\obj\Debug\Dignita.Ventas.vistVentas.ConsultaIntegrantes.resources
-D:\Programas\Ciclo 5\MOANSO\Proyecto Final\FinalProyecto\Dignita\obj\Debug\Dignita.Ventas.vistVentas.MantenedorEmpresa.resources
-D:\Programas\Ciclo 5\MOANSO\Proyecto Final\FinalProyecto\Dignita\obj\Debug\Dignita.Ventas.vistVentas.MantenedorProyecto.resources
-D:\Programas\Ciclo 5\MOANSO\Proyecto Final\FinalProyecto\Dignita\obj\Debug\Dignita.Ventas.vistVentas.MantenedorVersiones.resources
-D:\Programas\Ciclo 5\MOANSO\Proyecto Final\FinalProyecto\Dignita\obj\Debug\Dignita.Ventas.vistVentas.PrincipalVentas.resources
-D:\Programas\Ciclo 5\MOANSO\Proyecto Final\FinalProyecto\Dignita\obj\Debug\Dignita.Ventas.vistVentas.RealizaAsignacion.resources
-D:\Programas\Ciclo 5\MOANSO\Proyecto Final\FinalProyecto\Dignita\obj\Debug\Dignita.Ventas.vistVentas.RealizaContrato.resources
-D:\Programas\Ciclo 5\MOANSO\Proyecto Final\FinalProyecto\Dignita\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
-D:\Programas\Ciclo 5\MOANSO\Proyecto Final\FinalProyecto\Dignita\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
-D:\Programas\Ciclo 5\MOANSO\Proyecto Final\FinalProyecto\Dignita\obj\Debug\CapaPresentacion.csproj.CopyComplete
-D:\Programas\Ciclo 5\MOANSO\Proyecto Final\FinalProyecto\Dignita\obj\Debug\Dignita.exe
-D:\Programas\Ciclo 5\MOANSO\Proyecto Final\FinalProyecto\Dignita\obj\Debug\Dignita.pdb
+C:\Users\Aaron\Source\Repos\Jcdev04\dignita-tareass\Dignita\bin\Debug\Dignita.exe.config
+C:\Users\Aaron\Source\Repos\Jcdev04\dignita-tareass\Dignita\bin\Debug\Dignita.exe
+C:\Users\Aaron\Source\Repos\Jcdev04\dignita-tareass\Dignita\bin\Debug\Dignita.pdb
+C:\Users\Aaron\Source\Repos\Jcdev04\dignita-tareass\Dignita\bin\Debug\CapaEntidad.dll
+C:\Users\Aaron\Source\Repos\Jcdev04\dignita-tareass\Dignita\bin\Debug\CapaLogica.dll
+C:\Users\Aaron\Source\Repos\Jcdev04\dignita-tareass\Dignita\bin\Debug\CapaDatos.dll
+C:\Users\Aaron\Source\Repos\Jcdev04\dignita-tareass\Dignita\bin\Debug\CapaEntidad.pdb
+C:\Users\Aaron\Source\Repos\Jcdev04\dignita-tareass\Dignita\bin\Debug\CapaLogica.pdb
+C:\Users\Aaron\Source\Repos\Jcdev04\dignita-tareass\Dignita\bin\Debug\CapaDatos.pdb
+C:\Users\Aaron\Source\Repos\Jcdev04\dignita-tareass\Dignita\obj\Debug\CapaPresentacion.csproj.AssemblyReference.cache
+C:\Users\Aaron\Source\Repos\Jcdev04\dignita-tareass\Dignita\obj\Debug\CapaPresentacion.csproj.SuggestedBindingRedirects.cache
+C:\Users\Aaron\Source\Repos\Jcdev04\dignita-tareass\Dignita\obj\Debug\Dignita.frmLogin.resources
+C:\Users\Aaron\Source\Repos\Jcdev04\dignita-tareass\Dignita\obj\Debug\Dignita.Gestion_de_Proyectos.vistDesarrollador.MantenedorTareacs.resources
+C:\Users\Aaron\Source\Repos\Jcdev04\dignita-tareass\Dignita\obj\Debug\Dignita.Gestion_de_Proyectos.vistScrum.ConsultarTareasVersion.resources
+C:\Users\Aaron\Source\Repos\Jcdev04\dignita-tareass\Dignita\obj\Debug\Dignita.Gestion_de_Proyectos.vistScrum.MantenedorRequerimiento.resources
+C:\Users\Aaron\Source\Repos\Jcdev04\dignita-tareass\Dignita\obj\Debug\Dignita.Gestion_de_Proyectos.vistScrum.MantenedorTarea.resources
+C:\Users\Aaron\Source\Repos\Jcdev04\dignita-tareass\Dignita\obj\Debug\Dignita.Gestion_de_Proyectos.vistScrum.PrincipalScrum.resources
+C:\Users\Aaron\Source\Repos\Jcdev04\dignita-tareass\Dignita\obj\Debug\Dignita.Gestion_de_Proyectos.vistScrum.RealizaAsignacionTarea_cs.resources
+C:\Users\Aaron\Source\Repos\Jcdev04\dignita-tareass\Dignita\obj\Debug\Dignita.Gestion_de_Proyectos.vistScrum.RealizaRevisionTarea.resources
+C:\Users\Aaron\Source\Repos\Jcdev04\dignita-tareass\Dignita\obj\Debug\Dignita.Gestion_de_Proyectos.vistScrum.RealizaTarea.resources
+C:\Users\Aaron\Source\Repos\Jcdev04\dignita-tareass\Dignita\obj\Debug\Dignita.Properties.Resources.resources
+C:\Users\Aaron\Source\Repos\Jcdev04\dignita-tareass\Dignita\obj\Debug\Dignita.Ventas.vistVentas.AsignacionProyectos.resources
+C:\Users\Aaron\Source\Repos\Jcdev04\dignita-tareass\Dignita\obj\Debug\Dignita.Ventas.vistVentas.ConsultaIntegrantes.resources
+C:\Users\Aaron\Source\Repos\Jcdev04\dignita-tareass\Dignita\obj\Debug\Dignita.Ventas.vistVentas.MantenedorEmpresa.resources
+C:\Users\Aaron\Source\Repos\Jcdev04\dignita-tareass\Dignita\obj\Debug\Dignita.Ventas.vistVentas.MantenedorProyecto.resources
+C:\Users\Aaron\Source\Repos\Jcdev04\dignita-tareass\Dignita\obj\Debug\Dignita.Ventas.vistVentas.MantenedorVersiones.resources
+C:\Users\Aaron\Source\Repos\Jcdev04\dignita-tareass\Dignita\obj\Debug\Dignita.Ventas.vistVentas.PrincipalVentas.resources
+C:\Users\Aaron\Source\Repos\Jcdev04\dignita-tareass\Dignita\obj\Debug\Dignita.Ventas.vistVentas.RealizaAsignacion.resources
+C:\Users\Aaron\Source\Repos\Jcdev04\dignita-tareass\Dignita\obj\Debug\Dignita.Ventas.vistVentas.RealizaContrato.resources
+C:\Users\Aaron\Source\Repos\Jcdev04\dignita-tareass\Dignita\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+C:\Users\Aaron\Source\Repos\Jcdev04\dignita-tareass\Dignita\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\Aaron\Source\Repos\Jcdev04\dignita-tareass\Dignita\obj\Debug\CapaPresentacion.csproj.CopyComplete
+C:\Users\Aaron\Source\Repos\Jcdev04\dignita-tareass\Dignita\obj\Debug\Dignita.exe
+C:\Users\Aaron\Source\Repos\Jcdev04\dignita-tareass\Dignita\obj\Debug\Dignita.pdb

@@ -1,5 +1,4 @@
-﻿using Dignita.Gestion_de_Proyectos.vistScrum;
-using Dignita.Ventas.vistVentas;
+﻿using Dignita.Ventas.vistVentas;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,7 +17,7 @@ namespace Dignita
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new PrincipalScrum());
+            Application.Run(new frmLogin());
         }
     }
 }
