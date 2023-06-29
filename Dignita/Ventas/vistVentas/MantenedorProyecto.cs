@@ -49,7 +49,18 @@ namespace Dignita.Ventas.vistVentas
 
         private void btnDeshabilitar_Click(object sender, EventArgs e)
         {
-
+            if (dgvProyecto.CurrentCell.RowIndex != -1)
+            {
+                logProyecto.Instancia.inhabilitarProyecto(new entProyecto
+                {
+                    id_proy = Int32.Parse(dgvProyecto.Rows[dgvProyecto.CurrentCell.RowIndex].Cells[0].Value.ToString())
+                });
+                listarProyecto();
+            }
+            else
+            {
+                MessageBox.Show("Seleccione una fila");
+            }
         }
         //ACEPTAR Y CANCELAR
         private void btnCancelar_Click(object sender, EventArgs e)
@@ -93,7 +104,18 @@ namespace Dignita.Ventas.vistVentas
         {
             if (dgvProyecto.CurrentCell.RowIndex != -1)
             {
-                
+                entProyecto ep = new entProyecto();
+                ep.id_proy = Int32.Parse(dgvProyecto.Rows[dgvProyecto.CurrentCell.RowIndex].Cells[0].Value.ToString());
+                logProyecto.Instancia.editarProyecto(ep);
+                ec.id_proyecto = ep.id_proy;
+                logContrato.Instancia.agregarContrato(ec);
+                logProyecto.Instancia.contratarProyecto(ep);
+                listarProyecto();
+                MessageBox.Show("Contrato generado");
+            }
+            else
+            {
+                MessageBox.Show("Seleccione una fila");
             }
         }
 
@@ -125,7 +147,5 @@ namespace Dignita.Ventas.vistVentas
         {
             dgvProyecto.DataSource = logProyecto.Instancia.listarProyectos();
         }
-
-        
     }
 }

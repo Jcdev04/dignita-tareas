@@ -36,7 +36,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnAsignacion = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -112,7 +112,7 @@
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.label2);
-            this.groupBox2.Controls.Add(this.button2);
+            this.groupBox2.Controls.Add(this.btnAsignacion);
             this.groupBox2.Controls.Add(this.button1);
             this.groupBox2.Location = new System.Drawing.Point(408, 28);
             this.groupBox2.Name = "groupBox2";
@@ -130,18 +130,19 @@
             this.label2.TabIndex = 59;
             this.label2.Text = "REGISTRAR";
             // 
-            // button2
+            // btnAsignacion
             // 
-            this.button2.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button2.Location = new System.Drawing.Point(55, 182);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(188, 45);
-            this.button2.TabIndex = 56;
-            this.button2.Text = "Asignación de equipo";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnAsignacion.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnAsignacion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAsignacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAsignacion.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnAsignacion.Location = new System.Drawing.Point(55, 182);
+            this.btnAsignacion.Name = "btnAsignacion";
+            this.btnAsignacion.Size = new System.Drawing.Size(188, 45);
+            this.btnAsignacion.TabIndex = 56;
+            this.btnAsignacion.Text = "Asignación de equipo";
+            this.btnAsignacion.UseVisualStyleBackColor = false;
+            this.btnAsignacion.Click += new System.EventHandler(this.btnAsignacion_Click);
             // 
             // PrincipalVentas
             // 
@@ -170,6 +171,6 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnAsignacion;
     }
 }

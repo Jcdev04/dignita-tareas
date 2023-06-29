@@ -124,7 +124,6 @@ namespace Dignita.Ventas.vistVentas
             btnModificar.Enabled = !habilitar;
             btnDeshabilitar.Enabled = !habilitar;
         }
-
         private void dgvEmpresa_SelectionChanged(object sender, EventArgs e)
         {
             obtenerDatos();

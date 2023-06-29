@@ -22,5 +22,10 @@ namespace Dignita.Ventas.vistVentas
             RealizaContrato contrato = new RealizaContrato();
             contrato.Show();
         }
+
+        private void btnAsignacion_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -32,5 +32,15 @@ namespace CapaLogica
         {
             datProyecto.Instancia.editarProyecto(p);
         }
+        //Inhabilitar
+        public void inhabilitarProyecto(entProyecto p)
+        {
+            datProyecto.Instancia.inhabilitarProyecto(p);
+        }
+        //Contratar
+        public void contratarProyecto(entProyecto p)
+        {
+            datProyecto.Instancia.contratarProyecto(p);
+        }
     }
 }

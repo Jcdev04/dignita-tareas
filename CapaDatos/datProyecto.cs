@@ -97,5 +97,48 @@ namespace CapaDatos
                 cm.Connection.Close();
             }
         }
+        //Inhabilita
+        public void inhabilitarProyecto(entProyecto ep)
+        {
+            SqlCommand cm = null;
+            try
+            {
+                SqlConnection cn = Conexion.Instancia.conexion();
+                cm = new SqlCommand("spInhabilitarProyecto", cn);
+                cm.CommandType = System.Data.CommandType.StoredProcedure;
+                cm.Parameters.AddWithValue("@id_proy", ep.id_proy);
+                cn.Open();
+                cm.ExecuteNonQuery();
+            }catch(Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                cm.Connection.Close();
+            }
+        }
+        //Contratar
+        public void contratarProyecto(entProyecto ep)
+        {
+            SqlCommand cm = null;
+            try
+            {
+                SqlConnection cn = Conexion.Instancia.conexion();
+                cm = new SqlCommand("spContratadoProyecto", cn);
+                cm.CommandType = System.Data.CommandType.StoredProcedure;
+                cm.Parameters.AddWithValue("@id_proy", ep.id_proy);
+                cn.Open();
+                cm.ExecuteNonQuery();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                cm.Connection.Close();
+            }
+        }
     }
 }

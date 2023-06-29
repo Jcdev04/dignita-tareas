@@ -112,6 +112,12 @@
     <Compile Include="Ventas\vistVentas\ConsultaIntegrantes.Designer.cs">
       <DependentUpon>ConsultaIntegrantes.cs</DependentUpon>
     </Compile>
+    <Compile Include="Ventas\vistVentas\frmProyectos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventas\vistVentas\frmProyectos.Designer.cs">
+      <DependentUpon>frmProyectos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Ventas\vistVentas\MantenedorEmpresa.cs">
       <SubType>Form</SubType>
     </Compile>
