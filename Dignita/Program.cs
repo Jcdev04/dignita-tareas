@@ -17,7 +17,7 @@ namespace Dignita
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new PrincipalVentas());
+            Application.Run(new frmLogin());
         }
     }
 }

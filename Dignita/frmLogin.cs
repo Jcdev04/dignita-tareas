@@ -1,7 +1,10 @@
-﻿using System;
+﻿using Dignita.Gestion_de_Proyectos.vistScrum;
+using Dignita.Ventas.vistVentas;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Drawing.Text;
 using System.IO;
@@ -21,21 +24,72 @@ namespace Dignita
 
         private void btn_iniciarSesion_Click(object sender, EventArgs e)
         {
-            
+            string dni = txt_usuario.Text;
+
+            bool esScrumMaster = false;
+            bool esAsesorVentas = false;
+
+            string connectionString = "Data Source=LAPTOP-BH5K91S6\\SQLEXPRESS; Initial Catalog=DB_DIGNITA; Integrated Security = True";
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+
+                using (SqlCommand command = new SqlCommand("VerificarScrumMaster", connection))
+                {
+                    command.CommandType = System.Data.CommandType.StoredProcedure;
+                    command.Parameters.Add("@dni", SqlDbType.VarChar, 8).Value = dni;
+
+                    SqlParameter outputParam = new SqlParameter("@esScrumMaster", SqlDbType.Bit);
+                    outputParam.Direction = ParameterDirection.Output;
+                    command.Parameters.Add(outputParam);
+
+                    command.ExecuteNonQuery();
+
+
+                    esScrumMaster = (bool)command.Parameters["@esScrumMaster"].Value;
+                }
+
+
+                using (SqlCommand command = new SqlCommand("VerificarAsesorVentas", connection))
+                {
+                    command.CommandType = CommandType.StoredProcedure;
+                    command.Parameters.Add("@dni", SqlDbType.VarChar, 8).Value = dni;
+
+                    SqlParameter outputParam = new SqlParameter("@esAsesorVentas", SqlDbType.Bit);
+                    outputParam.Direction = ParameterDirection.Output;
+                    command.Parameters.Add(outputParam);
+
+                    command.ExecuteNonQuery();
+
+                    esAsesorVentas = (bool)command.Parameters["@esAsesorVentas"].Value;
+                }
+            }
+
+            if (esScrumMaster)
+            {
+
+                PrincipalScrum scrum = new PrincipalScrum();
+                scrum.Show();
+            }
+            else if (esAsesorVentas)
+            {
+                PrincipalVentas ventas = new PrincipalVentas();
+                ventas.Show();
+            }
+            else
+            {
+                MessageBox.Show("DNI no válido o no tiene acceso.");
+            }
         }
 
-        /*// Tipografias
+        //Tipografias
         private PrivateFontCollection PoppinsBlack = new PrivateFontCollection();
         private PrivateFontCollection PoppinsRegular = new PrivateFontCollection();
 
 
         // Color
         private Color naranja = Color.FromArgb(255, 95, 44);
-
-        public frm_login()
-        {
-            InitializeComponent();
-        }
 
         private void frm_login_Load(object sender, EventArgs e)
         {
@@ -75,14 +129,5 @@ namespace Dignita
                 }
             }
         }
-
-        private void btn_iniciarSesion_Click(object sender, EventArgs e)
-        {
-            Dignita.Ventas.vistVentas.PrincipalVentas obj = new Dignita.Ventas.vistVentas.PrincipalVentas();
-            obj.Show();
-            frm_login sa = new frm_login();
-            sa.Close();
-
-        }*/
     }
 }
