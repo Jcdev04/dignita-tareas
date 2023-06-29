@@ -29,8 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmLogin));
-            this.txt_contrasena = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.btn_iniciarSesion = new System.Windows.Forms.Button();
             this.txt_usuario = new System.Windows.Forms.TextBox();
@@ -38,29 +36,6 @@
             this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // txt_contrasena
-            // 
-            this.txt_contrasena.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txt_contrasena.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_contrasena.Location = new System.Drawing.Point(71, 315);
-            this.txt_contrasena.Margin = new System.Windows.Forms.Padding(4);
-            this.txt_contrasena.Multiline = true;
-            this.txt_contrasena.Name = "txt_contrasena";
-            this.txt_contrasena.PasswordChar = '*';
-            this.txt_contrasena.Size = new System.Drawing.Size(379, 43);
-            this.txt_contrasena.TabIndex = 14;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(67, 271);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(127, 25);
-            this.label3.TabIndex = 13;
-            this.label3.Text = "Contraseña";
             // 
             // label2
             // 
@@ -78,7 +53,7 @@
             this.btn_iniciarSesion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(77)))), ((int)(((byte)(25)))));
             this.btn_iniciarSesion.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_iniciarSesion.ForeColor = System.Drawing.Color.White;
-            this.btn_iniciarSesion.Location = new System.Drawing.Point(59, 399);
+            this.btn_iniciarSesion.Location = new System.Drawing.Point(72, 287);
             this.btn_iniciarSesion.Margin = new System.Windows.Forms.Padding(4);
             this.btn_iniciarSesion.Name = "btn_iniciarSesion";
             this.btn_iniciarSesion.Padding = new System.Windows.Forms.Padding(0, 6, 0, 0);
@@ -126,8 +101,6 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(513, 513);
-            this.Controls.Add(this.txt_contrasena);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btn_iniciarSesion);
             this.Controls.Add(this.txt_usuario);
@@ -142,9 +115,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.TextBox txt_contrasena;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btn_iniciarSesion;
         private System.Windows.Forms.TextBox txt_usuario;
