@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.gbxVersiones = new System.Windows.Forms.GroupBox();
+            this.gbxRequerimientos = new System.Windows.Forms.GroupBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.btnCancelar = new System.Windows.Forms.Button();
@@ -41,23 +41,23 @@
             this.btnAgregar = new System.Windows.Forms.Button();
             this.btnModificar = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.gbxVersiones.SuspendLayout();
+            this.gbxRequerimientos.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvRequerimientos)).BeginInit();
             this.SuspendLayout();
             // 
-            // gbxVersiones
+            // gbxRequerimientos
             // 
-            this.gbxVersiones.Controls.Add(this.label3);
-            this.gbxVersiones.Controls.Add(this.label4);
-            this.gbxVersiones.Controls.Add(this.btnCancelar);
-            this.gbxVersiones.Controls.Add(this.btnAceptar);
-            this.gbxVersiones.Controls.Add(this.txtDescripcionReq);
-            this.gbxVersiones.Controls.Add(this.txtNombreReq);
-            this.gbxVersiones.Location = new System.Drawing.Point(12, 344);
-            this.gbxVersiones.Name = "gbxVersiones";
-            this.gbxVersiones.Size = new System.Drawing.Size(936, 171);
-            this.gbxVersiones.TabIndex = 20;
-            this.gbxVersiones.TabStop = false;
+            this.gbxRequerimientos.Controls.Add(this.label3);
+            this.gbxRequerimientos.Controls.Add(this.label4);
+            this.gbxRequerimientos.Controls.Add(this.btnCancelar);
+            this.gbxRequerimientos.Controls.Add(this.btnAceptar);
+            this.gbxRequerimientos.Controls.Add(this.txtDescripcionReq);
+            this.gbxRequerimientos.Controls.Add(this.txtNombreReq);
+            this.gbxRequerimientos.Location = new System.Drawing.Point(12, 344);
+            this.gbxRequerimientos.Name = "gbxRequerimientos";
+            this.gbxRequerimientos.Size = new System.Drawing.Size(936, 171);
+            this.gbxRequerimientos.TabIndex = 20;
+            this.gbxRequerimientos.TabStop = false;
             // 
             // label3
             // 
@@ -143,6 +143,7 @@
             this.btnVerTareas.TabIndex = 33;
             this.btnVerTareas.Text = "Ver tareas";
             this.btnVerTareas.UseVisualStyleBackColor = true;
+            this.btnVerTareas.Click += new System.EventHandler(this.btnVerTareas_Click);
             // 
             // btnDeshabilitar
             // 
@@ -202,12 +203,12 @@
             this.Controls.Add(this.btnModificar);
             this.Controls.Add(this.btnDeshabilitar);
             this.Controls.Add(this.btnAgregar);
-            this.Controls.Add(this.gbxVersiones);
+            this.Controls.Add(this.gbxRequerimientos);
             this.Controls.Add(this.dgvRequerimientos);
             this.Name = "MantenedorRequerimiento";
             this.Text = "MantenedorRequerimiento";
-            this.gbxVersiones.ResumeLayout(false);
-            this.gbxVersiones.PerformLayout();
+            this.gbxRequerimientos.ResumeLayout(false);
+            this.gbxRequerimientos.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvRequerimientos)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -216,7 +217,7 @@
 
         #endregion
 
-        private System.Windows.Forms.GroupBox gbxVersiones;
+        private System.Windows.Forms.GroupBox gbxRequerimientos;
         private System.Windows.Forms.TextBox txtDescripcionReq;
         private System.Windows.Forms.TextBox txtNombreReq;
         private System.Windows.Forms.DataGridView dgvRequerimientos;

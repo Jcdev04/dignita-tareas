@@ -36,9 +36,9 @@
             this.btnQuitarFiltro = new System.Windows.Forms.Button();
             this.btnRevision = new System.Windows.Forms.Button();
             this.btnDesarrolladores = new System.Windows.Forms.Button();
-            this.btnRegistrarTarea = new System.Windows.Forms.Button();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.dtpDuracion = new System.Windows.Forms.DateTimePicker();
             this.label1 = new System.Windows.Forms.Label();
+            this.btnRegistrarTarea = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvTareas)).BeginInit();
             this.SuspendLayout();
             // 
@@ -126,26 +126,14 @@
             this.btnDesarrolladores.TabIndex = 55;
             this.btnDesarrolladores.Text = "Desarrolladores";
             this.btnDesarrolladores.UseVisualStyleBackColor = true;
+            this.btnDesarrolladores.Click += new System.EventHandler(this.btnDesarrolladores_Click);
             // 
-            // btnRegistrarTarea
+            // dtpDuracion
             // 
-            this.btnRegistrarTarea.BackColor = System.Drawing.SystemColors.Desktop;
-            this.btnRegistrarTarea.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRegistrarTarea.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRegistrarTarea.ForeColor = System.Drawing.Color.White;
-            this.btnRegistrarTarea.Location = new System.Drawing.Point(339, 430);
-            this.btnRegistrarTarea.Name = "btnRegistrarTarea";
-            this.btnRegistrarTarea.Size = new System.Drawing.Size(173, 39);
-            this.btnRegistrarTarea.TabIndex = 56;
-            this.btnRegistrarTarea.Text = "Registrar tarea";
-            this.btnRegistrarTarea.UseVisualStyleBackColor = false;
-            // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(31, 447);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(260, 22);
-            this.dateTimePicker1.TabIndex = 57;
+            this.dtpDuracion.Location = new System.Drawing.Point(31, 447);
+            this.dtpDuracion.Name = "dtpDuracion";
+            this.dtpDuracion.Size = new System.Drawing.Size(260, 22);
+            this.dtpDuracion.TabIndex = 57;
             // 
             // label1
             // 
@@ -160,13 +148,27 @@
             this.label1.Text = "Fecha de finalización de la tarea";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
+            // btnRegistrarTarea
+            // 
+            this.btnRegistrarTarea.BackColor = System.Drawing.SystemColors.Desktop;
+            this.btnRegistrarTarea.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRegistrarTarea.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRegistrarTarea.ForeColor = System.Drawing.Color.White;
+            this.btnRegistrarTarea.Location = new System.Drawing.Point(339, 430);
+            this.btnRegistrarTarea.Name = "btnRegistrarTarea";
+            this.btnRegistrarTarea.Size = new System.Drawing.Size(173, 39);
+            this.btnRegistrarTarea.TabIndex = 58;
+            this.btnRegistrarTarea.Text = "Registrar tarea";
+            this.btnRegistrarTarea.UseVisualStyleBackColor = false;
+            this.btnRegistrarTarea.Click += new System.EventHandler(this.btnRegistrarTarea_Click_1);
+            // 
             // RealizaTarea
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(884, 520);
-            this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.btnRegistrarTarea);
+            this.Controls.Add(this.dtpDuracion);
             this.Controls.Add(this.btnDesarrolladores);
             this.Controls.Add(this.btnRevision);
             this.Controls.Add(this.btnQuitarFiltro);
@@ -194,8 +196,8 @@
         private System.Windows.Forms.Button btnQuitarFiltro;
         private System.Windows.Forms.Button btnRevision;
         private System.Windows.Forms.Button btnDesarrolladores;
-        private System.Windows.Forms.Button btnRegistrarTarea;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker dtpDuracion;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnRegistrarTarea;
     }
 }

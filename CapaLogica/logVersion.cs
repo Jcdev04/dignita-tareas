@@ -22,7 +22,7 @@ namespace CapaLogica
 
         public void insertarVersion(entVersion v)
         {
-            datVersion.Instancia.insertarVerion(v);
+            datVersion.Instancia.insertarVersion(v);
         }
     }
 }

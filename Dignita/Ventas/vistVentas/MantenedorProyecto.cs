@@ -167,8 +167,7 @@ namespace Dignita.Ventas.vistVentas
             string fecha = ec.fecha_inicio.ToString();
             float costo = ec.costo;
 
-            int id_contrato = 1;
-            // ...
+            int id_contrato = logContrato.Instancia.SeleccionarUltimoContrato();
 
             // Generar el contenido del archivo PDF como una página HTML
 
@@ -194,7 +193,7 @@ namespace Dignita.Ventas.vistVentas
             string html = "<html>" +
                 $"<body style='font-family: sans-serif; font-size: 16px; {padding}'> " +
                     $"<picture style='{flex}{width150}{padding2}{margin}'>" +
-                        $"<img style='{width100}' src='https://dignita.tech/wp-content/uploads/2023/05/dignita-tech-rpa-logo-by-softmabe-com.svg' alt='logo Dignita'>" +
+                        $"<img style='{width100}' src='https://i.imgur.com/8XJJhlT.png' alt='logo Dignita'>" +
                     $"</picture>" +
 
                     $"<div style='{flex}{centerX}{centerY}{width750}{column}'>" +

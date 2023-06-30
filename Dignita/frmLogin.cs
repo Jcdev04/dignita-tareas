@@ -31,7 +31,7 @@ namespace Dignita
             bool esAsesorVentas = false;
             bool esDesarrollador = false;
 
-            string connectionString = "Data Source=LAPTOP-BGCETDJP; Initial Catalog=DB_DIGNITA; Integrated Security = True";
+            string connectionString = "Data Source=LAPTOP-BH5K91S6\\SQLEXPRESS; Initial Catalog=DB_DIGNITA; Integrated Security = True";
 
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
@@ -86,7 +86,7 @@ namespace Dignita
             if (esScrumMaster)
             {
 
-                PrincipalScrum scrum = new PrincipalScrum();
+                PrincipalScrum scrum = new PrincipalScrum(dni);
                 scrum.Show();
             }
             else if (esAsesorVentas)

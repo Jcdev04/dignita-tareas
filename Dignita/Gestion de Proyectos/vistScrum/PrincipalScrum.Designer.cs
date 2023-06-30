@@ -64,7 +64,7 @@
             this.btnVerVersiones.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVerVersiones.Location = new System.Drawing.Point(742, 86);
             this.btnVerVersiones.Name = "btnVerVersiones";
-            this.btnVerVersiones.Size = new System.Drawing.Size(188, 33);
+            this.btnVerVersiones.Size = new System.Drawing.Size(237, 33);
             this.btnVerVersiones.TabIndex = 29;
             this.btnVerVersiones.Text = "Ver versiones";
             this.btnVerVersiones.UseVisualStyleBackColor = true;
@@ -76,7 +76,7 @@
             this.btnVerRequerimientos.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVerRequerimientos.Location = new System.Drawing.Point(742, 134);
             this.btnVerRequerimientos.Name = "btnVerRequerimientos";
-            this.btnVerRequerimientos.Size = new System.Drawing.Size(188, 33);
+            this.btnVerRequerimientos.Size = new System.Drawing.Size(237, 33);
             this.btnVerRequerimientos.TabIndex = 30;
             this.btnVerRequerimientos.Text = "Ver Requerimientos";
             this.btnVerRequerimientos.UseVisualStyleBackColor = true;
@@ -88,18 +88,19 @@
             this.btnRegistrarTarea.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRegistrarTarea.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRegistrarTarea.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnRegistrarTarea.Location = new System.Drawing.Point(742, 362);
+            this.btnRegistrarTarea.Location = new System.Drawing.Point(770, 362);
             this.btnRegistrarTarea.Name = "btnRegistrarTarea";
             this.btnRegistrarTarea.Size = new System.Drawing.Size(188, 42);
             this.btnRegistrarTarea.TabIndex = 30;
             this.btnRegistrarTarea.Text = "Registrar tareas";
             this.btnRegistrarTarea.UseVisualStyleBackColor = false;
+            this.btnRegistrarTarea.Click += new System.EventHandler(this.btnRegistrarTarea_Click);
             // 
             // PrincipalScrum
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(956, 440);
+            this.ClientSize = new System.Drawing.Size(1013, 440);
             this.Controls.Add(this.btnRegistrarTarea);
             this.Controls.Add(this.btnVerRequerimientos);
             this.Controls.Add(this.btnVerVersiones);

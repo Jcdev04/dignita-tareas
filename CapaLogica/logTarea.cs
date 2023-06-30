@@ -21,10 +21,35 @@ namespace CapaLogica
         {
             return datTarea.Instancia.listarTareas(id_req);
         }
+        public void modificaRegistrarTarea(int id_proy)
+        {
+            datTarea.Instancia.modificaRegistrarTarea(id_proy);
+        }
+
 
         public List<entTarea> listarTareasDesarrollador(string dni)
         {
             return datTarea.Instancia.listarTareasDesarrollador(dni);
         }
+        public List<entTarea> listarTareasProy(int id_proy)
+        {
+            return datTarea.Instancia.listarTareasProyecto(id_proy);
+        }
+
+        public void insertaTarea(entTarea tar)
+        {
+            datTarea.Instancia.insertaTarea(tar);
+        }
+        // editar
+        public void editarTarea(entTarea tar)
+        {
+            datTarea.Instancia.modificaTarea(tar);
+        }
+        public void inhabilitarTarea(entTarea tar)
+        {
+            datTarea.Instancia.inhabilitaTarea(tar.id_tarea);
+        }
+
+
     }
 }

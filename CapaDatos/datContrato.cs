@@ -40,5 +40,39 @@ namespace CapaDatos
                 cm.Connection.Close();
             }
         }
+
+        
+        public int SeleccionarUltimoContrato()
+        {
+            int id_contrato=0;
+            SqlCommand cm = null;
+
+            try
+            {
+                SqlConnection cn = Conexion.Instancia.conexion();
+                cm = new SqlCommand("spListaUltimoContrato", cn);
+                cm.CommandType = System.Data.CommandType.StoredProcedure;
+                cn.Open();
+                SqlDataReader dr = cm.ExecuteReader();
+                if (dr.Read())
+                {
+                    id_contrato = Convert.ToInt32(dr["id_contrato"]);
+                    // Realiza la operación deseada con el valor de id_contrato
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                cm.Connection.Close();
+            }
+
+
+            return id_contrato;
+        }
+        
+        
     }
 }

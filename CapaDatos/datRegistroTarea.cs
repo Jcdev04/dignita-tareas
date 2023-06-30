@@ -19,7 +19,7 @@ namespace CapaDatos
 
 
         // Insertar
-        public void agregarRegistroTarea(entTarea ec)
+        public void agregarRegistroTarea(entRegistroTarea ec)
         {
             SqlCommand cm = null;
             try
@@ -29,7 +29,7 @@ namespace CapaDatos
                 cm.CommandType = System.Data.CommandType.StoredProcedure;
                 cm.Parameters.AddWithValue("@id_tarea", ec.id_tarea);
                 cm.Parameters.AddWithValue("@fecha_inicio", ec.fecha_inicio);
-                cm.Parameters.AddWithValue("@fecha_final", ec.fecha_final);
+                cm.Parameters.AddWithValue("@fecha_final", ec.fecha_fin);
                 cn.Open();
                 cm.ExecuteNonQuery();
             }

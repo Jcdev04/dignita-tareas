@@ -49,7 +49,7 @@ namespace CapaDatos
             return versiones;
         }
         // insertar
-        public void insertarVerion(entVersion ver)
+        public void insertarVersion(entVersion ver)
         {
             SqlCommand cm = null;
             try
@@ -61,6 +61,7 @@ namespace CapaDatos
                 cm.Parameters.AddWithValue("@nombre_version", ver.nombre_version);
                 cm.Parameters.AddWithValue("@descripcion", ver.descripcion);
                 cn.Open();
+                cm.ExecuteNonQuery();
             }
             catch (Exception ex)
             {

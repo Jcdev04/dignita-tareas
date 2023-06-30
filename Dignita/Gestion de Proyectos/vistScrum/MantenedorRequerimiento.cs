@@ -21,6 +21,7 @@ namespace Dignita.Gestion_de_Proyectos.vistScrum
             InitializeComponent();
             this.proy = p;
             listarRequerimientos();
+            gbxRequerimientos.Enabled = false;
         }
         private void listarRequerimientos()
         {
@@ -31,7 +32,7 @@ namespace Dignita.Gestion_de_Proyectos.vistScrum
 
         public void enableInputs(bool estado)
         {
-            gbxVersiones.Enabled = estado;
+            gbxRequerimientos.Enabled = estado;
             btnAgregar.Enabled = !estado;
             btnModificar.Enabled = !estado;
             btnDeshabilitar.Enabled = !estado;
@@ -106,7 +107,7 @@ namespace Dignita.Gestion_de_Proyectos.vistScrum
             else if (accion == "modificar")
             {
                 req.id_req = Int32.Parse(dgvRequerimientos.Rows[dgvRequerimientos.CurrentCell.RowIndex].Cells[0].Value.ToString());
-                logRequerimiento.Instancia.insertarRequerimiento(req);
+                logRequerimiento.Instancia.editarRequerimiento(req);
             }
             listarRequerimientos();
             enableInputs(false);
@@ -118,6 +119,21 @@ namespace Dignita.Gestion_de_Proyectos.vistScrum
             txtDescripcionReq.Text = dgvRequerimientos.Rows[dgvRequerimientos.CurrentCell.RowIndex].Cells[3].Value.ToString();
             txtNombreReq.Text = dgvRequerimientos.Rows[dgvRequerimientos.CurrentCell.RowIndex].Cells[2].Value.ToString();
 
+        }
+
+        private void btnVerTareas_Click(object sender, EventArgs e)
+        {
+            if (dgvRequerimientos.CurrentCell.RowIndex != -1)
+            {
+                int id_req = Int32.Parse(dgvRequerimientos.Rows[dgvRequerimientos.CurrentCell.RowIndex].Cells[0].Value.ToString());
+                MantenedorTarea tarea = new MantenedorTarea(id_req);
+                tarea.Show();
+            }
+            else
+            {
+                MessageBox.Show("Seleccione una fila");
+            }
+           
         }
     }
 }

@@ -16,12 +16,14 @@ namespace Dignita.Gestion_de_Proyectos.vistScrum
 {
     public partial class PrincipalScrum : Form
     {
-        string dni = "12345678";
-        public PrincipalScrum()
+        string dni = "";
+        public PrincipalScrum(string dni)
         {
             InitializeComponent();
+            this.dni = dni;
             listarProyecto();
         }
+
 
         public void listarProyecto()
         {
@@ -66,6 +68,20 @@ namespace Dignita.Gestion_de_Proyectos.vistScrum
             proyecto.contratado = Boolean.Parse(dgvProyectos.Rows[dgvProyectos.CurrentCell.RowIndex].Cells[7].Value.ToString());
             MantenedorRequerimiento mr = new MantenedorRequerimiento(proyecto);
             mr.ShowDialog();
+        }
+
+        private void btnRegistrarTarea_Click(object sender, EventArgs e)
+        {
+            if (dgvProyectos.CurrentCell.RowIndex != -1)
+            {
+                int id_proy = int.Parse(dgvProyectos.Rows[dgvProyectos.CurrentCell.RowIndex].Cells[0].Value.ToString());
+                RealizaTarea mr = new RealizaTarea(id_proy);
+                mr.ShowDialog();
+            }
+            else
+            {
+
+            }
         }
     }
 }

@@ -69,3 +69,6 @@ D:\Programas\Ciclo 5\MOANSO\Proyecto Final\FinalProyecto\Dignita\bin\Debug\Selec
 D:\Programas\Ciclo 5\MOANSO\Proyecto Final\FinalProyecto\Dignita\bin\Debug\CapaDatos.pdb
 D:\Programas\Ciclo 5\MOANSO\Proyecto Final\FinalProyecto\Dignita\bin\Debug\Select.Html.dep
 D:\Programas\Ciclo 5\MOANSO\Proyecto Final\FinalProyecto\Dignita\obj\Debug\CapaPresentacion.csproj.CopyComplete
+C:\Users\Aaron\source\repos\Jcdev04\dignita-tareass\Dignita\bin\Debug\Select.HtmlToPdf.dll
+C:\Users\Aaron\source\repos\Jcdev04\dignita-tareass\Dignita\bin\Debug\Select.HtmlToPdf.xml
+C:\Users\Aaron\source\repos\Jcdev04\dignita-tareass\Dignita\bin\Debug\Select.Html.dep

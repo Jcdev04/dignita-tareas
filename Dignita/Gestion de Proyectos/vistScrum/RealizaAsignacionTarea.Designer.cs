@@ -28,28 +28,28 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dtgvTareas = new System.Windows.Forms.DataGridView();
+            this.dgvTareas = new System.Windows.Forms.DataGridView();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.cbxDesarrolladores = new System.Windows.Forms.ComboBox();
-            this.label4 = new System.Windows.Forms.Label();
             this.btnCancelar = new System.Windows.Forms.Button();
             this.btnAceptar = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
+            this.cbxDesarrolladores = new System.Windows.Forms.ComboBox();
             this.btnAsignar = new System.Windows.Forms.Button();
             this.btnEliminarAsig = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.dtgvTareas)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvTareas)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // dtgvTareas
+            // dgvTareas
             // 
-            this.dtgvTareas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtgvTareas.Location = new System.Drawing.Point(22, 69);
-            this.dtgvTareas.Name = "dtgvTareas";
-            this.dtgvTareas.RowHeadersWidth = 51;
-            this.dtgvTareas.RowTemplate.Height = 24;
-            this.dtgvTareas.Size = new System.Drawing.Size(515, 294);
-            this.dtgvTareas.TabIndex = 23;
+            this.dgvTareas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvTareas.Location = new System.Drawing.Point(22, 69);
+            this.dgvTareas.Name = "dgvTareas";
+            this.dgvTareas.RowHeadersWidth = 51;
+            this.dgvTareas.RowTemplate.Height = 24;
+            this.dgvTareas.Size = new System.Drawing.Size(515, 294);
+            this.dgvTareas.TabIndex = 23;
             // 
             // groupBox1
             // 
@@ -63,26 +63,6 @@
             this.groupBox1.TabIndex = 26;
             this.groupBox1.TabStop = false;
             // 
-            // cbxDesarrolladores
-            // 
-            this.cbxDesarrolladores.FormattingEnabled = true;
-            this.cbxDesarrolladores.Location = new System.Drawing.Point(21, 50);
-            this.cbxDesarrolladores.Name = "cbxDesarrolladores";
-            this.cbxDesarrolladores.Size = new System.Drawing.Size(390, 24);
-            this.cbxDesarrolladores.TabIndex = 28;
-            this.cbxDesarrolladores.Text = "--Selecciona--";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
-            this.label4.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label4.Location = new System.Drawing.Point(17, 22);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(186, 20);
-            this.label4.TabIndex = 51;
-            this.label4.Text = "Escoja un desarrollador";
-            // 
             // btnCancelar
             // 
             this.btnCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -93,6 +73,7 @@
             this.btnCancelar.TabIndex = 53;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
             // btnAceptar
             // 
@@ -106,6 +87,27 @@
             this.btnAceptar.TabIndex = 52;
             this.btnAceptar.Text = "Aceptar";
             this.btnAceptar.UseVisualStyleBackColor = false;
+            this.btnAceptar.Click += new System.EventHandler(this.btnAceptar_Click);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
+            this.label4.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.label4.Location = new System.Drawing.Point(17, 22);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(186, 20);
+            this.label4.TabIndex = 51;
+            this.label4.Text = "Escoja un desarrollador";
+            // 
+            // cbxDesarrolladores
+            // 
+            this.cbxDesarrolladores.FormattingEnabled = true;
+            this.cbxDesarrolladores.Location = new System.Drawing.Point(21, 50);
+            this.cbxDesarrolladores.Name = "cbxDesarrolladores";
+            this.cbxDesarrolladores.Size = new System.Drawing.Size(390, 24);
+            this.cbxDesarrolladores.TabIndex = 28;
+            this.cbxDesarrolladores.Text = "--Selecciona--";
             // 
             // btnAsignar
             // 
@@ -117,6 +119,7 @@
             this.btnAsignar.TabIndex = 34;
             this.btnAsignar.Text = "Asignar";
             this.btnAsignar.UseVisualStyleBackColor = true;
+            this.btnAsignar.Click += new System.EventHandler(this.btnAsignar_Click);
             // 
             // btnEliminarAsig
             // 
@@ -128,6 +131,7 @@
             this.btnEliminarAsig.TabIndex = 35;
             this.btnEliminarAsig.Text = "Eliminar asignación";
             this.btnEliminarAsig.UseVisualStyleBackColor = true;
+            this.btnEliminarAsig.Click += new System.EventHandler(this.btnEliminarAsig_Click);
             // 
             // label1
             // 
@@ -137,7 +141,7 @@
             this.label1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.label1.Location = new System.Drawing.Point(17, 30);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(338, 31);
+            this.label1.Size = new System.Drawing.Size(270, 25);
             this.label1.TabIndex = 36;
             this.label1.Text = "Desarrolladores del equipo";
             // 
@@ -150,10 +154,10 @@
             this.Controls.Add(this.btnEliminarAsig);
             this.Controls.Add(this.btnAsignar);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.dtgvTareas);
+            this.Controls.Add(this.dgvTareas);
             this.Name = "RealizaAsignacionTarea_cs";
             this.Text = "RealizaAsignacionTarea_cs";
-            ((System.ComponentModel.ISupportInitialize)(this.dtgvTareas)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvTareas)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
@@ -162,7 +166,7 @@
         }
 
         #endregion
-        private System.Windows.Forms.DataGridView dtgvTareas;
+        private System.Windows.Forms.DataGridView dgvTareas;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.ComboBox cbxDesarrolladores;
         private System.Windows.Forms.Label label4;

@@ -41,10 +41,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="logAsignarTarea.cs" />
     <Compile Include="logContrato.cs" />
     <Compile Include="logEmpresa.cs" />
     <Compile Include="logEquipo.cs" />
+    <Compile Include="logEtapaTarea.cs" />
     <Compile Include="logProyecto.cs" />
+    <Compile Include="logRegistroTarea.cs" />
     <Compile Include="logRequerimiento.cs" />
     <Compile Include="logTarea.cs" />
     <Compile Include="logTareaEstado.cs" />

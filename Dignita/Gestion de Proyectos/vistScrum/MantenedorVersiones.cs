@@ -14,12 +14,13 @@ namespace Dignita.Ventas.vistVentas
 {
     public partial class MantenedorVersiones : Form
     {
-        entProyecto p = new entProyecto();
+        entProyecto p = null;
         public MantenedorVersiones(entProyecto proy)
         {
             InitializeComponent();
-            listarVersiones();
             this.p = proy;
+            listarVersiones();
+            gbxVersiones.Enabled = false;
         }
 
        public void listarVersiones()
@@ -61,10 +62,11 @@ namespace Dignita.Ventas.vistVentas
             v.id_proy = p.id_proy;
             v.nombre_version = txtNombre.Text;
             v.descripcion = txtDescripcion.Text;
+            MessageBox.Show(v.id_proy + "");
             logVersion.Instancia.insertarVersion(v);
-            listarVersiones();
             enableInputs(false);
             limpiar();
+            listarVersiones();
         }
 
         private void button1_Click(object sender, EventArgs e)

@@ -19,5 +19,11 @@ namespace CapaLogica
         {
             datContrato.Instancia.agregarContrato(ec);
         }
+
+        
+        public int SeleccionarUltimoContrato()
+        {
+            return datContrato.Instancia.SeleccionarUltimoContrato();
+        }
     }
 }

@@ -60,6 +60,7 @@ namespace CapaDatos
                 cm.Parameters.AddWithValue("@nombre_req", ep.nombre_req);
                 cm.Parameters.AddWithValue("@descripcion", ep.descripcion);
                 cn.Open();
+                cm.ExecuteNonQuery();
             }
             catch (Exception ex)
             {
@@ -80,10 +81,11 @@ namespace CapaDatos
                 SqlConnection cn = Conexion.Instancia.conexion();
                 cm = new SqlCommand("spEditaRequerimiento", cn);
                 cm.CommandType = System.Data.CommandType.StoredProcedure;
-                cm.Parameters.AddWithValue("@id_proy", ep.id_proy);
+                cm.Parameters.AddWithValue("@id_req", ep.id_req);
                 cm.Parameters.AddWithValue("@nombre_req", ep.nombre_req);
                 cm.Parameters.AddWithValue("@descripcion", ep.descripcion);
                 cn.Open();
+                cm.ExecuteNonQuery();
             }
             catch (Exception ex)
             {
@@ -105,6 +107,7 @@ namespace CapaDatos
                 cm.CommandType = System.Data.CommandType.StoredProcedure;
                 cm.Parameters.AddWithValue("@id_req", id_req);
                 cn.Open();
+                cm.ExecuteNonQuery();
             }
             catch (Exception ex)
             {

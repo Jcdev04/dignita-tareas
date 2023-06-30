@@ -160,7 +160,9 @@ namespace CapaDatos
                 cm.Parameters.AddWithValue("@nombre_proy", ep.nombre_proy);
                 cm.Parameters.AddWithValue("@descripcion", ep.descripcion);
                 cn.Open();
-            }catch(Exception ex)
+                cm.ExecuteNonQuery();
+            }
+            catch(Exception ex)
             {
                 throw ex;
             }
