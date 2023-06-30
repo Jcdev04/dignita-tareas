@@ -124,7 +124,7 @@
             this.btnDesarrolladores.Name = "btnDesarrolladores";
             this.btnDesarrolladores.Size = new System.Drawing.Size(188, 33);
             this.btnDesarrolladores.TabIndex = 55;
-            this.btnDesarrolladores.Text = "Desarrolladores";
+            this.btnDesarrolladores.Text = "Asignar";
             this.btnDesarrolladores.UseVisualStyleBackColor = true;
             this.btnDesarrolladores.Click += new System.EventHandler(this.btnDesarrolladores_Click);
             // 

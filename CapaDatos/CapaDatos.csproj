@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Conexion.cs" />
+    <Compile Include="datAsignacion.cs" />
     <Compile Include="datContrato.cs" />
     <Compile Include="datEmpresa.cs" />
     <Compile Include="datEquipo.cs" />

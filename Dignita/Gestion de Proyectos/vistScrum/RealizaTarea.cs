@@ -49,19 +49,16 @@ namespace Dignita.Gestion_de_Proyectos.vistScrum
 
         private void btnDesarrolladores_Click(object sender, EventArgs e)
         {
-
             if (dtgvTareas.CurrentCell.RowIndex != -1)
             {
                 int id_tarea = Int32.Parse(dtgvTareas.Rows[dtgvTareas.CurrentCell.RowIndex].Cells[0].Value.ToString());
-                RealizaAsignacionTarea_cs ra = new RealizaAsignacionTarea_cs(id_tarea);
+                RealizaAsignacionTarea_cs ra = new RealizaAsignacionTarea_cs(id_tarea, id_proy);
                 ra.ShowDialog();
             }
             else
             {
                 MessageBox.Show("Selecciona una fila");
             }
-
-
          }
     }
 }
