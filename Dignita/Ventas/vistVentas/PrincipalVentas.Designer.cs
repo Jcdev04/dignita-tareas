@@ -106,7 +106,7 @@
             this.btnRegistarContrato.Name = "btnRegistarContrato";
             this.btnRegistarContrato.Size = new System.Drawing.Size(197, 45);
             this.btnRegistarContrato.TabIndex = 56;
-            this.btnRegistarContrato.Text = "Registrato contrato";
+            this.btnRegistarContrato.Text = "Registrar contrato";
             this.btnRegistarContrato.UseVisualStyleBackColor = false;
             this.btnRegistarContrato.Click += new System.EventHandler(this.button1_Click);
             // 

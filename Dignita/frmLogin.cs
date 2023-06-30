@@ -1,4 +1,5 @@
-﻿using Dignita.Gestion_de_Proyectos.vistScrum;
+﻿using Dignita.Gestion_de_Proyectos.vistDesarrollador;
+using Dignita.Gestion_de_Proyectos.vistScrum;
 using Dignita.Ventas.vistVentas;
 using System;
 using System.Collections.Generic;
@@ -28,8 +29,9 @@ namespace Dignita
 
             bool esScrumMaster = false;
             bool esAsesorVentas = false;
+            bool esDesarrollador = false;
 
-            string connectionString = "Data Source=LAPTOP-BH5K91S6\\SQLEXPRESS; Initial Catalog=DB_DIGNITA; Integrated Security = True";
+            string connectionString = "Data Source=LAPTOP-BGCETDJP; Initial Catalog=DB_DIGNITA; Integrated Security = True";
 
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
@@ -64,6 +66,21 @@ namespace Dignita
 
                     esAsesorVentas = (bool)command.Parameters["@esAsesorVentas"].Value;
                 }
+
+
+                using (SqlCommand command = new SqlCommand("VerificarDesarrollador", connection))
+                {
+                    command.CommandType = CommandType.StoredProcedure;
+                    command.Parameters.Add("@dni", SqlDbType.VarChar, 8).Value = dni;
+
+                    SqlParameter outputParam = new SqlParameter("@esDesarrollador", SqlDbType.Bit);
+                    outputParam.Direction = ParameterDirection.Output;
+                    command.Parameters.Add(outputParam);
+
+                    command.ExecuteNonQuery();
+
+                    esDesarrollador = (bool)command.Parameters["@esDesarrollador"].Value;
+                }
             }
 
             if (esScrumMaster)
@@ -76,6 +93,11 @@ namespace Dignita
             {
                 PrincipalVentas ventas = new PrincipalVentas();
                 ventas.Show();
+            }
+            else if (esDesarrollador)
+            {
+                MantenedorTareacs desa = new MantenedorTareacs(dni);
+                desa.Show();
             }
             else
             {

@@ -35,7 +35,7 @@ namespace CapaDatos
                     p.id_req = Convert.ToInt32(dr["id_req"]);
                     p.nombre_req = dr["nombre_req"].ToString();
                     p.descripcion = dr["descripcion"].ToString();
-                    p.estado = Convert.ToBoolean(dr["estado"]);
+                    p.inhabilitado = Convert.ToBoolean(dr["inhabilitado"]);
                     lista.Add(p);
                 }
             } catch (Exception ex)

@@ -29,20 +29,20 @@
         private void InitializeComponent()
         {
             this.gbxVersiones = new System.Windows.Forms.GroupBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.btnCancelar = new System.Windows.Forms.Button();
+            this.btnAceptar = new System.Windows.Forms.Button();
             this.txtDescripcionReq = new System.Windows.Forms.TextBox();
             this.txtNombreReq = new System.Windows.Forms.TextBox();
-            this.dtgvRequerimientos = new System.Windows.Forms.DataGridView();
+            this.dgvRequerimientos = new System.Windows.Forms.DataGridView();
             this.btnVerTareas = new System.Windows.Forms.Button();
             this.btnDeshabilitar = new System.Windows.Forms.Button();
             this.btnAgregar = new System.Windows.Forms.Button();
             this.btnModificar = new System.Windows.Forms.Button();
-            this.btnCancelar = new System.Windows.Forms.Button();
-            this.btnAceptar = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.gbxVersiones.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dtgvRequerimientos)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvRequerimientos)).BeginInit();
             this.SuspendLayout();
             // 
             // gbxVersiones
@@ -59,6 +59,54 @@
             this.gbxVersiones.TabIndex = 20;
             this.gbxVersiones.TabStop = false;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
+            this.label3.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.label3.Location = new System.Drawing.Point(18, 18);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(202, 20);
+            this.label3.TabIndex = 45;
+            this.label3.Text = "Nombre del requerimiento";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
+            this.label4.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.label4.Location = new System.Drawing.Point(359, 18);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(99, 20);
+            this.label4.TabIndex = 46;
+            this.label4.Text = "Descripcion";
+            // 
+            // btnCancelar
+            // 
+            this.btnCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancelar.Location = new System.Drawing.Point(748, 86);
+            this.btnCancelar.Name = "btnCancelar";
+            this.btnCancelar.Size = new System.Drawing.Size(138, 38);
+            this.btnCancelar.TabIndex = 44;
+            this.btnCancelar.Text = "Cancelar";
+            this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
+            // 
+            // btnAceptar
+            // 
+            this.btnAceptar.BackColor = System.Drawing.SystemColors.Desktop;
+            this.btnAceptar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAceptar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAceptar.ForeColor = System.Drawing.Color.White;
+            this.btnAceptar.Location = new System.Drawing.Point(748, 41);
+            this.btnAceptar.Name = "btnAceptar";
+            this.btnAceptar.Size = new System.Drawing.Size(138, 39);
+            this.btnAceptar.TabIndex = 43;
+            this.btnAceptar.Text = "Aceptar";
+            this.btnAceptar.UseVisualStyleBackColor = false;
+            this.btnAceptar.Click += new System.EventHandler(this.btnAceptar_Click);
+            // 
             // txtDescripcionReq
             // 
             this.txtDescripcionReq.Location = new System.Drawing.Point(363, 41);
@@ -74,15 +122,16 @@
             this.txtNombreReq.Size = new System.Drawing.Size(289, 22);
             this.txtNombreReq.TabIndex = 10;
             // 
-            // dtgvRequerimientos
+            // dgvRequerimientos
             // 
-            this.dtgvRequerimientos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtgvRequerimientos.Location = new System.Drawing.Point(12, 86);
-            this.dtgvRequerimientos.Name = "dtgvRequerimientos";
-            this.dtgvRequerimientos.RowHeadersWidth = 51;
-            this.dtgvRequerimientos.RowTemplate.Height = 24;
-            this.dtgvRequerimientos.Size = new System.Drawing.Size(725, 252);
-            this.dtgvRequerimientos.TabIndex = 16;
+            this.dgvRequerimientos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvRequerimientos.Location = new System.Drawing.Point(12, 86);
+            this.dgvRequerimientos.Name = "dgvRequerimientos";
+            this.dgvRequerimientos.RowHeadersWidth = 51;
+            this.dgvRequerimientos.RowTemplate.Height = 24;
+            this.dgvRequerimientos.Size = new System.Drawing.Size(725, 252);
+            this.dgvRequerimientos.TabIndex = 16;
+            this.dgvRequerimientos.SelectionChanged += new System.EventHandler(this.dgvRequerimientos_SelectionChanged);
             // 
             // btnVerTareas
             // 
@@ -105,6 +154,7 @@
             this.btnDeshabilitar.TabIndex = 32;
             this.btnDeshabilitar.Text = "Deshabilitar";
             this.btnDeshabilitar.UseVisualStyleBackColor = true;
+            this.btnDeshabilitar.Click += new System.EventHandler(this.btnDeshabilitar_Click);
             // 
             // btnAgregar
             // 
@@ -116,6 +166,7 @@
             this.btnAgregar.TabIndex = 31;
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.UseVisualStyleBackColor = true;
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
             // btnModificar
             // 
@@ -127,52 +178,7 @@
             this.btnModificar.TabIndex = 32;
             this.btnModificar.Text = "Modificar";
             this.btnModificar.UseVisualStyleBackColor = true;
-            // 
-            // btnCancelar
-            // 
-            this.btnCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancelar.Location = new System.Drawing.Point(748, 86);
-            this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(138, 38);
-            this.btnCancelar.TabIndex = 44;
-            this.btnCancelar.Text = "Cancelar";
-            this.btnCancelar.UseVisualStyleBackColor = true;
-            // 
-            // btnAceptar
-            // 
-            this.btnAceptar.BackColor = System.Drawing.SystemColors.Desktop;
-            this.btnAceptar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAceptar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAceptar.ForeColor = System.Drawing.Color.White;
-            this.btnAceptar.Location = new System.Drawing.Point(748, 41);
-            this.btnAceptar.Name = "btnAceptar";
-            this.btnAceptar.Size = new System.Drawing.Size(138, 39);
-            this.btnAceptar.TabIndex = 43;
-            this.btnAceptar.Text = "Aceptar";
-            this.btnAceptar.UseVisualStyleBackColor = false;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
-            this.label3.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label3.Location = new System.Drawing.Point(18, 18);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(253, 25);
-            this.label3.TabIndex = 45;
-            this.label3.Text = "Nombre del requerimiento";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
-            this.label4.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label4.Location = new System.Drawing.Point(359, 18);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(124, 25);
-            this.label4.TabIndex = 46;
-            this.label4.Text = "Descripcion";
+            this.btnModificar.Click += new System.EventHandler(this.btnModificar_Click);
             // 
             // label2
             // 
@@ -197,12 +203,12 @@
             this.Controls.Add(this.btnDeshabilitar);
             this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.gbxVersiones);
-            this.Controls.Add(this.dtgvRequerimientos);
+            this.Controls.Add(this.dgvRequerimientos);
             this.Name = "MantenedorRequerimiento";
             this.Text = "MantenedorRequerimiento";
             this.gbxVersiones.ResumeLayout(false);
             this.gbxVersiones.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dtgvRequerimientos)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvRequerimientos)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -213,7 +219,7 @@
         private System.Windows.Forms.GroupBox gbxVersiones;
         private System.Windows.Forms.TextBox txtDescripcionReq;
         private System.Windows.Forms.TextBox txtNombreReq;
-        private System.Windows.Forms.DataGridView dtgvRequerimientos;
+        private System.Windows.Forms.DataGridView dgvRequerimientos;
         private System.Windows.Forms.Button btnVerTareas;
         private System.Windows.Forms.Button btnDeshabilitar;
         private System.Windows.Forms.Button btnAgregar;

@@ -45,7 +45,11 @@
     <Compile Include="logEmpresa.cs" />
     <Compile Include="logEquipo.cs" />
     <Compile Include="logProyecto.cs" />
+    <Compile Include="logRequerimiento.cs" />
+    <Compile Include="logTarea.cs" />
+    <Compile Include="logTareaEstado.cs" />
     <Compile Include="logTipoProyecto.cs" />
+    <Compile Include="logVersion.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

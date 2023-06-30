@@ -49,7 +49,7 @@ namespace CapaDatos
             return versiones;
         }
         // insertar
-        public void insertaVerion(entVersion ver)
+        public void insertarVerion(entVersion ver)
         {
             SqlCommand cm = null;
             try

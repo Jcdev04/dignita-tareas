@@ -79,7 +79,7 @@ namespace Dignita.Ventas.vistVentas
         {
             if (dgvEmpresa.CurrentCell.RowIndex == -1)
             {
-                MessageBox.Show("Selecciones una fila");
+                MessageBox.Show("Selecciona una fila");
                 return;
             }
             if (contrato == null)
@@ -90,7 +90,7 @@ namespace Dignita.Ventas.vistVentas
 
             contrato.ruc_emp = dgvEmpresa.Rows[dgvEmpresa.CurrentCell.RowIndex].Cells[0].Value.ToString();
             string nombreEmpresa = dgvEmpresa.Rows[dgvEmpresa.CurrentCell.RowIndex].Cells[1].Value.ToString();
-            MantenedorProyecto mp = new MantenedorProyecto(contrato, nombreEmpresa);
+            MantenedorProyecto mp = new MantenedorProyecto(contrato, nombreEmpresa, contrato.ruc_emp);
             mp.ShowDialog();
         }
 

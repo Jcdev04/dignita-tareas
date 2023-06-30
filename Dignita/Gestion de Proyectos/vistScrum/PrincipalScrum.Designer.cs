@@ -68,6 +68,7 @@
             this.btnVerVersiones.TabIndex = 29;
             this.btnVerVersiones.Text = "Ver versiones";
             this.btnVerVersiones.UseVisualStyleBackColor = true;
+            this.btnVerVersiones.Click += new System.EventHandler(this.btnVerVersiones_Click);
             // 
             // btnVerRequerimientos
             // 
@@ -79,6 +80,7 @@
             this.btnVerRequerimientos.TabIndex = 30;
             this.btnVerRequerimientos.Text = "Ver Requerimientos";
             this.btnVerRequerimientos.UseVisualStyleBackColor = true;
+            this.btnVerRequerimientos.Click += new System.EventHandler(this.btnVerRequerimientos_Click);
             // 
             // btnRegistrarTarea
             // 

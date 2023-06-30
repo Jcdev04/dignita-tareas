@@ -14,5 +14,7 @@ namespace CapaEntidad
         public string nombre_t { get; set; }
         public string descripcion { get; set; }
         public int estado_tarea { get; set; }
+        public DateTime fecha_inicio { get; set; }
+        public DateTime fecha_final { get; set; }
     }
 }
