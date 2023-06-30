@@ -12,6 +12,6 @@ namespace CapaEntidad
         public int id_proy { get; set; }
         public string nombre_req { get; set; }
         public string descripcion { get; set; }
-        public bool estado { get; set; }
+        public bool inhabilitado { get; set; }
     }
 }

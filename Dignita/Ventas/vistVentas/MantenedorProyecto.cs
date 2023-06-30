@@ -11,19 +11,25 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+using SelectPdf;
+
 namespace Dignita.Ventas.vistVentas
 {
     public partial class MantenedorProyecto : Form
     {
-        entContrato ec = null; 
+        entContrato ec = null;
+        entEmpresa ee = new entEmpresa();
         string action = "";
-        public MantenedorProyecto(entContrato ep, string nombreEmpresa)
+        public MantenedorProyecto(entContrato ec, string nombreEmpresa, string ruc_emp)
         {
             InitializeComponent();
-            ec = ep;
+            this.ec = ec;
+            ee.razon_social = nombreEmpresa;
+            ee.RUC = ruc_emp;
+
             lblNombreEmpresa.Text = nombreEmpresa;
-            lblCostoProyecto.Text = ep.costo.ToString();
-            lblFechaFinalizacion.Text = ep.fecha_fin.ToString();
+            lblCostoProyecto.Text = ec.costo.ToString();
+            lblFechaFinalizacion.Text = ec.fecha_fin.ToString();
 
             listarProyecto();
             enableInputs(false);
@@ -74,7 +80,7 @@ namespace Dignita.Ventas.vistVentas
         {
             if (!validar())
             {
-                MessageBox.Show("Los campos no debería estar vacíos");
+                MessageBox.Show("Los campos no deberían estar vacíos");
                 return;
             }
             entProyecto ep = new entProyecto();
@@ -107,15 +113,15 @@ namespace Dignita.Ventas.vistVentas
             {
                 entProyecto ep = new entProyecto();
                 ep.id_proy = Int32.Parse(dgvProyecto.Rows[dgvProyecto.CurrentCell.RowIndex].Cells[0].Value.ToString());
-                logProyecto.Instancia.editarProyecto(ep);
                 ec.id_proyecto = ep.id_proy;
+                logProyecto.Instancia.editarProyecto(ep);
                 logContrato.Instancia.agregarContrato(ec);
                 logProyecto.Instancia.contratarProyecto(ep);
                 listarProyecto();
                 MessageBox.Show("Contrato generado");
-               
-
-            }
+                
+                generarPdf();
+            }   
             else
             {
                 MessageBox.Show("Seleccione una fila");
@@ -151,9 +157,99 @@ namespace Dignita.Ventas.vistVentas
             dgvProyecto.DataSource = logProyecto.Instancia.listarProyectos();
         }
 
-        private void btnSiguiente_Click(object sender, EventArgs e)
-        {
 
+        public void generarPdf()
+        {
+            // Obtener los datos del formulario
+            string empresa = ee.razon_social;
+            string ruc = ee.RUC;
+            string nombre = txtNombreProy.Text;
+            string fecha = ec.fecha_inicio.ToString();
+            float costo = ec.costo;
+
+            int id_contrato = 1;
+            // ...
+
+            // Generar el contenido del archivo PDF como una página HTML
+
+            // Clases
+            string flex = "display: flex;";
+            string between = "justify-content: space-between;";
+            string centerX = "justify-content: center;";
+            string centerY = "align-items: center;";
+            string column = "flex-direction: column;";
+            string width150 = "width: 150px;";
+            string width400 = "width: 400px;";
+            string width500 = "width: 500px;";
+            string width750 = "width: 750px;";
+            string width100 = "width: 100%;";
+
+            string red = "color: red;";
+            string border = "border: 2px solid red;";
+            string radius = "border-radius: 10px;";
+            string padding = "padding: 20px 10px;";
+            string margin = "margin-bottom: 45px;";
+            string padding2 = "padding-left: 20px;";
+
+            string html = "<html>" +
+                $"<body style='font-family: sans-serif; font-size: 16px; {padding}'> " +
+                    $"<picture style='{flex}{width150}{padding2}{margin}'>" +
+                        $"<img style='{width100}' src='https://dignita.tech/wp-content/uploads/2023/05/dignita-tech-rpa-logo-by-softmabe-com.svg' alt='logo Dignita'>" +
+                    $"</picture>" +
+
+                    $"<div style='{flex}{centerX}{centerY}{width750}{column}'>" +
+
+
+                        $"<div style='{red}{flex}{column}{centerX}{centerY}{width400}{border}{radius}{padding}{margin}'>" +
+                            $"<p>RUC: 90147963258</p>" +
+                            $"<h1>Factura Electrónica</h1>" +
+                            $"<p>N° {id_contrato}</p>" +
+                        $"</div>" +
+
+                        $"<div style='{flex}{centerX}{column}{width500}'>" +
+                            $"<div style='{flex}{between}{centerY}'>" +
+                                $"<h3>Empresa contratada: </h3>" +
+                                $"<p>{empresa}</p>" +
+                            $"</div>" +
+                            $"<div style='{flex}{between}{centerY}'>" +
+                                $"<h3>RUC de la empresa: </h3>" +
+                                $"<p>{ruc}</p>" +
+                            $"</div>" +
+                            $"<div style='{flex}{between}{centerY}'>" +
+                                $"<h3>Nombre del proyecto: </h3>" +
+                                $"<p>{nombre}</p>" +
+                            $"</div>" +
+                            $"<div style='{flex}{between}{centerY}'>" +
+                                $"<h3>Fecha de emisión: </h3>" +
+                                $"<p>{fecha}</p>" +
+                            $"</div>" +
+                            $"<div style='{flex}{between}{centerY}'>" +
+                                $"<h3>Total a pagar: </h3>" +
+                                $"<p>S/. {costo}</p>" +
+                            $"</div>" +
+                        $"</div>" +
+                    $"</div>" +
+                $"</body>" +
+            $"</html>";
+
+
+            // Convertir la página HTML a PDF
+            HtmlToPdf converter = new HtmlToPdf();
+            converter.Options.WebPageWidth = 500;
+            converter.Options.WebPageHeight = 500;
+            PdfDocument doc = converter.ConvertHtmlString(html);
+
+
+            // Mostrar el cuadro de diálogo para seleccionar la ubicación y el nombre del archivo PDF
+            SaveFileDialog saveFileDialog = new SaveFileDialog();
+            saveFileDialog.Filter = "PDF files (*.pdf)|*.pdf";
+            saveFileDialog.FileName = "comprobante_pago.pdf";
+            if (saveFileDialog.ShowDialog() == DialogResult.OK)
+            {
+                // Guardar el archivo PDF en la ubicación seleccionada por el usuario
+                doc.Save(saveFileDialog.FileName);
+                doc.Close();
+            }
         }
     }
 }

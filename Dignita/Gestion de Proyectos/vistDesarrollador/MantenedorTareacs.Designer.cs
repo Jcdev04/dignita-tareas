@@ -28,29 +28,29 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dtgvTareas = new System.Windows.Forms.DataGridView();
+            this.dgvTareas = new System.Windows.Forms.DataGridView();
             this.btnDetalles = new System.Windows.Forms.Button();
             this.btnModificar = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.cbxEstado = new System.Windows.Forms.ComboBox();
+            this.cmbEstado = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.btnCancelar = new System.Windows.Forms.Button();
             this.btnAceptar = new System.Windows.Forms.Button();
             this.txtDetallesTarea = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.dtgvTareas)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvTareas)).BeginInit();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
-            // dtgvTareas
+            // dgvTareas
             // 
-            this.dtgvTareas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtgvTareas.Location = new System.Drawing.Point(27, 44);
-            this.dtgvTareas.Name = "dtgvTareas";
-            this.dtgvTareas.RowHeadersWidth = 51;
-            this.dtgvTareas.RowTemplate.Height = 24;
-            this.dtgvTareas.Size = new System.Drawing.Size(596, 275);
-            this.dtgvTareas.TabIndex = 24;
+            this.dgvTareas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvTareas.Location = new System.Drawing.Point(27, 44);
+            this.dgvTareas.Name = "dgvTareas";
+            this.dgvTareas.RowHeadersWidth = 51;
+            this.dgvTareas.RowTemplate.Height = 24;
+            this.dgvTareas.Size = new System.Drawing.Size(596, 275);
+            this.dgvTareas.TabIndex = 24;
             // 
             // btnDetalles
             // 
@@ -62,6 +62,7 @@
             this.btnDetalles.TabIndex = 27;
             this.btnDetalles.Text = "Detalles";
             this.btnDetalles.UseVisualStyleBackColor = true;
+            this.btnDetalles.Click += new System.EventHandler(this.btnDetalles_Click);
             // 
             // btnModificar
             // 
@@ -73,10 +74,11 @@
             this.btnModificar.TabIndex = 26;
             this.btnModificar.Text = "Modificar";
             this.btnModificar.UseVisualStyleBackColor = true;
+            this.btnModificar.Click += new System.EventHandler(this.btnModificar_Click);
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.cbxEstado);
+            this.groupBox2.Controls.Add(this.cmbEstado);
             this.groupBox2.Controls.Add(this.label1);
             this.groupBox2.Controls.Add(this.btnCancelar);
             this.groupBox2.Controls.Add(this.btnAceptar);
@@ -88,14 +90,14 @@
             this.groupBox2.TabIndex = 29;
             this.groupBox2.TabStop = false;
             // 
-            // cbxEstado
+            // cmbEstado
             // 
-            this.cbxEstado.FormattingEnabled = true;
-            this.cbxEstado.Location = new System.Drawing.Point(41, 46);
-            this.cbxEstado.Name = "cbxEstado";
-            this.cbxEstado.Size = new System.Drawing.Size(205, 24);
-            this.cbxEstado.TabIndex = 42;
-            this.cbxEstado.Text = " --Selecciona--";
+            this.cmbEstado.FormattingEnabled = true;
+            this.cmbEstado.Location = new System.Drawing.Point(41, 46);
+            this.cmbEstado.Name = "cmbEstado";
+            this.cmbEstado.Size = new System.Drawing.Size(205, 24);
+            this.cmbEstado.TabIndex = 42;
+            this.cmbEstado.Text = " --Selecciona--";
             // 
             // label1
             // 
@@ -103,7 +105,7 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
             this.label1.Location = new System.Drawing.Point(37, 15);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(76, 25);
+            this.label1.Size = new System.Drawing.Size(61, 20);
             this.label1.TabIndex = 41;
             this.label1.Text = "Estado";
             // 
@@ -117,6 +119,7 @@
             this.btnCancelar.TabIndex = 40;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
             // btnAceptar
             // 
@@ -130,6 +133,7 @@
             this.btnAceptar.TabIndex = 39;
             this.btnAceptar.Text = "Aceptar";
             this.btnAceptar.UseVisualStyleBackColor = false;
+            this.btnAceptar.Click += new System.EventHandler(this.btnAceptar_Click);
             // 
             // txtDetallesTarea
             // 
@@ -145,7 +149,7 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
             this.label2.Location = new System.Drawing.Point(298, 18);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(89, 25);
+            this.label2.Size = new System.Drawing.Size(71, 20);
             this.label2.TabIndex = 37;
             this.label2.Text = "Detalles";
             // 
@@ -157,10 +161,10 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.btnDetalles);
             this.Controls.Add(this.btnModificar);
-            this.Controls.Add(this.dtgvTareas);
+            this.Controls.Add(this.dgvTareas);
             this.Name = "MantenedorTareacs";
             this.Text = "MantenedorTareacs";
-            ((System.ComponentModel.ISupportInitialize)(this.dtgvTareas)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvTareas)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
@@ -168,11 +172,11 @@
         }
 
         #endregion
-        private System.Windows.Forms.DataGridView dtgvTareas;
+        private System.Windows.Forms.DataGridView dgvTareas;
         private System.Windows.Forms.Button btnDetalles;
         private System.Windows.Forms.Button btnModificar;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.ComboBox cbxEstado;
+        private System.Windows.Forms.ComboBox cmbEstado;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnCancelar;
         private System.Windows.Forms.Button btnAceptar;

@@ -45,6 +45,7 @@
     <Compile Include="datContrato.cs" />
     <Compile Include="datEmpresa.cs" />
     <Compile Include="datEquipo.cs" />
+    <Compile Include="datEstadoTarea.cs" />
     <Compile Include="datProyecto.cs" />
     <Compile Include="datRegistroTarea.cs" />
     <Compile Include="datTarea.cs" />
