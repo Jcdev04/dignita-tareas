@@ -71,14 +71,6 @@ namespace Dignita.Ventas.vistVentas
             btnAsignacion.FlatAppearance.BorderColor = naranja;
             btnAsignacion.FlatAppearance.BorderSize = 1;
 
-            btnProyectos.FlatAppearance.BorderColor = naranja;
-            btnProyectos.ForeColor = naranja;
-
-            btnContratos.FlatAppearance.BorderColor = naranja;
-            btnContratos.ForeColor = naranja;
-
-            btnEquipos.FlatAppearance.BorderColor = naranja;
-            btnEquipos.ForeColor = naranja;
 
         }
     }

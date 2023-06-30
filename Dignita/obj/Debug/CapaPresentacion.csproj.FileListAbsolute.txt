@@ -19,7 +19,6 @@ C:\Users\Aaron\Source\Repos\Jcdev04\dignita-tareass\Dignita\obj\Debug\Dignita.Ge
 C:\Users\Aaron\Source\Repos\Jcdev04\dignita-tareass\Dignita\obj\Debug\Dignita.Gestion_de_Proyectos.vistScrum.RealizaTarea.resources
 C:\Users\Aaron\Source\Repos\Jcdev04\dignita-tareass\Dignita\obj\Debug\Dignita.Properties.Resources.resources
 C:\Users\Aaron\Source\Repos\Jcdev04\dignita-tareass\Dignita\obj\Debug\Dignita.Ventas.vistVentas.AsignacionProyectos.resources
-C:\Users\Aaron\Source\Repos\Jcdev04\dignita-tareass\Dignita\obj\Debug\Dignita.Ventas.vistVentas.ConsultaIntegrantes.resources
 C:\Users\Aaron\Source\Repos\Jcdev04\dignita-tareass\Dignita\obj\Debug\Dignita.Ventas.vistVentas.MantenedorEmpresa.resources
 C:\Users\Aaron\Source\Repos\Jcdev04\dignita-tareass\Dignita\obj\Debug\Dignita.Ventas.vistVentas.MantenedorProyecto.resources
 C:\Users\Aaron\Source\Repos\Jcdev04\dignita-tareass\Dignita\obj\Debug\Dignita.Ventas.vistVentas.MantenedorVersiones.resources

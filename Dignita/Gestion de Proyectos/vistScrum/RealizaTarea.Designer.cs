@@ -99,6 +99,7 @@
             this.btnFiltrar.TabIndex = 52;
             this.btnFiltrar.Text = "Filtrar Tareas registradas";
             this.btnFiltrar.UseVisualStyleBackColor = true;
+            this.btnFiltrar.Click += new System.EventHandler(this.btnFiltrar_Click);
             // 
             // btnQuitarFiltro
             // 
@@ -109,10 +110,11 @@
             this.btnQuitarFiltro.TabIndex = 52;
             this.btnQuitarFiltro.Text = "Quitar filtro";
             this.btnQuitarFiltro.UseVisualStyleBackColor = true;
+            this.btnQuitarFiltro.Click += new System.EventHandler(this.btnQuitarFiltro_Click);
             // 
             // btnRevision
             // 
-            this.btnRevision.BackColor = System.Drawing.Color.Transparent;
+            this.btnRevision.BackColor = System.Drawing.Color.Black;
             this.btnRevision.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnRevision.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRevision.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -128,7 +130,7 @@
             // 
             // btnDesarrolladores
             // 
-            this.btnDesarrolladores.BackColor = System.Drawing.Color.Transparent;
+            this.btnDesarrolladores.BackColor = System.Drawing.Color.Black;
             this.btnDesarrolladores.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnDesarrolladores.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDesarrolladores.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));

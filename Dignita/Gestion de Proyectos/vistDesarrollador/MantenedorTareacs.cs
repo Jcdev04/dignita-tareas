@@ -41,6 +41,7 @@ namespace Dignita.Gestion_de_Proyectos.vistDesarrollador
             try
             {
                 entTarea t = new entTarea();
+                t.id_tarea = int.Parse(dgvTareas.CurrentRow.Cells[0].Value.ToString());
                 t.estado_tarea = int.Parse(cmbEstado.SelectedValue.ToString());
 
                 logTareaEstado.Instancia.modificaEstadoTarea(t);

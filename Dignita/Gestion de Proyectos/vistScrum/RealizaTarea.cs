@@ -110,11 +110,28 @@ namespace Dignita.Gestion_de_Proyectos.vistScrum
                 
                 logTarea.Instancia.modificaRegistrarTarea(id_tarea);
                 listarTareas();
+                RealizaRevisionTarea revtar = new RealizaRevisionTarea(id_tarea);
+                revtar.ShowDialog();
             }
             else
             {
                 MessageBox.Show("Debe seleccionar una fila");
             }
+        }
+
+        private void btnFiltrar_Click(object sender, EventArgs e)
+        {
+            listarTareasRegistrada();
+        }
+
+        public void listarTareasRegistrada()
+        {
+            dtgvTareas.DataSource = logTarea.Instancia.listarTareasProyRegistradas(id_proy);
+        }
+
+        private void btnQuitarFiltro_Click(object sender, EventArgs e)
+        {
+            listarTareas();
         }
     }
 }

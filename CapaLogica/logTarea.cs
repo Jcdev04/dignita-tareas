@@ -37,6 +37,11 @@ namespace CapaLogica
             return datTarea.Instancia.listarTareasProyecto(id_proy);
         }
 
+        public List<entTarea> listarTareasProyRegistradas(int id_proy)
+        {
+            return datTarea.Instancia.listarTareasProyectoRegistradas(id_proy);
+        }
+
         public void insertaTarea(entTarea tar)
         {
             datTarea.Instancia.insertaTarea(tar);
@@ -53,6 +58,11 @@ namespace CapaLogica
         public void modificarEstado( int id_tarea,int estado)
         {
             datTarea.Instancia.modificaEstadoTarea(id_tarea,estado );
+        }
+
+        public List<entTarea> listaTareasRegistrada(int id_proy)
+        {
+            return datTarea.Instancia.listarTareasRegistradas(id_proy);
         }
 
     }

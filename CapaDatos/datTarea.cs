@@ -88,6 +88,42 @@ namespace CapaDatos
             }
             return lista;
         }
+        public List<entTarea> listarTareasProyectoRegistradas(int id_proy)
+        {
+            List<entTarea> lista = new List<entTarea>();
+            SqlCommand cm = null;
+            try
+            {
+                SqlConnection cn = Conexion.Instancia.conexion();
+                cm = new SqlCommand("spListaTareasProyectoRegistrado", cn);
+                cm.CommandType = System.Data.CommandType.StoredProcedure;
+                cm.Parameters.AddWithValue("@id_proy", id_proy);
+                cn.Open();
+                SqlDataReader dr = cm.ExecuteReader();
+                while (dr.Read())
+                {
+                    entTarea p = new entTarea();
+                    p.id_tarea = Convert.ToInt32(dr["id_tarea"]);
+                    p.id_req = Convert.ToInt32(dr["id_req"]);
+                    p.id_etapa = Convert.ToInt32(dr["id_etapa"]);
+                    p.nombre_t = dr["nombre_t"].ToString();
+                    p.descripcion = dr["descripcion"].ToString();
+                    p.estado_tarea = Convert.ToInt32(dr["estado_tarea"]);
+                    p.registrado = Convert.ToBoolean(dr["registrado"]);
+
+                    lista.Add(p);
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                cm.Connection.Close();
+            }
+            return lista;
+        }
         // Lista Tarea por DNI
         public List<entTarea> listarTareasDesarrollador(string dni)
         {
@@ -104,6 +140,7 @@ namespace CapaDatos
                 while (dr.Read())
                 {
                     entTarea p = new entTarea();
+                    p.id_tarea = Convert.ToInt32(dr["id_tarea"]);
                     p.id_req = Convert.ToInt32(dr["id_req"]);
                     p.id_etapa = Convert.ToInt32(dr["id_etapa"]);
                     p.nombre_t = dr["nombre_t"].ToString();
@@ -265,6 +302,43 @@ namespace CapaDatos
             {
                 cm.Connection.Close();
             }
+        }
+
+        public List<entTarea> listarTareasRegistradas(int id_proy)
+        {
+            List<entTarea> lista = new List<entTarea>();
+            SqlCommand cm = null;
+            try
+            {
+                SqlConnection cn = Conexion.Instancia.conexion();
+                cm = new SqlCommand("spFiltrarRegistrado", cn);
+                cm.CommandType = System.Data.CommandType.StoredProcedure;
+                cm.Parameters.AddWithValue("@id_proy", id_proy);
+                cn.Open();
+                SqlDataReader dr = cm.ExecuteReader();
+                while (dr.Read())
+                {
+                    entTarea p = new entTarea();
+                    p.id_tarea = Convert.ToInt32(dr["id_tarea"]);
+                    p.id_req = Convert.ToInt32(dr["id_req"]);
+                    p.id_etapa = Convert.ToInt32(dr["id_etapa"]);
+                    p.nombre_t = dr["nombre_t"].ToString();
+                    p.descripcion = dr["descripcion"].ToString();
+                    p.estado_tarea = Convert.ToInt32(dr["estado_tarea"]);
+                    p.registrado = Convert.ToBoolean(dr["registrado"]);
+
+                    lista.Add(p);
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                cm.Connection.Close();
+            }
+            return lista;
         }
 
 

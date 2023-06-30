@@ -61,7 +61,7 @@
             // dgvEmpresa
             // 
             this.dgvEmpresa.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvEmpresa.Location = new System.Drawing.Point(25, 54);
+            this.dgvEmpresa.Location = new System.Drawing.Point(25, 53);
             this.dgvEmpresa.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dgvEmpresa.Name = "dgvEmpresa";
             this.dgvEmpresa.RowHeadersWidth = 51;

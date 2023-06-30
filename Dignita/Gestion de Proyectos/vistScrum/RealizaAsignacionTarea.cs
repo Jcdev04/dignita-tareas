@@ -35,7 +35,7 @@ namespace Dignita.Gestion_de_Proyectos.vistScrum
             {
                 entAsignacion ea = new entAsignacion();
 
-                ea.dni_trabajador = cbxDesarrollador.ValueMember;
+                ea.dni_trabajador = cbxDesarrollador.SelectedValue.ToString();
                 ea.id_tarea = id_tarea;
                 ea.fecha_inicio = DateTime.Now;
                 ea.fecha_fin = dtpFin.Value;

@@ -83,5 +83,10 @@ namespace Dignita.Ventas.vistVentas
 
             label1.ForeColor = naranja;
         }
+
+        private void dgvEquipo_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

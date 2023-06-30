@@ -61,9 +61,9 @@ namespace Dignita.Gestion_de_Proyectos.vistScrum
 
         private void btnConfirmar_Click(object sender, EventArgs e)
         {
-            int estado_tarea = cbxEstadoTar.SelectedIndex;
+            int estado_tarea = cbxEstadoTar.SelectedIndex + 1;
             logTarea.Instancia.modificarEstado(id_tarea, estado_tarea);
-
+            this.Close();
          }
     }
 }
