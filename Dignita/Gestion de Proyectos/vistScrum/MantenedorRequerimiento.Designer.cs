@@ -53,31 +53,37 @@
             this.gbxRequerimientos.Controls.Add(this.btnAceptar);
             this.gbxRequerimientos.Controls.Add(this.txtDescripcionReq);
             this.gbxRequerimientos.Controls.Add(this.txtNombreReq);
-            this.gbxRequerimientos.Location = new System.Drawing.Point(12, 344);
+            this.gbxRequerimientos.Location = new System.Drawing.Point(9, 280);
+            this.gbxRequerimientos.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.gbxRequerimientos.Name = "gbxRequerimientos";
-            this.gbxRequerimientos.Size = new System.Drawing.Size(936, 171);
+            this.gbxRequerimientos.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.gbxRequerimientos.Size = new System.Drawing.Size(702, 139);
             this.gbxRequerimientos.TabIndex = 20;
             this.gbxRequerimientos.TabStop = false;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
-            this.label3.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label3.Location = new System.Drawing.Point(18, 18);
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(14, 15);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(202, 20);
+            this.label3.Size = new System.Drawing.Size(172, 17);
             this.label3.TabIndex = 45;
             this.label3.Text = "Nombre del requerimiento";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
-            this.label4.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label4.Location = new System.Drawing.Point(359, 18);
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(269, 15);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(99, 20);
+            this.label4.Size = new System.Drawing.Size(82, 17);
             this.label4.TabIndex = 46;
             this.label4.Text = "Descripcion";
             // 
@@ -85,9 +91,10 @@
             // 
             this.btnCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancelar.Location = new System.Drawing.Point(748, 86);
+            this.btnCancelar.Location = new System.Drawing.Point(561, 70);
+            this.btnCancelar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(138, 38);
+            this.btnCancelar.Size = new System.Drawing.Size(104, 31);
             this.btnCancelar.TabIndex = 44;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
@@ -99,9 +106,10 @@
             this.btnAceptar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAceptar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAceptar.ForeColor = System.Drawing.Color.White;
-            this.btnAceptar.Location = new System.Drawing.Point(748, 41);
+            this.btnAceptar.Location = new System.Drawing.Point(561, 33);
+            this.btnAceptar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnAceptar.Name = "btnAceptar";
-            this.btnAceptar.Size = new System.Drawing.Size(138, 39);
+            this.btnAceptar.Size = new System.Drawing.Size(104, 32);
             this.btnAceptar.TabIndex = 43;
             this.btnAceptar.Text = "Aceptar";
             this.btnAceptar.UseVisualStyleBackColor = false;
@@ -109,37 +117,43 @@
             // 
             // txtDescripcionReq
             // 
-            this.txtDescripcionReq.Location = new System.Drawing.Point(363, 41);
+            this.txtDescripcionReq.Location = new System.Drawing.Point(272, 33);
+            this.txtDescripcionReq.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtDescripcionReq.Multiline = true;
             this.txtDescripcionReq.Name = "txtDescripcionReq";
-            this.txtDescripcionReq.Size = new System.Drawing.Size(308, 106);
+            this.txtDescripcionReq.Size = new System.Drawing.Size(232, 87);
             this.txtDescripcionReq.TabIndex = 12;
             // 
             // txtNombreReq
             // 
-            this.txtNombreReq.Location = new System.Drawing.Point(22, 41);
+            this.txtNombreReq.Location = new System.Drawing.Point(16, 33);
+            this.txtNombreReq.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtNombreReq.Name = "txtNombreReq";
-            this.txtNombreReq.Size = new System.Drawing.Size(289, 22);
+            this.txtNombreReq.Size = new System.Drawing.Size(218, 20);
             this.txtNombreReq.TabIndex = 10;
             // 
             // dgvRequerimientos
             // 
             this.dgvRequerimientos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvRequerimientos.Location = new System.Drawing.Point(12, 86);
+            this.dgvRequerimientos.Location = new System.Drawing.Point(9, 70);
+            this.dgvRequerimientos.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dgvRequerimientos.Name = "dgvRequerimientos";
             this.dgvRequerimientos.RowHeadersWidth = 51;
             this.dgvRequerimientos.RowTemplate.Height = 24;
-            this.dgvRequerimientos.Size = new System.Drawing.Size(725, 252);
+            this.dgvRequerimientos.Size = new System.Drawing.Size(544, 205);
             this.dgvRequerimientos.TabIndex = 16;
             this.dgvRequerimientos.SelectionChanged += new System.EventHandler(this.dgvRequerimientos_SelectionChanged);
             // 
             // btnVerTareas
             // 
+            this.btnVerTareas.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnVerTareas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVerTareas.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVerTareas.Location = new System.Drawing.Point(760, 307);
+            this.btnVerTareas.ForeColor = System.Drawing.Color.White;
+            this.btnVerTareas.Location = new System.Drawing.Point(570, 249);
+            this.btnVerTareas.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnVerTareas.Name = "btnVerTareas";
-            this.btnVerTareas.Size = new System.Drawing.Size(188, 31);
+            this.btnVerTareas.Size = new System.Drawing.Size(141, 25);
             this.btnVerTareas.TabIndex = 33;
             this.btnVerTareas.Text = "Ver tareas";
             this.btnVerTareas.UseVisualStyleBackColor = true;
@@ -147,11 +161,14 @@
             // 
             // btnDeshabilitar
             // 
+            this.btnDeshabilitar.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnDeshabilitar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDeshabilitar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDeshabilitar.Location = new System.Drawing.Point(760, 162);
+            this.btnDeshabilitar.ForeColor = System.Drawing.Color.White;
+            this.btnDeshabilitar.Location = new System.Drawing.Point(570, 132);
+            this.btnDeshabilitar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnDeshabilitar.Name = "btnDeshabilitar";
-            this.btnDeshabilitar.Size = new System.Drawing.Size(188, 31);
+            this.btnDeshabilitar.Size = new System.Drawing.Size(141, 25);
             this.btnDeshabilitar.TabIndex = 32;
             this.btnDeshabilitar.Text = "Deshabilitar";
             this.btnDeshabilitar.UseVisualStyleBackColor = true;
@@ -159,11 +176,14 @@
             // 
             // btnAgregar
             // 
+            this.btnAgregar.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnAgregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAgregar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAgregar.Location = new System.Drawing.Point(760, 86);
+            this.btnAgregar.ForeColor = System.Drawing.Color.White;
+            this.btnAgregar.Location = new System.Drawing.Point(570, 70);
+            this.btnAgregar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(188, 33);
+            this.btnAgregar.Size = new System.Drawing.Size(141, 27);
             this.btnAgregar.TabIndex = 31;
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.UseVisualStyleBackColor = true;
@@ -171,11 +191,14 @@
             // 
             // btnModificar
             // 
+            this.btnModificar.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnModificar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnModificar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnModificar.Location = new System.Drawing.Point(760, 125);
+            this.btnModificar.ForeColor = System.Drawing.Color.White;
+            this.btnModificar.Location = new System.Drawing.Point(570, 102);
+            this.btnModificar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnModificar.Name = "btnModificar";
-            this.btnModificar.Size = new System.Drawing.Size(188, 31);
+            this.btnModificar.Size = new System.Drawing.Size(141, 25);
             this.btnModificar.TabIndex = 32;
             this.btnModificar.Text = "Modificar";
             this.btnModificar.UseVisualStyleBackColor = true;
@@ -185,19 +208,21 @@
             // 
             this.label2.AutoEllipsis = true;
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.label2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label2.Location = new System.Drawing.Point(12, 47);
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(9, 38);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(243, 25);
+            this.label2.Size = new System.Drawing.Size(204, 20);
             this.label2.TabIndex = 34;
             this.label2.Text = "Lista de Requerimientos";
             // 
             // MantenedorRequerimiento
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(980, 527);
+            this.ClientSize = new System.Drawing.Size(735, 428);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnVerTareas);
             this.Controls.Add(this.btnModificar);
@@ -205,8 +230,10 @@
             this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.gbxRequerimientos);
             this.Controls.Add(this.dgvRequerimientos);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "MantenedorRequerimiento";
             this.Text = "MantenedorRequerimiento";
+            this.Paint += new System.Windows.Forms.PaintEventHandler(this.MantenedorRequerimiento_Paint);
             this.gbxRequerimientos.ResumeLayout(false);
             this.gbxRequerimientos.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvRequerimientos)).EndInit();

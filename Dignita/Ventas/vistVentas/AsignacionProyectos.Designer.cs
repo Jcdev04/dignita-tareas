@@ -36,23 +36,27 @@
             // dgvProyectos
             // 
             this.dgvProyectos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvProyectos.Location = new System.Drawing.Point(12, 32);
+            this.dgvProyectos.Location = new System.Drawing.Point(9, 26);
+            this.dgvProyectos.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dgvProyectos.Name = "dgvProyectos";
             this.dgvProyectos.RowHeadersWidth = 51;
             this.dgvProyectos.RowTemplate.Height = 24;
-            this.dgvProyectos.Size = new System.Drawing.Size(721, 444);
+            this.dgvProyectos.Size = new System.Drawing.Size(541, 361);
             this.dgvProyectos.TabIndex = 0;
             this.dgvProyectos.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvProyectos_CellContentClick);
             // 
             // btnAsignación
             // 
             this.btnAsignación.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnAsignación.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btnAsignación.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.btnAsignación.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAsignación.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAsignación.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnAsignación.Location = new System.Drawing.Point(790, 41);
+            this.btnAsignación.Location = new System.Drawing.Point(592, 33);
+            this.btnAsignación.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnAsignación.Name = "btnAsignación";
-            this.btnAsignación.Size = new System.Drawing.Size(200, 66);
+            this.btnAsignación.Size = new System.Drawing.Size(150, 54);
             this.btnAsignación.TabIndex = 57;
             this.btnAsignación.Text = "Asignación de equipo";
             this.btnAsignación.UseVisualStyleBackColor = false;
@@ -60,13 +64,15 @@
             // 
             // AsignacionProyectos
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1035, 557);
+            this.ClientSize = new System.Drawing.Size(776, 453);
             this.Controls.Add(this.btnAsignación);
             this.Controls.Add(this.dgvProyectos);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "AsignacionProyectos";
             this.Text = "frmProyectos";
+            this.Paint += new System.Windows.Forms.PaintEventHandler(this.AsignacionProyectos_Paint);
             ((System.ComponentModel.ISupportInitialize)(this.dgvProyectos)).EndInit();
             this.ResumeLayout(false);
 

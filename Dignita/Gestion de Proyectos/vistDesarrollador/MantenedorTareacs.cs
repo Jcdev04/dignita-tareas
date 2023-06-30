@@ -10,6 +10,8 @@ using System.Windows.Forms;
 using CapaLogica;
 using CapaEntidad;
 
+using System.Drawing.Drawing2D;
+
 namespace Dignita.Gestion_de_Proyectos.vistDesarrollador
 {
     public partial class MantenedorTareacs : Form
@@ -88,5 +90,44 @@ namespace Dignita.Gestion_de_Proyectos.vistDesarrollador
             dgvTareas.DataSource = logTarea.Instancia.listarTareasDesarrollador(DNI);
         }
 
+        private void MantenedorTareacs_Paint(object sender, PaintEventArgs e)
+        {
+            // Create a path that consists of a single circle.
+            GraphicsPath path = new GraphicsPath();
+            path.AddEllipse(0, 0, ClientRectangle.Width, ClientRectangle.Height);
+
+            // Use the path to construct a brush.
+            PathGradientBrush brush = new PathGradientBrush(path);
+
+            // Set the color at the center of the path to blue.
+            brush.CenterColor = Color.FromArgb(103, 59, 46);
+
+            // Set the color along the entire boundary 
+            // of the path to aqua.
+            Color[] colors = { Color.FromArgb(25, 25, 25) };
+            brush.SurroundColors = colors;
+
+            // Set the center point of the gradient.
+            brush.CenterPoint = new PointF(ClientRectangle.Width / 2f, ClientRectangle.Height / 2f);
+
+            // Set the focus scales of the gradient.
+            brush.FocusScales = new PointF(0.10f, 0.10f);
+            // Create a solid brush.
+            Brush solidBrush = new SolidBrush(Color.FromArgb(25, 25, 25));
+            e.Graphics.FillRectangle(solidBrush, ClientRectangle);
+            // Fill the form with the gradient.
+            e.Graphics.FillRectangle(brush, ClientRectangle);
+
+
+            // Bordes a botones
+            Color naranja = Color.FromArgb(255, 95, 44);
+
+            btnAceptar.FlatStyle = FlatStyle.Flat;
+            btnAceptar.FlatAppearance.BorderColor = naranja;
+            btnAceptar.FlatAppearance.BorderSize = 1;
+
+            btnCancelar.FlatAppearance.BorderColor = naranja;
+            btnCancelar.ForeColor = naranja;
+        }
     }
 }

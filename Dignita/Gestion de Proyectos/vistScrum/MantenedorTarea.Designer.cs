@@ -56,60 +56,70 @@
             this.gbxTarea.Controls.Add(this.btnAceptar);
             this.gbxTarea.Controls.Add(this.cbxEtapa);
             this.gbxTarea.Controls.Add(this.txtNombreTarea);
-            this.gbxTarea.Location = new System.Drawing.Point(12, 316);
+            this.gbxTarea.Location = new System.Drawing.Point(9, 257);
+            this.gbxTarea.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.gbxTarea.Name = "gbxTarea";
-            this.gbxTarea.Size = new System.Drawing.Size(862, 198);
+            this.gbxTarea.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.gbxTarea.Size = new System.Drawing.Size(646, 161);
             this.gbxTarea.TabIndex = 28;
             this.gbxTarea.TabStop = false;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
-            this.label4.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label4.Location = new System.Drawing.Point(335, 27);
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(251, 22);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(99, 20);
+            this.label4.Size = new System.Drawing.Size(82, 17);
             this.label4.TabIndex = 50;
             this.label4.Text = "Descripcion";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
-            this.label1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label1.Location = new System.Drawing.Point(18, 81);
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(14, 66);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(136, 20);
+            this.label1.Size = new System.Drawing.Size(117, 17);
             this.label1.TabIndex = 49;
             this.label1.Text = "Etapa de la tarea";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
-            this.label3.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label3.Location = new System.Drawing.Point(18, 27);
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(14, 22);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(152, 20);
+            this.label3.Size = new System.Drawing.Size(130, 17);
             this.label3.TabIndex = 49;
             this.label3.Text = "Nombre de la tarea";
             // 
             // txtDescripcionTarea
             // 
-            this.txtDescripcionTarea.Location = new System.Drawing.Point(339, 50);
+            this.txtDescripcionTarea.Location = new System.Drawing.Point(254, 41);
+            this.txtDescripcionTarea.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtDescripcionTarea.Multiline = true;
             this.txtDescripcionTarea.Name = "txtDescripcionTarea";
-            this.txtDescripcionTarea.Size = new System.Drawing.Size(308, 106);
+            this.txtDescripcionTarea.Size = new System.Drawing.Size(232, 87);
             this.txtDescripcionTarea.TabIndex = 48;
             // 
             // btnCancelar
             // 
             this.btnCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancelar.Location = new System.Drawing.Point(674, 95);
+            this.btnCancelar.Location = new System.Drawing.Point(506, 77);
+            this.btnCancelar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(138, 38);
+            this.btnCancelar.Size = new System.Drawing.Size(104, 31);
             this.btnCancelar.TabIndex = 46;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
@@ -121,9 +131,10 @@
             this.btnAceptar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAceptar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAceptar.ForeColor = System.Drawing.Color.White;
-            this.btnAceptar.Location = new System.Drawing.Point(674, 50);
+            this.btnAceptar.Location = new System.Drawing.Point(506, 41);
+            this.btnAceptar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnAceptar.Name = "btnAceptar";
-            this.btnAceptar.Size = new System.Drawing.Size(138, 39);
+            this.btnAceptar.Size = new System.Drawing.Size(104, 32);
             this.btnAceptar.TabIndex = 45;
             this.btnAceptar.Text = "Aceptar";
             this.btnAceptar.UseVisualStyleBackColor = false;
@@ -132,36 +143,42 @@
             // cbxEtapa
             // 
             this.cbxEtapa.FormattingEnabled = true;
-            this.cbxEtapa.Location = new System.Drawing.Point(22, 109);
+            this.cbxEtapa.Location = new System.Drawing.Point(16, 89);
+            this.cbxEtapa.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cbxEtapa.Name = "cbxEtapa";
-            this.cbxEtapa.Size = new System.Drawing.Size(289, 24);
+            this.cbxEtapa.Size = new System.Drawing.Size(218, 21);
             this.cbxEtapa.TabIndex = 17;
             // 
             // txtNombreTarea
             // 
-            this.txtNombreTarea.Location = new System.Drawing.Point(22, 50);
+            this.txtNombreTarea.Location = new System.Drawing.Point(16, 41);
+            this.txtNombreTarea.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtNombreTarea.Name = "txtNombreTarea";
-            this.txtNombreTarea.Size = new System.Drawing.Size(289, 22);
+            this.txtNombreTarea.Size = new System.Drawing.Size(218, 20);
             this.txtNombreTarea.TabIndex = 47;
             // 
             // dtgvTareas
             // 
             this.dtgvTareas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtgvTareas.Location = new System.Drawing.Point(12, 81);
+            this.dtgvTareas.Location = new System.Drawing.Point(9, 66);
+            this.dtgvTareas.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dtgvTareas.Name = "dtgvTareas";
             this.dtgvTareas.RowHeadersWidth = 51;
             this.dtgvTareas.RowTemplate.Height = 24;
-            this.dtgvTareas.Size = new System.Drawing.Size(647, 211);
+            this.dtgvTareas.Size = new System.Drawing.Size(485, 171);
             this.dtgvTareas.TabIndex = 24;
             this.dtgvTareas.SelectionChanged += new System.EventHandler(this.dtgvTareas_SelectionChanged);
             // 
             // btnModificar
             // 
+            this.btnModificar.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnModificar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnModificar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnModificar.Location = new System.Drawing.Point(686, 121);
+            this.btnModificar.ForeColor = System.Drawing.Color.White;
+            this.btnModificar.Location = new System.Drawing.Point(514, 98);
+            this.btnModificar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnModificar.Name = "btnModificar";
-            this.btnModificar.Size = new System.Drawing.Size(188, 31);
+            this.btnModificar.Size = new System.Drawing.Size(141, 25);
             this.btnModificar.TabIndex = 35;
             this.btnModificar.Text = "Modificar";
             this.btnModificar.UseVisualStyleBackColor = true;
@@ -169,11 +186,14 @@
             // 
             // btnDeshabilitar
             // 
+            this.btnDeshabilitar.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnDeshabilitar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDeshabilitar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDeshabilitar.Location = new System.Drawing.Point(686, 158);
+            this.btnDeshabilitar.ForeColor = System.Drawing.Color.White;
+            this.btnDeshabilitar.Location = new System.Drawing.Point(514, 128);
+            this.btnDeshabilitar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnDeshabilitar.Name = "btnDeshabilitar";
-            this.btnDeshabilitar.Size = new System.Drawing.Size(188, 31);
+            this.btnDeshabilitar.Size = new System.Drawing.Size(141, 25);
             this.btnDeshabilitar.TabIndex = 34;
             this.btnDeshabilitar.Text = "Deshabilitar";
             this.btnDeshabilitar.UseVisualStyleBackColor = true;
@@ -181,11 +201,14 @@
             // 
             // btnAgregar
             // 
+            this.btnAgregar.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnAgregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAgregar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAgregar.Location = new System.Drawing.Point(686, 82);
+            this.btnAgregar.ForeColor = System.Drawing.Color.White;
+            this.btnAgregar.Location = new System.Drawing.Point(514, 67);
+            this.btnAgregar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(188, 33);
+            this.btnAgregar.Size = new System.Drawing.Size(141, 27);
             this.btnAgregar.TabIndex = 33;
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.UseVisualStyleBackColor = true;
@@ -195,27 +218,31 @@
             // 
             this.label2.AutoEllipsis = true;
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.label2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label2.Location = new System.Drawing.Point(12, 37);
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(9, 30);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(154, 25);
+            this.label2.Size = new System.Drawing.Size(129, 20);
             this.label2.TabIndex = 36;
             this.label2.Text = "Lista de tareas";
             // 
             // MantenedorTarea
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(895, 537);
+            this.ClientSize = new System.Drawing.Size(671, 436);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnModificar);
             this.Controls.Add(this.gbxTarea);
             this.Controls.Add(this.btnDeshabilitar);
             this.Controls.Add(this.dtgvTareas);
             this.Controls.Add(this.btnAgregar);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "MantenedorTarea";
             this.Text = "MantenedorTarea";
+            this.Paint += new System.Windows.Forms.PaintEventHandler(this.MantenedorTarea_Paint);
             this.gbxTarea.ResumeLayout(false);
             this.gbxTarea.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvTareas)).EndInit();

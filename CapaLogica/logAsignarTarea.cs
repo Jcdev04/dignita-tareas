@@ -19,6 +19,5 @@ namespace CapaLogica
         {
             return datAsignacion.Instancia.listarTrabajadoresDisponibles(proy);
         }
-
     }
 }

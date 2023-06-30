@@ -39,32 +39,38 @@
             // dgvProyectos
             // 
             this.dgvProyectos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvProyectos.Location = new System.Drawing.Point(18, 84);
+            this.dgvProyectos.Location = new System.Drawing.Point(14, 68);
+            this.dgvProyectos.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dgvProyectos.Name = "dgvProyectos";
             this.dgvProyectos.RowHeadersWidth = 51;
             this.dgvProyectos.RowTemplate.Height = 24;
-            this.dgvProyectos.Size = new System.Drawing.Size(701, 320);
+            this.dgvProyectos.Size = new System.Drawing.Size(526, 260);
             this.dgvProyectos.TabIndex = 6;
             // 
             // label2
             // 
             this.label2.AutoEllipsis = true;
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.label2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label2.Location = new System.Drawing.Point(13, 41);
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(10, 33);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(190, 25);
+            this.label2.Size = new System.Drawing.Size(157, 20);
             this.label2.TabIndex = 12;
             this.label2.Text = "Lista de Proyectos";
             // 
             // btnVerVersiones
             // 
+            this.btnVerVersiones.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnVerVersiones.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVerVersiones.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVerVersiones.Location = new System.Drawing.Point(742, 86);
+            this.btnVerVersiones.ForeColor = System.Drawing.Color.White;
+            this.btnVerVersiones.Location = new System.Drawing.Point(556, 70);
+            this.btnVerVersiones.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnVerVersiones.Name = "btnVerVersiones";
-            this.btnVerVersiones.Size = new System.Drawing.Size(237, 33);
+            this.btnVerVersiones.Size = new System.Drawing.Size(178, 27);
             this.btnVerVersiones.TabIndex = 29;
             this.btnVerVersiones.Text = "Ver versiones";
             this.btnVerVersiones.UseVisualStyleBackColor = true;
@@ -72,11 +78,14 @@
             // 
             // btnVerRequerimientos
             // 
+            this.btnVerRequerimientos.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnVerRequerimientos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVerRequerimientos.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVerRequerimientos.Location = new System.Drawing.Point(742, 134);
+            this.btnVerRequerimientos.ForeColor = System.Drawing.Color.White;
+            this.btnVerRequerimientos.Location = new System.Drawing.Point(556, 109);
+            this.btnVerRequerimientos.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnVerRequerimientos.Name = "btnVerRequerimientos";
-            this.btnVerRequerimientos.Size = new System.Drawing.Size(237, 33);
+            this.btnVerRequerimientos.Size = new System.Drawing.Size(178, 27);
             this.btnVerRequerimientos.TabIndex = 30;
             this.btnVerRequerimientos.Text = "Ver Requerimientos";
             this.btnVerRequerimientos.UseVisualStyleBackColor = true;
@@ -88,9 +97,10 @@
             this.btnRegistrarTarea.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRegistrarTarea.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRegistrarTarea.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnRegistrarTarea.Location = new System.Drawing.Point(770, 362);
+            this.btnRegistrarTarea.Location = new System.Drawing.Point(578, 294);
+            this.btnRegistrarTarea.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnRegistrarTarea.Name = "btnRegistrarTarea";
-            this.btnRegistrarTarea.Size = new System.Drawing.Size(188, 42);
+            this.btnRegistrarTarea.Size = new System.Drawing.Size(141, 34);
             this.btnRegistrarTarea.TabIndex = 30;
             this.btnRegistrarTarea.Text = "Registrar tareas";
             this.btnRegistrarTarea.UseVisualStyleBackColor = false;
@@ -98,16 +108,18 @@
             // 
             // PrincipalScrum
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1013, 440);
+            this.ClientSize = new System.Drawing.Size(760, 358);
             this.Controls.Add(this.btnRegistrarTarea);
             this.Controls.Add(this.btnVerRequerimientos);
             this.Controls.Add(this.btnVerVersiones);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.dgvProyectos);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "PrincipalScrum";
             this.Text = "Principal";
+            this.Paint += new System.Windows.Forms.PaintEventHandler(this.PrincipalScrum_Paint);
             ((System.ComponentModel.ISupportInitialize)(this.dgvProyectos)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

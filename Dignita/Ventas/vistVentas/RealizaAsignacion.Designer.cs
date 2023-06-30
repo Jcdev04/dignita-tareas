@@ -37,20 +37,24 @@
             // dgvEquipo
             // 
             this.dgvEquipo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvEquipo.Location = new System.Drawing.Point(31, 67);
+            this.dgvEquipo.Location = new System.Drawing.Point(23, 54);
+            this.dgvEquipo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dgvEquipo.Name = "dgvEquipo";
             this.dgvEquipo.RowHeadersWidth = 51;
             this.dgvEquipo.RowTemplate.Height = 24;
-            this.dgvEquipo.Size = new System.Drawing.Size(514, 230);
+            this.dgvEquipo.Size = new System.Drawing.Size(386, 187);
             this.dgvEquipo.TabIndex = 4;
             // 
             // btnAgregar
             // 
+            this.btnAgregar.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnAgregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAgregar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAgregar.Location = new System.Drawing.Point(591, 67);
+            this.btnAgregar.ForeColor = System.Drawing.Color.White;
+            this.btnAgregar.Location = new System.Drawing.Point(443, 54);
+            this.btnAgregar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(188, 33);
+            this.btnAgregar.Size = new System.Drawing.Size(141, 27);
             this.btnAgregar.TabIndex = 59;
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.UseVisualStyleBackColor = true;
@@ -60,24 +64,28 @@
             // 
             this.label1.AutoEllipsis = true;
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.label1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label1.Location = new System.Drawing.Point(26, 23);
+            this.label1.Location = new System.Drawing.Point(20, 19);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(220, 25);
+            this.label1.Size = new System.Drawing.Size(181, 20);
             this.label1.TabIndex = 62;
             this.label1.Text = "Asignacion de equipo";
             // 
             // RealizaAsignacion
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(809, 430);
+            this.ClientSize = new System.Drawing.Size(607, 349);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.dgvEquipo);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "RealizaAsignacion";
             this.Text = " ";
+            this.Paint += new System.Windows.Forms.PaintEventHandler(this.RealizaAsignacion_Paint);
             ((System.ComponentModel.ISupportInitialize)(this.dgvEquipo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

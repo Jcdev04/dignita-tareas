@@ -51,11 +51,12 @@
             // dgvEmpresa
             // 
             this.dgvEmpresa.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvEmpresa.Location = new System.Drawing.Point(35, 78);
+            this.dgvEmpresa.Location = new System.Drawing.Point(26, 63);
+            this.dgvEmpresa.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dgvEmpresa.Name = "dgvEmpresa";
             this.dgvEmpresa.RowHeadersWidth = 51;
             this.dgvEmpresa.RowTemplate.Height = 24;
-            this.dgvEmpresa.Size = new System.Drawing.Size(434, 188);
+            this.dgvEmpresa.Size = new System.Drawing.Size(326, 153);
             this.dgvEmpresa.TabIndex = 6;
             this.dgvEmpresa.SelectionChanged += new System.EventHandler(this.dgvEmpresa_SelectionChanged);
             // 
@@ -70,53 +71,63 @@
             this.gbxContrato.Controls.Add(this.txtCosto);
             this.gbxContrato.Controls.Add(this.label3);
             this.gbxContrato.Controls.Add(this.label1);
-            this.gbxContrato.Location = new System.Drawing.Point(35, 294);
+            this.gbxContrato.Location = new System.Drawing.Point(26, 239);
+            this.gbxContrato.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.gbxContrato.Name = "gbxContrato";
-            this.gbxContrato.Size = new System.Drawing.Size(683, 186);
+            this.gbxContrato.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.gbxContrato.Size = new System.Drawing.Size(512, 151);
             this.gbxContrato.TabIndex = 8;
             this.gbxContrato.TabStop = false;
             // 
             // lblNombreEmpresa
             // 
             this.lblNombreEmpresa.AutoSize = true;
+            this.lblNombreEmpresa.BackColor = System.Drawing.Color.Transparent;
             this.lblNombreEmpresa.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
-            this.lblNombreEmpresa.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblNombreEmpresa.Location = new System.Drawing.Point(180, 30);
+            this.lblNombreEmpresa.ForeColor = System.Drawing.Color.White;
+            this.lblNombreEmpresa.Location = new System.Drawing.Point(135, 24);
+            this.lblNombreEmpresa.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblNombreEmpresa.Name = "lblNombreEmpresa";
-            this.lblNombreEmpresa.Size = new System.Drawing.Size(92, 20);
+            this.lblNombreEmpresa.Size = new System.Drawing.Size(78, 17);
             this.lblNombreEmpresa.TabIndex = 59;
             this.lblNombreEmpresa.Text = "--Nombre--";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
-            this.label7.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label7.Location = new System.Drawing.Point(15, 30);
+            this.label7.ForeColor = System.Drawing.Color.White;
+            this.label7.Location = new System.Drawing.Point(11, 24);
+            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(159, 20);
+            this.label7.Size = new System.Drawing.Size(134, 17);
             this.label7.TabIndex = 59;
             this.label7.Text = "Nombre del cliente: ";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
-            this.label4.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label4.Location = new System.Drawing.Point(15, 124);
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(11, 101);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(167, 20);
+            this.label4.Size = new System.Drawing.Size(141, 17);
             this.label4.TabIndex = 58;
             this.label4.Text = "Fecha de finalización";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
-            this.label2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label2.Location = new System.Drawing.Point(15, 65);
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(11, 53);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(151, 20);
+            this.label2.Size = new System.Drawing.Size(127, 17);
             this.label2.TabIndex = 58;
             this.label2.Text = "Costo del Proyecto";
             // 
@@ -126,9 +137,10 @@
             this.btnAceptar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAceptar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAceptar.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnAceptar.Location = new System.Drawing.Point(495, 30);
+            this.btnAceptar.Location = new System.Drawing.Point(371, 24);
+            this.btnAceptar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnAceptar.Name = "btnAceptar";
-            this.btnAceptar.Size = new System.Drawing.Size(166, 38);
+            this.btnAceptar.Size = new System.Drawing.Size(124, 31);
             this.btnAceptar.TabIndex = 58;
             this.btnAceptar.Text = "Aceptar";
             this.btnAceptar.UseVisualStyleBackColor = false;
@@ -136,43 +148,50 @@
             // 
             // dtpDuracion
             // 
-            this.dtpDuracion.Location = new System.Drawing.Point(19, 148);
+            this.dtpDuracion.Location = new System.Drawing.Point(14, 120);
+            this.dtpDuracion.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dtpDuracion.Name = "dtpDuracion";
-            this.dtpDuracion.Size = new System.Drawing.Size(253, 22);
+            this.dtpDuracion.Size = new System.Drawing.Size(191, 20);
             this.dtpDuracion.TabIndex = 5;
             // 
             // txtCosto
             // 
-            this.txtCosto.Location = new System.Drawing.Point(19, 88);
+            this.txtCosto.Location = new System.Drawing.Point(14, 72);
+            this.txtCosto.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtCosto.Name = "txtCosto";
-            this.txtCosto.Size = new System.Drawing.Size(253, 22);
+            this.txtCosto.Size = new System.Drawing.Size(191, 20);
             this.txtCosto.TabIndex = 4;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Modern No. 20", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(15, 90);
+            this.label3.Location = new System.Drawing.Point(11, 73);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(0, 20);
+            this.label3.Size = new System.Drawing.Size(0, 16);
             this.label3.TabIndex = 2;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Modern No. 20", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(15, 30);
+            this.label1.Location = new System.Drawing.Point(11, 24);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 20);
+            this.label1.Size = new System.Drawing.Size(0, 16);
             this.label1.TabIndex = 0;
             // 
             // btnNuevoCliente
             // 
+            this.btnNuevoCliente.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnNuevoCliente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnNuevoCliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNuevoCliente.Location = new System.Drawing.Point(530, 78);
+            this.btnNuevoCliente.ForeColor = System.Drawing.Color.White;
+            this.btnNuevoCliente.Location = new System.Drawing.Point(398, 63);
+            this.btnNuevoCliente.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnNuevoCliente.Name = "btnNuevoCliente";
-            this.btnNuevoCliente.Size = new System.Drawing.Size(188, 33);
+            this.btnNuevoCliente.Size = new System.Drawing.Size(141, 27);
             this.btnNuevoCliente.TabIndex = 57;
             this.btnNuevoCliente.Text = "Nuevo Cliente";
             this.btnNuevoCliente.UseVisualStyleBackColor = true;
@@ -181,11 +200,14 @@
             // btnSiguiente
             // 
             this.btnSiguiente.Enabled = false;
+            this.btnSiguiente.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnSiguiente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSiguiente.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSiguiente.Location = new System.Drawing.Point(530, 233);
+            this.btnSiguiente.ForeColor = System.Drawing.Color.White;
+            this.btnSiguiente.Location = new System.Drawing.Point(398, 189);
+            this.btnSiguiente.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnSiguiente.Name = "btnSiguiente";
-            this.btnSiguiente.Size = new System.Drawing.Size(188, 33);
+            this.btnSiguiente.Size = new System.Drawing.Size(141, 27);
             this.btnSiguiente.TabIndex = 57;
             this.btnSiguiente.Text = "Siguiente";
             this.btnSiguiente.UseVisualStyleBackColor = true;
@@ -195,11 +217,13 @@
             // 
             this.label5.AutoEllipsis = true;
             this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.label5.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label5.Location = new System.Drawing.Point(30, 25);
+            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.Location = new System.Drawing.Point(22, 20);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(167, 25);
+            this.label5.Size = new System.Drawing.Size(141, 20);
             this.label5.TabIndex = 58;
             this.label5.Text = "Realiza contrato";
             // 
@@ -207,21 +231,26 @@
             // 
             this.label6.AutoEllipsis = true;
             this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label6.Location = new System.Drawing.Point(32, 52);
+            this.label6.ForeColor = System.Drawing.Color.White;
+            this.label6.Location = new System.Drawing.Point(24, 42);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(117, 18);
+            this.label6.Size = new System.Drawing.Size(97, 15);
             this.label6.TabIndex = 58;
             this.label6.Text = "Elija un proyecto";
             // 
             // btnActualiza
             // 
+            this.btnActualiza.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnActualiza.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnActualiza.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnActualiza.Location = new System.Drawing.Point(530, 117);
+            this.btnActualiza.ForeColor = System.Drawing.Color.White;
+            this.btnActualiza.Location = new System.Drawing.Point(398, 95);
+            this.btnActualiza.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnActualiza.Name = "btnActualiza";
-            this.btnActualiza.Size = new System.Drawing.Size(188, 33);
+            this.btnActualiza.Size = new System.Drawing.Size(141, 27);
             this.btnActualiza.TabIndex = 57;
             this.btnActualiza.Text = "Actualiza tabla";
             this.btnActualiza.UseVisualStyleBackColor = true;
@@ -229,9 +258,9 @@
             // 
             // RealizaContrato
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(745, 492);
+            this.ClientSize = new System.Drawing.Size(559, 400);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.btnSiguiente);
@@ -239,8 +268,10 @@
             this.Controls.Add(this.btnNuevoCliente);
             this.Controls.Add(this.gbxContrato);
             this.Controls.Add(this.dgvEmpresa);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "RealizaContrato";
             this.Text = "RealizaContrato";
+            this.Paint += new System.Windows.Forms.PaintEventHandler(this.RealizaContrato_Paint);
             ((System.ComponentModel.ISupportInitialize)(this.dgvEmpresa)).EndInit();
             this.gbxContrato.ResumeLayout(false);
             this.gbxContrato.PerformLayout();
