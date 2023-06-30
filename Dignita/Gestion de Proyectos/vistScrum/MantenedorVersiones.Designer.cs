@@ -49,22 +49,21 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(8, 34);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(11, 42);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(158, 20);
+            this.label1.Size = new System.Drawing.Size(191, 25);
             this.label1.TabIndex = 7;
             this.label1.Text = "Lista de Versiones";
             // 
             // dgvVersiones
             // 
             this.dgvVersiones.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvVersiones.Location = new System.Drawing.Point(9, 67);
-            this.dgvVersiones.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dgvVersiones.Location = new System.Drawing.Point(12, 82);
+            this.dgvVersiones.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dgvVersiones.Name = "dgvVersiones";
             this.dgvVersiones.RowHeadersWidth = 51;
             this.dgvVersiones.RowTemplate.Height = 24;
-            this.dgvVersiones.Size = new System.Drawing.Size(420, 168);
+            this.dgvVersiones.Size = new System.Drawing.Size(560, 207);
             this.dgvVersiones.TabIndex = 8;
             // 
             // gbxVersiones
@@ -75,21 +74,21 @@
             this.gbxVersiones.Controls.Add(this.button1);
             this.gbxVersiones.Controls.Add(this.button2);
             this.gbxVersiones.Controls.Add(this.txtNombre);
-            this.gbxVersiones.Location = new System.Drawing.Point(10, 243);
-            this.gbxVersiones.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.gbxVersiones.Location = new System.Drawing.Point(13, 299);
+            this.gbxVersiones.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.gbxVersiones.Name = "gbxVersiones";
-            this.gbxVersiones.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.gbxVersiones.Size = new System.Drawing.Size(574, 148);
+            this.gbxVersiones.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.gbxVersiones.Size = new System.Drawing.Size(765, 182);
             this.gbxVersiones.TabIndex = 13;
             this.gbxVersiones.TabStop = false;
             // 
             // txtDescripcion
             // 
-            this.txtDescripcion.Location = new System.Drawing.Point(214, 41);
-            this.txtDescripcion.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtDescripcion.Location = new System.Drawing.Point(285, 50);
+            this.txtDescripcion.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtDescripcion.Multiline = true;
             this.txtDescripcion.Name = "txtDescripcion";
-            this.txtDescripcion.Size = new System.Drawing.Size(164, 87);
+            this.txtDescripcion.Size = new System.Drawing.Size(217, 106);
             this.txtDescripcion.TabIndex = 44;
             // 
             // label2
@@ -98,10 +97,9 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(12, 18);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Location = new System.Drawing.Point(16, 22);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(143, 17);
+            this.label2.Size = new System.Drawing.Size(168, 20);
             this.label2.TabIndex = 43;
             this.label2.Text = "Nombre de la versión";
             // 
@@ -111,10 +109,9 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(212, 18);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Location = new System.Drawing.Point(283, 22);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(59, 17);
+            this.label3.Size = new System.Drawing.Size(71, 20);
             this.label3.TabIndex = 43;
             this.label3.Text = "Detalles";
             // 
@@ -122,10 +119,10 @@
             // 
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(433, 70);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Location = new System.Drawing.Point(577, 86);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(104, 31);
+            this.button1.Size = new System.Drawing.Size(139, 38);
             this.button1.TabIndex = 42;
             this.button1.Text = "Cancelar";
             this.button1.UseVisualStyleBackColor = true;
@@ -137,10 +134,10 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(433, 33);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button2.Location = new System.Drawing.Point(577, 41);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(104, 32);
+            this.button2.Size = new System.Drawing.Size(139, 39);
             this.button2.TabIndex = 41;
             this.button2.Text = "Aceptar";
             this.button2.UseVisualStyleBackColor = false;
@@ -148,37 +145,38 @@
             // 
             // txtNombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(15, 41);
-            this.txtNombre.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtNombre.Location = new System.Drawing.Point(20, 50);
+            this.txtNombre.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(163, 20);
+            this.txtNombre.Size = new System.Drawing.Size(216, 22);
             this.txtNombre.TabIndex = 10;
             // 
             // btnAgregar
             // 
+            this.btnAgregar.BackColor = System.Drawing.Color.Transparent;
             this.btnAgregar.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnAgregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAgregar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAgregar.ForeColor = System.Drawing.Color.White;
-            this.btnAgregar.Location = new System.Drawing.Point(442, 67);
-            this.btnAgregar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnAgregar.Location = new System.Drawing.Point(589, 82);
+            this.btnAgregar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(141, 27);
+            this.btnAgregar.Size = new System.Drawing.Size(188, 33);
             this.btnAgregar.TabIndex = 28;
             this.btnAgregar.Text = "Agregar";
-            this.btnAgregar.UseVisualStyleBackColor = true;
+            this.btnAgregar.UseVisualStyleBackColor = false;
             this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
             // MantenedorVersiones
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(602, 414);
+            this.ClientSize = new System.Drawing.Size(803, 510);
             this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.gbxVersiones);
             this.Controls.Add(this.dgvVersiones);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "MantenedorVersiones";
             this.Text = "MantenedorVersiones";
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.MantenedorVersiones_Paint);

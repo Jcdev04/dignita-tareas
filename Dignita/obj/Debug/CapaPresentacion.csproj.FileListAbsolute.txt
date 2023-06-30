@@ -11,7 +11,6 @@ C:\Users\Aaron\Source\Repos\Jcdev04\dignita-tareass\Dignita\obj\Debug\CapaPresen
 C:\Users\Aaron\Source\Repos\Jcdev04\dignita-tareass\Dignita\obj\Debug\CapaPresentacion.csproj.SuggestedBindingRedirects.cache
 C:\Users\Aaron\Source\Repos\Jcdev04\dignita-tareass\Dignita\obj\Debug\Dignita.frmLogin.resources
 C:\Users\Aaron\Source\Repos\Jcdev04\dignita-tareass\Dignita\obj\Debug\Dignita.Gestion_de_Proyectos.vistDesarrollador.MantenedorTareacs.resources
-C:\Users\Aaron\Source\Repos\Jcdev04\dignita-tareass\Dignita\obj\Debug\Dignita.Gestion_de_Proyectos.vistScrum.ConsultarTareasVersion.resources
 C:\Users\Aaron\Source\Repos\Jcdev04\dignita-tareass\Dignita\obj\Debug\Dignita.Gestion_de_Proyectos.vistScrum.MantenedorRequerimiento.resources
 C:\Users\Aaron\Source\Repos\Jcdev04\dignita-tareass\Dignita\obj\Debug\Dignita.Gestion_de_Proyectos.vistScrum.MantenedorTarea.resources
 C:\Users\Aaron\Source\Repos\Jcdev04\dignita-tareass\Dignita\obj\Debug\Dignita.Gestion_de_Proyectos.vistScrum.PrincipalScrum.resources

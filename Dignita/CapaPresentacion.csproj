@@ -64,12 +64,6 @@
     <Compile Include="Gestion de Proyectos\vistDesarrollador\MantenedorTareacs.Designer.cs">
       <DependentUpon>MantenedorTareacs.cs</DependentUpon>
     </Compile>
-    <Compile Include="Gestion de Proyectos\vistScrum\ConsultarTareasVersion.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Gestion de Proyectos\vistScrum\ConsultarTareasVersion.Designer.cs">
-      <DependentUpon>ConsultarTareasVersion.cs</DependentUpon>
-    </Compile>
     <Compile Include="Gestion de Proyectos\vistScrum\MantenedorRequerimiento.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -162,9 +156,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Gestion de Proyectos\vistDesarrollador\MantenedorTareacs.resx">
       <DependentUpon>MantenedorTareacs.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Gestion de Proyectos\vistScrum\ConsultarTareasVersion.resx">
-      <DependentUpon>ConsultarTareasVersion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Gestion de Proyectos\vistScrum\MantenedorRequerimiento.resx">
       <DependentUpon>MantenedorRequerimiento.cs</DependentUpon>

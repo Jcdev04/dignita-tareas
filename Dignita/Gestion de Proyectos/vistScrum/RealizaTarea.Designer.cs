@@ -112,6 +112,7 @@
             // 
             // btnRevision
             // 
+            this.btnRevision.BackColor = System.Drawing.Color.Transparent;
             this.btnRevision.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnRevision.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRevision.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -122,11 +123,12 @@
             this.btnRevision.Size = new System.Drawing.Size(188, 33);
             this.btnRevision.TabIndex = 53;
             this.btnRevision.Text = "Revisión";
-            this.btnRevision.UseVisualStyleBackColor = true;
+            this.btnRevision.UseVisualStyleBackColor = false;
             this.btnRevision.Click += new System.EventHandler(this.btnRevision_Click);
             // 
             // btnDesarrolladores
             // 
+            this.btnDesarrolladores.BackColor = System.Drawing.Color.Transparent;
             this.btnDesarrolladores.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnDesarrolladores.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDesarrolladores.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -137,7 +139,7 @@
             this.btnDesarrolladores.Size = new System.Drawing.Size(188, 33);
             this.btnDesarrolladores.TabIndex = 55;
             this.btnDesarrolladores.Text = "Asignar";
-            this.btnDesarrolladores.UseVisualStyleBackColor = true;
+            this.btnDesarrolladores.UseVisualStyleBackColor = false;
             this.btnDesarrolladores.Click += new System.EventHandler(this.btnDesarrolladores_Click);
             // 
             // dtpDuracion

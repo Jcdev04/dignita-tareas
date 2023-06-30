@@ -32,8 +32,8 @@ namespace Dignita
             bool esAsesorVentas = false;
             bool esDesarrollador = false;
 
-            //string connectionString = "Data Source=LAPTOP-BH5K91S6\\SQLEXPRESS; Initial Catalog=DB_DIGNITA; Integrated Security = True";
-           string connectionString = "Data Source=DESKTOP-6GFT52T; Initial Catalog=DB_DIGNITA; Integrated Security = True";
+            string connectionString = "Data Source=LAPTOP-BH5K91S6\\SQLEXPRESS; Initial Catalog=DB_DIGNITA; Integrated Security = True";
+           //string connectionString = "Data Source=DESKTOP-6GFT52T; Initial Catalog=DB_DIGNITA; Integrated Security = True";
 
             using (SqlConnection connection = new SqlConnection(connectionString))
             {

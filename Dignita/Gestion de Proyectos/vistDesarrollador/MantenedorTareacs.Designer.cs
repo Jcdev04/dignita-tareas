@@ -70,6 +70,7 @@
             // 
             // gbxInputs
             // 
+            this.gbxInputs.BackColor = System.Drawing.Color.Transparent;
             this.gbxInputs.Controls.Add(this.cmbEstado);
             this.gbxInputs.Controls.Add(this.label1);
             this.gbxInputs.Controls.Add(this.btnCancelar);

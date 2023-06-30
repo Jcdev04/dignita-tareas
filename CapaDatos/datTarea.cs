@@ -98,7 +98,7 @@ namespace CapaDatos
                 SqlConnection cn = Conexion.Instancia.conexion();
                 cm = new SqlCommand("spListaTareasDni ", cn);
                 cm.CommandType = System.Data.CommandType.StoredProcedure;
-                cm.Parameters.AddWithValue("@id_proy", dni);
+                cm.Parameters.AddWithValue("@dni_trabajador", dni);
                 cn.Open();
                 SqlDataReader dr = cm.ExecuteReader();
                 while (dr.Read())

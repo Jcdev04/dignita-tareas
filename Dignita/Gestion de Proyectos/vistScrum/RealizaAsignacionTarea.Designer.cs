@@ -40,6 +40,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.BackColor = System.Drawing.Color.Transparent;
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.cbxDesarrollador);
             this.groupBox1.Controls.Add(this.label3);
