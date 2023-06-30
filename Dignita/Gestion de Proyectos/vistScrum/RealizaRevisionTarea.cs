@@ -8,14 +8,17 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Drawing.Drawing2D;
+using CapaLogica;
 
 namespace Dignita.Gestion_de_Proyectos.vistScrum
 {
     public partial class RealizaRevisionTarea : Form
     {
-        public RealizaRevisionTarea()
+        int id_tarea;
+        public RealizaRevisionTarea(int id_tarea)
         {
             InitializeComponent();
+            this.id_tarea = id_tarea;
         }
 
         private void RealizaRevisionTarea_Paint(object sender, PaintEventArgs e)
@@ -55,5 +58,12 @@ namespace Dignita.Gestion_de_Proyectos.vistScrum
 
             label3.ForeColor = naranja;
         }
+
+        private void btnConfirmar_Click(object sender, EventArgs e)
+        {
+            int estado_tarea = cbxEstadoTar.SelectedIndex;
+            logTarea.Instancia.modificarEstado(id_tarea, estado_tarea);
+
+         }
     }
 }

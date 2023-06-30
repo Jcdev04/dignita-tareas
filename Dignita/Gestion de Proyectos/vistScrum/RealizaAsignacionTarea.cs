@@ -31,14 +31,19 @@ namespace Dignita.Gestion_de_Proyectos.vistScrum
         }
         private void btnAceptar_Click(object sender, EventArgs e)
         {
+            if (cbxDesarrollador.Text != "")
+            {
+                entAsignacion ea = new entAsignacion();
 
-        }
+                ea.dni_trabajador = cbxDesarrollador.ValueMember;
+                ea.id_tarea = id_tarea;
+                ea.fecha_inicio = DateTime.Now;
+                ea.fecha_fin = dtpFin.Value;
 
-        private void btnCancelar_Click(object sender, EventArgs e)
-        {
-
-
-
+                logAsignarTarea.Instancia.asignarTarea(ea);
+                MessageBox.Show("Tarea asignada ");
+            }
+            
         }
 
 
@@ -87,9 +92,6 @@ namespace Dignita.Gestion_de_Proyectos.vistScrum
             btnAceptar.FlatStyle = FlatStyle.Flat;
             btnAceptar.FlatAppearance.BorderColor = naranja;
             btnAceptar.FlatAppearance.BorderSize = 1;
-
-            btnCancelar.FlatAppearance.BorderColor = naranja;
-            btnCancelar.ForeColor = naranja;
 
             label1.ForeColor = naranja;
         }

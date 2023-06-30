@@ -99,5 +99,22 @@ namespace Dignita.Gestion_de_Proyectos.vistScrum
 
             label3.ForeColor = naranja;
         }
+
+        private void btnRevision_Click(object sender, EventArgs e)
+        {
+            if (dtgvTareas.CurrentCell.RowIndex != -1)
+            {
+
+                entRegistroTarea rt = new entRegistroTarea();
+                int id_tarea = Int32.Parse(dtgvTareas.Rows[dtgvTareas.CurrentCell.RowIndex].Cells[0].Value.ToString());
+                
+                logTarea.Instancia.modificaRegistrarTarea(id_tarea);
+                listarTareas();
+            }
+            else
+            {
+                MessageBox.Show("Debe seleccionar una fila");
+            }
+        }
     }
 }

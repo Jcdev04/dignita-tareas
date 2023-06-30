@@ -19,5 +19,10 @@ namespace CapaLogica
         {
             return datAsignacion.Instancia.listarTrabajadoresDisponibles(proy);
         }
+
+        public void asignarTarea(entAsignacion ea)
+        {
+            datAsignacion.Instancia.agregarAsignacion(ea);
+        }
     }
 }

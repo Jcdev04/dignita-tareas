@@ -114,7 +114,7 @@ namespace Dignita.Ventas.vistVentas
                 entProyecto ep = new entProyecto();
                 ep.id_proy = Int32.Parse(dgvProyecto.Rows[dgvProyecto.CurrentCell.RowIndex].Cells[0].Value.ToString());
                 ec.id_proyecto = ep.id_proy;
-                logProyecto.Instancia.editarProyecto(ep);
+                
                 logContrato.Instancia.agregarContrato(ec);
                 logProyecto.Instancia.contratarProyecto(ep);
                 listarProyecto();

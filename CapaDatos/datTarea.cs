@@ -243,10 +243,32 @@ namespace CapaDatos
             }
         }
 
-        // Asigna tarea
-        public void asignaTarea(int id_tarea, int dni_des)
+        //modificar estado tarea
+        public void modificaEstadoTarea(int id_tarea, int estado_tarea)
         {
-
+            SqlCommand cm = null;
+            try
+            {
+                SqlConnection cn = Conexion.Instancia.conexion();
+                cm = new SqlCommand("spEditaTareaEstado", cn);
+                cm.CommandType = System.Data.CommandType.StoredProcedure;
+                cm.Parameters.AddWithValue("@id_tarea", id_tarea);
+                cm.Parameters.AddWithValue("@estado_tarea", estado_tarea);
+                cn.Open();
+                cm.ExecuteNonQuery();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                cm.Connection.Close();
+            }
         }
+
+
+
+
     }
 }

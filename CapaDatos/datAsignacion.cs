@@ -57,7 +57,7 @@ namespace CapaDatos
             try
             {
                 SqlConnection cn = Conexion.Instancia.conexion();
-                cm = new SqlCommand("spInsertaContrato", cn);
+                cm = new SqlCommand("spInsertaAsignacion", cn);
                 cm.CommandType = System.Data.CommandType.StoredProcedure;
                 cm.Parameters.AddWithValue("@dni_trabajador", ec.dni_trabajador);
                 cm.Parameters.AddWithValue("@id_tarea", ec.id_tarea);

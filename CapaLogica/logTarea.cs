@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using CapaDatos;
@@ -49,7 +50,10 @@ namespace CapaLogica
         {
             datTarea.Instancia.inhabilitaTarea(tar.id_tarea);
         }
-
+        public void modificarEstado( int id_tarea,int estado)
+        {
+            datTarea.Instancia.modificaEstadoTarea(id_tarea,estado );
+        }
 
     }
 }

@@ -44,6 +44,9 @@ namespace Dignita.Gestion_de_Proyectos.vistDesarrollador
                 t.estado_tarea = int.Parse(cmbEstado.SelectedValue.ToString());
 
                 logTareaEstado.Instancia.modificaEstadoTarea(t);
+                habilitarInputs(false);
+                txtDetallesTarea.Text = "";
+                cmbEstado.SelectedIndex = 0;
             }
             catch (Exception ex)
             {
@@ -61,10 +64,7 @@ namespace Dignita.Gestion_de_Proyectos.vistDesarrollador
 
         private void habilitarInputs(bool habilitar)
         {
-            /*gbxInputs.enabled = habilitar
-             
-             */
-
+            gbxInputs.Enabled = habilitar;
             btnModificar.Enabled = !habilitar;
         }
 
